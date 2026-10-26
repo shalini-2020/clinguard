@@ -8,8 +8,7 @@ version = "0.1.0"
 description = "Safety-first building blocks for clinical voice AI in low-resource languages and dialects"
 readme = "README.md"
 requires-python = ">=3.9"
-license = "Apache-2.0"
-license-files = ["LICENSE"]
+license = { text = "Apache-2.0" }
 authors = [{ name = "Shalini Sivasamy", email = "ss.shalini.2021@gmail.com" }]
 keywords = ["healthcare", "nlp", "speech", "low-resource languages", "dialects",
             "ai safety", "guardrails", "human-in-the-loop", "clinical documentation"]
@@ -18,6 +17,7 @@ classifiers = [
     "Intended Audience :: Developers",
     "Intended Audience :: Healthcare Industry",
     "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
@@ -39,6 +39,10 @@ Issues = "https://github.com/shalini-2020/clinguard/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/clinguard"]
+core-metadata-version = "2.3"
+
+[tool.hatch.build.targets.sdist]
+core-metadata-version = "2.3"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
