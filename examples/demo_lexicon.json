@@ -1,0 +1,6 @@
+[
+  {"phrase": "Ori n fo mi", "meaning": "My head is aching", "clinical_term": "Headache", "language": "yo"},
+  {"phrase": "Inu n run mi", "meaning": "My stomach hurts", "clinical_term": "Abdominal pain", "language": "yo"},
+  {"phrase": "Ara mi gbona", "meaning": "My body is hot", "clinical_term": "Fever", "language": "yo"},
+  {"phrase": "Mi o le mi", "meaning": "I cannot breathe", "clinical_term": "Dyspnea / Shortness of breath", "language": "yo", "danger": true}
+]
