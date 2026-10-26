@@ -5,7 +5,7 @@ from .safety import DangerRules, STARTER_ENGLISH_KEYWORDS
 from .learning import SuggestionStore
 from .pipeline import Assessment, ClinGuard, HIGH, LOW, NONE
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "normalize", "strip_marks",

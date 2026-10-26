@@ -4,12 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "clinguard"
-version = "0.1.0"
+version = "0.1.1"
 description = "Safety-first building blocks for clinical voice AI in low-resource languages and dialects"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "Apache-2.0" }
-authors = [{ name = "Shalini Sivasamy", email = "ss.shalini.2021@gmail.com" }]
+authors = [{ name = "Shalini Sivasamy" }]
 keywords = ["healthcare", "nlp", "speech", "low-resource languages", "dialects",
             "ai safety", "guardrails", "human-in-the-loop", "clinical documentation"]
 classifiers = [
@@ -35,7 +35,6 @@ clinguard = "clinguard.cli:main"
 [project.urls]
 Homepage = "https://github.com/shalini-2020/clinguard"
 Issues = "https://github.com/shalini-2020/clinguard/issues"
-"Live demo (BeaGrace Health)" = "https://ss-shalini-2021-beagrace.hf.space"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/clinguard"]

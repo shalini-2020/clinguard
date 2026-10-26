@@ -86,7 +86,7 @@ lexicon can be traced to a person and a time.
 
 ## Origin
 
-ClinGuard grew out of **[BeaGrace Health](https://ss-shalini-2021-beagrace.hf.space)**, a voice app
+ClinGuard grew out of **BeaGrace Health**, a voice app
 that turns Ekiti Yoruba patient speech into structured nurse handoff notes, being piloted with
 nurses in Nigeria (AI Ventures Accelerator · Technovation & UNICEF Generation Unlimited).
 ClinGuard packages its safety and lexicon methods so any team can use them for any language.
