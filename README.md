@@ -84,9 +84,9 @@ lexicon = lexicon.extend(store.approved_entries("yo"))
 Suggestions and decisions are stored in append-only JSON Lines files, so every change to the
 lexicon can be traced to a person and a time.
 
-## Origin
+## Used in
 
-ClinGuard grew out of **BeaGrace Health**, a voice app
+- **BeaGrace Health**: ClinGuard grew out of, and now powers the safety and lexicon layer of, BeaGrace Health, a voice app
 that turns Ekiti Yoruba patient speech into structured nurse handoff notes, being piloted with
 nurses in Nigeria (AI Ventures Accelerator · Technovation & UNICEF Generation Unlimited).
 ClinGuard packages its safety and lexicon methods so any team can use them for any language.
