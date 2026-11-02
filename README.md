@@ -20,6 +20,7 @@ pip install clinguard
 | Problem | What ClinGuard does |
 |---|---|
 | Speech recognition writes dialect speech with varying tone marks and spellings | Normalises tone marks and accents; tolerant, length-aware fuzzy matching |
+| A short phrase like "it hurts" can hide inside an unrelated question | **Coverage-aware scoring**: a phrase that explains only part of what was said scores lower; matches must share a distinctive word, not just "my" or "me" |
 | General translators misread dialect phrases | **Lexicon first**: meaning comes from a glossary curated by native speakers |
 | AI output can look confident when it is wrong | Every result carries a confidence level: `high` (lexicon), `low` (fallback), `none` |
 | Emergencies must never be missed because of an AI error | **Rule-based danger-sign check**, independent of any model |
@@ -104,6 +105,16 @@ in care. The example lexicon is illustrative and not clinically validated.
 
 Issues and pull requests are welcome, especially lexicons and danger-sign rules for new
 languages, reviewed by native speakers and clinicians.
+
+## Changelog
+
+- **0.1.2**: Fewer false matches. A short lexicon phrase found inside a longer
+  utterance is scored by how much of the utterance it explains, and (in
+  lexicons of 10+ entries) a match must share a distinctive word. On a
+  60-entry Ekiti Yoruba lexicon, leave-one-out wrong-term matches fell from
+  32 to 2, with recall on noisy variants of lexicon phrases at 176/179
+  (was 178/179). Source files restored to the repository.
+- **0.1.1**: First public release.
 
 ## License
 

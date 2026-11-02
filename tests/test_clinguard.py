@@ -123,3 +123,55 @@ def test_cli_check_and_validate(tmp_path, capsys):
     out = json.loads(capsys.readouterr().out)
     assert out["danger"] is True and out["confidence"] == "high"
     assert main(["validate", str(p)]) == 0
+
+
+# ---------- 0.1.2: coverage and informative-word checks ----------
+
+ENGLISH = [
+    {"phrase": "it hurts", "meaning": "pain", "clinical_term": "Acute pain"},
+    {"phrase": "my head hurts", "meaning": "headache", "clinical_term": "Headache"},
+    {"phrase": "my chest is tight", "meaning": "chest tightness", "clinical_term": "Chest pain"},
+    {"phrase": "my body is hot", "meaning": "fever", "clinical_term": "Fever"},
+    {"phrase": "my stomach hurts", "meaning": "stomach ache", "clinical_term": "Abdominal pain"},
+    {"phrase": "my leg is swollen", "meaning": "swelling", "clinical_term": "Edema"},
+    {"phrase": "i feel dizzy", "meaning": "dizziness", "clinical_term": "Dizziness"},
+    {"phrase": "my throat is sore", "meaning": "sore throat", "clinical_term": "Pharyngitis"},
+    {"phrase": "my skin is itching", "meaning": "itch", "clinical_term": "Pruritus"},
+    {"phrase": "my eyes are burning", "meaning": "eye irritation", "clinical_term": "Conjunctivitis"},
+    {"phrase": "my back is aching", "meaning": "back pain", "clinical_term": "Back pain"},
+]
+
+
+@pytest.fixture
+def english():
+    return Lexicon.from_records(ENGLISH, language="en")
+
+
+def test_short_phrase_inside_long_question_is_not_matched(english):
+    # "hurt" appears, but the question is about an injection, not a symptom
+    assert english.best("will this injection hurt") is None
+
+
+def test_short_phrase_in_question_is_not_high_confidence(english):
+    m = english.best("will it hurt")
+    assert m is None or m.score < 0.9
+
+
+def test_only_common_words_shared_is_no_match(english):
+    # shares only "my" and "is" with entries: must not be read as a symptom
+    assert english.best("my baby is crying") is None
+
+
+def test_symptom_with_short_filler_still_matches(english):
+    m = english.best("please my head hurts")
+    assert m and m.entry.clinical_term == "Headache"
+
+
+def test_exact_phrase_still_full_score(english):
+    m = english.best("my chest is tight")
+    assert m and m.entry.clinical_term == "Chest pain" and m.score == 1.0
+
+
+def test_small_lexicon_skips_word_check(lex):
+    # under 10 entries the informative-word check is skipped (counts mean little)
+    assert lex.best("O dun mi") and lex.best("O dun mi").entry.clinical_term == "Acute pain"
