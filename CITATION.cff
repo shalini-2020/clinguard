@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use ClinGuard, please cite it as below."
+title: "ClinGuard: safety-first building blocks for clinical voice AI in low-resource languages and dialects"
+type: software
+authors:
+  - family-names: Sivasamy
+    given-names: Shalini
+version: 0.1.2
+date-released: "2026-11-02"
+license: Apache-2.0
+repository-code: "https://github.com/shalini-2020/clinguard"
+url: "https://pypi.org/project/clinguard/"
+keywords:
+  - healthcare
+  - low-resource languages
+  - dialects
+  - speech
+  - clinical documentation
+  - AI safety
+  - human-in-the-loop
+abstract: >-
+  ClinGuard is a model-agnostic Python toolkit for clinical voice AI in low-resource
+  languages and dialects. It grounds meaning in a native-speaker lexicon with
+  tone-mark-tolerant, coverage-aware fuzzy matching, flags danger signs with rules that do
+  not depend on any AI model, reports confidence levels, and supports a human-reviewed
+  lexicon learning loop.

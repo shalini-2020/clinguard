@@ -20,6 +20,9 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Scientific/Engineering :: Medical Science Apps.",
     "Topic :: Text Processing :: Linguistic",
@@ -35,6 +38,8 @@ clinguard = "clinguard.cli:main"
 [project.urls]
 Homepage = "https://github.com/shalini-2020/clinguard"
 Issues = "https://github.com/shalini-2020/clinguard/issues"
+Documentation = "https://github.com/shalini-2020/clinguard/blob/main/docs/ADAPTING.md"
+Changelog = "https://github.com/shalini-2020/clinguard#changelog"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/clinguard"]
