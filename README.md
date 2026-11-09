@@ -2,6 +2,7 @@
 
 [![tests](https://github.com/shalini-2020/clinguard/actions/workflows/tests.yml/badge.svg)](https://github.com/shalini-2020/clinguard/actions/workflows/tests.yml)
 [![PyPI](https://img.shields.io/pypi/v/clinguard)](https://pypi.org/project/clinguard/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24090330.svg)](https://doi.org/10.5281/zenodo.24090330)
 
 **Safety-first building blocks for clinical voice AI in low-resource languages and dialects.**
 
@@ -163,12 +164,21 @@ languages, reviewed by native speakers and clinicians. See [CONTRIBUTING.md](CON
 
 ## Citing
 
-If you use ClinGuard in research, please cite it using [CITATION.cff](CITATION.cff)
-(GitHub shows a "Cite this repository" button).
+If you use ClinGuard in research, please cite it. Each release is archived on Zenodo:
+
+- All versions (always resolves to the latest): [10.5281/zenodo.24090330](https://doi.org/10.5281/zenodo.24090330)
+- Version 0.1.2: [10.5281/zenodo.24090331](https://doi.org/10.5281/zenodo.24090331)
+
+> Sivasamy, S. (2026). *ClinGuard: safety-first building blocks for clinical voice AI in
+> low-resource languages and dialects* (Version 0.1.2) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.24090331
+
+Citation metadata is also in [CITATION.cff](CITATION.cff) (GitHub shows a "Cite this repository" button).
 
 ## Changelog
 
-- **Unreleased**: Reproducible evaluation script (`scripts/evaluate_lexicon.py`), limitations,
+- **0.1.2 GitHub release and Zenodo archive (9 Nov 2026)**: Package code identical to the
+  0.1.2 package on PyPI, plus documentation and tooling added afterwards: reproducible evaluation script (`scripts/evaluate_lexicon.py`), limitations,
   adaptation guide, citation file, contributing guide and automated tests. The 0.1.2 noisy-variant
   figures below were measured on a variant set that was not saved; they are replaced by the
   reproducible figures in the Evaluation section (the leave-one-out figures reproduce exactly).
@@ -177,7 +187,7 @@ If you use ClinGuard in research, please cite it using [CITATION.cff](CITATION.c
   lexicons of 10+ entries) a match must share a distinctive word. On a
   60-entry Ekiti Yoruba lexicon, leave-one-out wrong-term matches fell from
   32 to 2 (reproducible, see Evaluation). As originally reported, recall on noisy
-  variants was 176/179 (was 178/179); see the Unreleased note above. Source files
+  variants was 176/179 (was 178/179); see the note above. Source files
   restored to the repository.
 - **0.1.1**: First public release.
 

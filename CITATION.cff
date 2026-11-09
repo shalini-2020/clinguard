@@ -6,10 +6,18 @@ authors:
   - family-names: Sivasamy
     given-names: Shalini
 version: 0.1.2
+doi: 10.5281/zenodo.24090331
 date-released: "2026-11-02"
 license: Apache-2.0
 repository-code: "https://github.com/shalini-2020/clinguard"
 url: "https://pypi.org/project/clinguard/"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24090330
+    description: "Concept DOI: all versions of ClinGuard (resolves to the latest)"
+  - type: doi
+    value: 10.5281/zenodo.24090331
+    description: "Version 0.1.2"
 keywords:
   - healthcare
   - low-resource languages
