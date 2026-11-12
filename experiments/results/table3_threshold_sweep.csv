@@ -1,0 +1,15 @@
+threshold,scorer,t1_wrong_term,t1_n,t2_recalled,t2_n
+0.60,ClinGuard 0.1.1,55,60,176,178
+0.60,ClinGuard 0.1.2,29,60,177,178
+0.65,ClinGuard 0.1.1,51,60,176,178
+0.65,ClinGuard 0.1.2,15,60,177,178
+0.70,ClinGuard 0.1.1,40,60,176,178
+0.70,ClinGuard 0.1.2,7,60,177,178
+0.75,ClinGuard 0.1.1,32,60,176,178
+0.75,ClinGuard 0.1.2,2,60,177,178
+0.80,ClinGuard 0.1.1,23,60,176,178
+0.80,ClinGuard 0.1.2,1,60,177,178
+0.85,ClinGuard 0.1.1,5,60,176,178
+0.85,ClinGuard 0.1.2,0,60,177,178
+0.90,ClinGuard 0.1.1,5,60,173,178
+0.90,ClinGuard 0.1.2,0,60,175,178

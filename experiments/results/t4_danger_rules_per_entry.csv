@@ -1,0 +1,181 @@
+condition,clinical_term,meaning,danger_marked,flagged
+A,Headache,my head hurt,0,0
+A,Burning sensation,my body is burning,0,0
+A,Hunger/Nausea/gastrointestinal distress,My stomach is rumbling,0,0
+A,Head ache,My head is aching me,0,0
+A,Numbness/tingling sensation,Tingling sensation,0,0
+A,Acute pain,its paining me,0,0
+A,Fever/Hyperthermia,my head is hot,0,0
+A,Fever/Hyperthermia,my body is hot,0,0
+A,Generalized body Aches,My body is paining me,0,0
+A,Angina pectoris / Chest Pain,i have sharp pain in my chest,1,1
+A,Acute/Severe Chest Pain,The pain is getting stronger,1,1
+A,Dizziness / Vertigo,My eyes are turning me,0,0
+A,Dyspnea / Shortness of breath,im having problem catching my breath,1,1
+A,Arthralgia / Joint Pain,my joint feels swollen,0,0
+A,Asthenia / Generalized muscle weakness,I feel very weak and cannot stand,0,0
+A,Peripheral Paresthesia (Numbness in extremities),i have tingling sensation on my feet,0,0
+A,Pharyngitis / Sore throat irritation,My throat is scratching me,0,0
+A,Diaphoresis and Pyrexia (Sweating and Feverishness),I have been sweating and i feel like i have fever,0,0
+A,Tinnitus / Ringing ears,My ear is ringing,0,0
+A,Tussis-induced chest pain (Pain upon coughing),its pain me when i cough,1,1
+A,Burning sensation,my body is burning,0,0
+A,Burning sensation,my body is burning,0,0
+A,Burning sensation,my body is burning,0,0
+A,Burning sensation,my body is burning,0,0
+A,Arterial hemorrhage,He was involved in an accident and blood is spurting out of his thigh like a tap,1,1
+A,Acute abdomen / Peritonitis,"My stomach is suddenly tight, hard like a stone, and the pain is making me roll on the floor",1,1
+A,Generalized seizure / Status epilepticus,"His body suddenly went stiff, his teeth locked, and he is foaming at the mouth",1,1
+A,Severe asthma attack / Pulmonary embolism,"I cannot breathe, it feels like someone is standing on my chest and I am suffocating",1,1
+A,Acute stroke,"She fell down, cannot move her left arm and leg, and her mouth is drooping to one side",1,1
+A,Acute appendicitis,"I have a sharp, tearing pain in my lower right stomach that started around my belly button",1,1
+A,Acute poisoning,He drank chemical/poison by mistake and he is vomiting blood and crying,1,1
+A,Acute urinary retention,I haven't been able to pass urine since yesterday; my lower belly is swollen and bursting,1,1
+A,Severe burns,"The fire/hot oil poured on my skin, and it is peeling off with big blisters",1,1
+A,Septic / Hypovolemic shock,"I am feeling very cold, shivering, my heart is racing, and I feel like passing out",1,1
+A,Envenomation / Snakebite,"A snake bit my ankle in the farm, and the whole leg is swelling and turning black",1,1
+A,Concussion / Traumatic brain injury,"He hit his head hard, he is vomiting repeatedly, and he doesn't know where he is",1,1
+A,Abdominal pain / Stomach ache,I have stomach ache,0,0
+A,Anemia / Hypertension,I have been feeling dizzy and seeing dark spots since morning,1,1
+A,Edema / Preeclampsia sign,"My feet and legs are swollen like bread, and my sandals don't fit",1,1
+A,Hyperemesis gravidarum,"I am throwing up everything I eat, even water won't stay down",1,1
+A,Candidiasis / Vaginal infection,"There is a white, itchy discharge coming out of my body",0,0
+A,Urinary tract infection (UTI),I feel a burning fire whenever I try to pass urine,0,0
+A,Braxton Hicks / Early contractions,My stomach is constantly hard and tight like a stone,0,0
+A,Fetal distress (reduced/absent fetal movement),I am heavily pregnant but I cannot feel the baby moving today at all,1,1
+A,Severe hypertension,I have a terrible headache that refuses to go away even after sleeping,1,1
+A,Early labor signs,I am feeling a dull ache in my lower back that comes and goes,0,0
+A,Obstetric cholestasis,"My skin is itching me all over, especially the palms of my hands",0,0
+A,Severe anemia,"I am feeling very weak, breathless, and my heart is beating fast just from walking",1,1
+A,Spotting / Threatened abortion,I see small drops of blood on my underwear when I wipe,1,1
+A,Breast engorgement / Mastitis,"My breasts are swollen, hard like rock, and very painful to touch",0,0
+A,Puerperal sepsis / Uterine infection,The blood coming out of me smells highly offensive and rotten,1,1
+A,Episiotomy breakdown / infection,The place where they cut/stitched me is tearing open and bringing out pus,0,0
+A,Postpartum infection (fever),I am running a very high hotness of the body (fever) since yesterday,1,1
+A,Deep vein thrombosis,"My left calf is swollen, hot, and pains me severely when I stand up",1,1
+A,Postpartum depression,"I am feeling deeply sad, crying for no reason, and I don't want to hold my baby",1,1
+A,Urinary retention,I am unable to pass urine at all since I delivered this morning,1,1
+A,Postpartum psychosis,I am seeing strange things and hearing voices telling me to hurt myself,1,1
+A,Afterpains / Uterine involution,I feel severe throbbing pain in my lower stomach when the baby is breastfeeding,0,0
+A,Secondary postpartum hemorrhage,"I am losing too much blood again, days after the bleeding originally slowed down",1,1
+A,Postpartum anemia,"I feel completely drained, lightheaded, and dizzy whenever I sit up in bed",0,0
+B,Headache,my head hurt,0,0
+B,Burning sensation,my body is burning,0,0
+B,Hunger/Nausea/gastrointestinal distress,My stomach is rumbling,0,0
+B,Head ache,My head is aching me,0,0
+B,Numbness/tingling sensation,Tingling sensation,0,0
+B,Acute pain,its paining me,0,0
+B,Fever/Hyperthermia,my head is hot,0,0
+B,Fever/Hyperthermia,my body is hot,0,0
+B,Generalized body Aches,My body is paining me,0,0
+B,Angina pectoris / Chest Pain,i have sharp pain in my chest,1,1
+B,Acute/Severe Chest Pain,The pain is getting stronger,1,0
+B,Dizziness / Vertigo,My eyes are turning me,0,0
+B,Dyspnea / Shortness of breath,im having problem catching my breath,1,0
+B,Arthralgia / Joint Pain,my joint feels swollen,0,0
+B,Asthenia / Generalized muscle weakness,I feel very weak and cannot stand,0,0
+B,Peripheral Paresthesia (Numbness in extremities),i have tingling sensation on my feet,0,0
+B,Pharyngitis / Sore throat irritation,My throat is scratching me,0,0
+B,Diaphoresis and Pyrexia (Sweating and Feverishness),I have been sweating and i feel like i have fever,0,0
+B,Tinnitus / Ringing ears,My ear is ringing,0,0
+B,Tussis-induced chest pain (Pain upon coughing),its pain me when i cough,1,0
+B,Burning sensation,my body is burning,0,0
+B,Burning sensation,my body is burning,0,0
+B,Burning sensation,my body is burning,0,0
+B,Burning sensation,my body is burning,0,0
+B,Arterial hemorrhage,He was involved in an accident and blood is spurting out of his thigh like a tap,1,1
+B,Acute abdomen / Peritonitis,"My stomach is suddenly tight, hard like a stone, and the pain is making me roll on the floor",1,0
+B,Generalized seizure / Status epilepticus,"His body suddenly went stiff, his teeth locked, and he is foaming at the mouth",1,1
+B,Severe asthma attack / Pulmonary embolism,"I cannot breathe, it feels like someone is standing on my chest and I am suffocating",1,1
+B,Acute stroke,"She fell down, cannot move her left arm and leg, and her mouth is drooping to one side",1,1
+B,Acute appendicitis,"I have a sharp, tearing pain in my lower right stomach that started around my belly button",1,0
+B,Acute poisoning,He drank chemical/poison by mistake and he is vomiting blood and crying,1,1
+B,Acute urinary retention,I haven't been able to pass urine since yesterday; my lower belly is swollen and bursting,1,0
+B,Severe burns,"The fire/hot oil poured on my skin, and it is peeling off with big blisters",1,0
+B,Septic / Hypovolemic shock,"I am feeling very cold, shivering, my heart is racing, and I feel like passing out",1,1
+B,Envenomation / Snakebite,"A snake bit my ankle in the farm, and the whole leg is swelling and turning black",1,1
+B,Concussion / Traumatic brain injury,"He hit his head hard, he is vomiting repeatedly, and he doesn't know where he is",1,1
+B,Abdominal pain / Stomach ache,I have stomach ache,0,0
+B,Anemia / Hypertension,I have been feeling dizzy and seeing dark spots since morning,1,0
+B,Edema / Preeclampsia sign,"My feet and legs are swollen like bread, and my sandals don't fit",1,0
+B,Hyperemesis gravidarum,"I am throwing up everything I eat, even water won't stay down",1,0
+B,Candidiasis / Vaginal infection,"There is a white, itchy discharge coming out of my body",0,0
+B,Urinary tract infection (UTI),I feel a burning fire whenever I try to pass urine,0,0
+B,Braxton Hicks / Early contractions,My stomach is constantly hard and tight like a stone,0,0
+B,Fetal distress (reduced/absent fetal movement),I am heavily pregnant but I cannot feel the baby moving today at all,1,1
+B,Severe hypertension,I have a terrible headache that refuses to go away even after sleeping,1,0
+B,Early labor signs,I am feeling a dull ache in my lower back that comes and goes,0,0
+B,Obstetric cholestasis,"My skin is itching me all over, especially the palms of my hands",0,0
+B,Severe anemia,"I am feeling very weak, breathless, and my heart is beating fast just from walking",1,1
+B,Spotting / Threatened abortion,I see small drops of blood on my underwear when I wipe,1,0
+B,Breast engorgement / Mastitis,"My breasts are swollen, hard like rock, and very painful to touch",0,0
+B,Puerperal sepsis / Uterine infection,The blood coming out of me smells highly offensive and rotten,1,0
+B,Episiotomy breakdown / infection,The place where they cut/stitched me is tearing open and bringing out pus,0,0
+B,Postpartum infection (fever),I am running a very high hotness of the body (fever) since yesterday,1,0
+B,Deep vein thrombosis,"My left calf is swollen, hot, and pains me severely when I stand up",1,0
+B,Postpartum depression,"I am feeling deeply sad, crying for no reason, and I don't want to hold my baby",1,0
+B,Urinary retention,I am unable to pass urine at all since I delivered this morning,1,1
+B,Postpartum psychosis,I am seeing strange things and hearing voices telling me to hurt myself,1,1
+B,Afterpains / Uterine involution,I feel severe throbbing pain in my lower stomach when the baby is breastfeeding,0,0
+B,Secondary postpartum hemorrhage,"I am losing too much blood again, days after the bleeding originally slowed down",1,1
+B,Postpartum anemia,"I feel completely drained, lightheaded, and dizzy whenever I sit up in bed",0,0
+C,Headache,my head hurt,0,0
+C,Burning sensation,my body is burning,0,0
+C,Hunger/Nausea/gastrointestinal distress,My stomach is rumbling,0,0
+C,Head ache,My head is aching me,0,0
+C,Numbness/tingling sensation,Tingling sensation,0,0
+C,Acute pain,its paining me,0,0
+C,Fever/Hyperthermia,my head is hot,0,0
+C,Fever/Hyperthermia,my body is hot,0,0
+C,Generalized body Aches,My body is paining me,0,0
+C,Angina pectoris / Chest Pain,i have sharp pain in my chest,1,0
+C,Acute/Severe Chest Pain,The pain is getting stronger,1,0
+C,Dizziness / Vertigo,My eyes are turning me,0,0
+C,Dyspnea / Shortness of breath,im having problem catching my breath,1,0
+C,Arthralgia / Joint Pain,my joint feels swollen,0,0
+C,Asthenia / Generalized muscle weakness,I feel very weak and cannot stand,0,0
+C,Peripheral Paresthesia (Numbness in extremities),i have tingling sensation on my feet,0,0
+C,Pharyngitis / Sore throat irritation,My throat is scratching me,0,0
+C,Diaphoresis and Pyrexia (Sweating and Feverishness),I have been sweating and i feel like i have fever,0,0
+C,Tinnitus / Ringing ears,My ear is ringing,0,0
+C,Tussis-induced chest pain (Pain upon coughing),its pain me when i cough,1,0
+C,Burning sensation,my body is burning,0,0
+C,Burning sensation,my body is burning,0,0
+C,Burning sensation,my body is burning,0,0
+C,Burning sensation,my body is burning,0,0
+C,Arterial hemorrhage,He was involved in an accident and blood is spurting out of his thigh like a tap,1,0
+C,Acute abdomen / Peritonitis,"My stomach is suddenly tight, hard like a stone, and the pain is making me roll on the floor",1,0
+C,Generalized seizure / Status epilepticus,"His body suddenly went stiff, his teeth locked, and he is foaming at the mouth",1,1
+C,Severe asthma attack / Pulmonary embolism,"I cannot breathe, it feels like someone is standing on my chest and I am suffocating",1,1
+C,Acute stroke,"She fell down, cannot move her left arm and leg, and her mouth is drooping to one side",1,1
+C,Acute appendicitis,"I have a sharp, tearing pain in my lower right stomach that started around my belly button",1,0
+C,Acute poisoning,He drank chemical/poison by mistake and he is vomiting blood and crying,1,1
+C,Acute urinary retention,I haven't been able to pass urine since yesterday; my lower belly is swollen and bursting,1,0
+C,Severe burns,"The fire/hot oil poured on my skin, and it is peeling off with big blisters",1,0
+C,Septic / Hypovolemic shock,"I am feeling very cold, shivering, my heart is racing, and I feel like passing out",1,1
+C,Envenomation / Snakebite,"A snake bit my ankle in the farm, and the whole leg is swelling and turning black",1,0
+C,Concussion / Traumatic brain injury,"He hit his head hard, he is vomiting repeatedly, and he doesn't know where he is",1,0
+C,Abdominal pain / Stomach ache,I have stomach ache,0,0
+C,Anemia / Hypertension,I have been feeling dizzy and seeing dark spots since morning,1,0
+C,Edema / Preeclampsia sign,"My feet and legs are swollen like bread, and my sandals don't fit",1,0
+C,Hyperemesis gravidarum,"I am throwing up everything I eat, even water won't stay down",1,0
+C,Candidiasis / Vaginal infection,"There is a white, itchy discharge coming out of my body",0,0
+C,Urinary tract infection (UTI),I feel a burning fire whenever I try to pass urine,0,0
+C,Braxton Hicks / Early contractions,My stomach is constantly hard and tight like a stone,0,0
+C,Fetal distress (reduced/absent fetal movement),I am heavily pregnant but I cannot feel the baby moving today at all,1,0
+C,Severe hypertension,I have a terrible headache that refuses to go away even after sleeping,1,0
+C,Early labor signs,I am feeling a dull ache in my lower back that comes and goes,0,0
+C,Obstetric cholestasis,"My skin is itching me all over, especially the palms of my hands",0,0
+C,Severe anemia,"I am feeling very weak, breathless, and my heart is beating fast just from walking",1,0
+C,Spotting / Threatened abortion,I see small drops of blood on my underwear when I wipe,1,0
+C,Breast engorgement / Mastitis,"My breasts are swollen, hard like rock, and very painful to touch",0,0
+C,Puerperal sepsis / Uterine infection,The blood coming out of me smells highly offensive and rotten,1,0
+C,Episiotomy breakdown / infection,The place where they cut/stitched me is tearing open and bringing out pus,0,0
+C,Postpartum infection (fever),I am running a very high hotness of the body (fever) since yesterday,1,0
+C,Deep vein thrombosis,"My left calf is swollen, hot, and pains me severely when I stand up",1,0
+C,Postpartum depression,"I am feeling deeply sad, crying for no reason, and I don't want to hold my baby",1,0
+C,Urinary retention,I am unable to pass urine at all since I delivered this morning,1,0
+C,Postpartum psychosis,I am seeing strange things and hearing voices telling me to hurt myself,1,1
+C,Afterpains / Uterine involution,I feel severe throbbing pain in my lower stomach when the baby is breastfeeding,0,0
+C,Secondary postpartum hemorrhage,"I am losing too much blood again, days after the bleeding originally slowed down",1,1
+C,Postpartum anemia,"I feel completely drained, lightheaded, and dizzy whenever I sit up in bed",0,0

@@ -1,0 +1,6 @@
+# Keep bytes identical on every platform, so hashes and frozen cases match
+*.json -text
+*.csv -text
+*.md text eol=lf
+*.png binary
+*.pdf binary

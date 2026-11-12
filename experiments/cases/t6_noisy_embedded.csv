@@ -1,0 +1,1201 @@
+case_id,entry_index,expected_term,extra_words,seed,noise,text
+T6-00001,0,Headache,0,0,words run together,ori mi n dunmi
+T6-00002,1,Burning sensation,0,0,words run together,ara min jo
+T6-00003,2,Hunger/Nausea/gastrointestinal distress,0,0,words run together,inu min ru
+T6-00004,3,Head ache,0,0,words run together,orin fo mi
+T6-00005,4,Numbness/tingling sensation,0,0,one letter changed,kpaja kpuja
+T6-00006,5,Acute pain,0,0,words run together,odun mi
+T6-00007,6,Fever/Hyperthermia,0,0,words run together,ori miti gbono
+T6-00008,7,Fever/Hyperthermia,0,0,one letter changed,ara mi gbtna
+T6-00009,8,Generalized body Aches,0,0,no tone marks,ara ro mi
+T6-00010,9,Angina pectoris / Chest Pain,0,0,one letter changed,ara mi dug mi
+T6-00011,10,Acute/Severe Chest Pain,0,0,no tone marks,aya me dunmi gon gidi
+T6-00012,11,Dizziness / Vertigo,0,0,words run together,oyjiko mi
+T6-00013,12,Dyspnea / Shortness of breath,0,0,words run together,e mimimi ko kan le
+T6-00014,13,Arthralgia / Joint Pain,0,0,words run together,es se mi romi
+T6-00015,14,Asthenia / Generalized muscle weakness,0,0,words run together,ore mi mi kole de
+T6-00016,15,Peripheral Paresthesia (Numbness in extremities),0,0,one letter changed,kpajakraja rum mi le se
+T6-00017,16,Pharyngitis / Sore throat irritation,0,0,no tone marks,ono ofun mi nuy me
+T6-00018,17,Diaphoresis and Pyrexia (Sweating and Feverishness),0,0,no tone marks,oruru mu mi o da bi mun i ba
+T6-00019,18,Tinnitus / Ringing ears,0,0,no tone marks,eti mi kpar o woo
+T6-00020,19,Tussis-induced chest pain (Pain upon coughing),0,0,no tone marks,ono funmi dunmi tim baru ko
+T6-00021,20,Burning sensation,0,0,no tone marks,alamillo alamillo
+T6-00022,21,Burning sensation,0,0,no tone marks,a la mijo a la mijo
+T6-00023,22,Burning sensation,0,0,one letter changed,alaaijo alamijo
+T6-00024,23,Burning sensation,0,0,no tone marks,alamijo
+T6-00025,24,Arterial hemorrhage,0,0,one letter changed,oni ijamba okm se ni eje njo soroso ni ese re
+T6-00026,25,Acute abdomen / Peritonitis,0,0,words run together,se niinu mi n le on lo mi ti mo n lonu mole
+T6-00027,26,Generalized seizure / Status epilepticus,0,0,one letter changed,ara re dede le eyin enu re pade ti ito n jade ni enu re bi wipe o ni arun warupa
+T6-00028,27,Severe asthma attack / Pulmonary embolism,0,0,one letter changed,mi o le mi odabi wipe enyyan duro simi ni aya ni ti mo fi n semi
+T6-00029,28,Acute stroke,0,0,one letter changed,arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si ana kan bi aarun ropa rose
+T6-00030,29,Acute appendicitis,0,0,words run together,se ni ikunmi n dumi ni isale apa otun
+T6-00031,30,Acute poisoning,0,0,one letter changed,se ni o sssi da majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun
+T6-00032,31,Acute urinary retention,0,0,words run together,mi o le to lati ano se ni isale ikunmi wu soke gidi
+T6-00033,32,Severe burns,0,0,one letter changed,epo gbigbona da simi ni ara se ni arw mi bo yeleyele o de wu
+T6-00034,33,Septic / Hypovolemic shock,0,0,no tone marks,se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku
+T6-00035,34,Envenomation / Snakebite,0,0,words run together,se ni ejo gemije niorokun ninu oko gbogbo ese mi lo wu ode n dudu
+T6-00036,35,Concussion / Traumatic brain injury,0,0,words run together,se ni o gba ori mole gidi ti o fi n bi leralera ti ko fi mo ara re mo
+T6-00037,36,Abdominal pain / Stomach ache,0,0,words run together,inu nromi
+T6-00038,37,Anemia / Hypertension,0,0,no tone marks,oyi ti n komi mo de tun ri eje tonto lati owuro
+T6-00039,38,Edema / Preeclampsia sign,0,0,words run together,ese mi ati owo mi ti n wu bi buredi ese mide wo bata mi
+T6-00040,39,Hyperemesis gravidarum,0,0,one letter changed,mo ti n bi kete oun mo je lataaro koda omi o dyro ninunmi
+T6-00041,40,Candidiasis / Vaginal infection,0,0,words run together,oun funfunkon feerefe kee jade lati oju ara mi o de nyun mi
+T6-00042,41,Urinary tract infection (UTI),0,0,no tone marks,moni imolara bi wipe nkon njomi ti mo ba ti fe to
+T6-00043,42,Braxton Hicks / Early contractions,0,0,one letter changed,iku mi le digbi bi okpta
+T6-00044,43,Fetal distress (reduced/absent fetal movement),0,0,one letter changed,oyun mi ti tobi daada sugbon ni onw mi ko ni imora lara wipe omo no mi ninu ikun mi rara
+T6-00045,44,Severe hypertension,0,0,one letter changed,mo ni ori fifo gidigidi bi loba sun gan e lo
+T6-00046,45,Early labor signs,0,0,no tone marks,isale eyin mi ma ndumi koda oma n wa ode tun ma n lo
+T6-00047,46,Obstetric cholestasis,0,0,one letter changed,gbogbo ara mi ma nyun mi paapaa atllewo mi
+T6-00048,47,Severe anemia,0,0,one letter changed,se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemoleoo bi mo ba ti nrin
+T6-00049,48,Spotting / Threatened abortion,0,0,no tone marks,mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara
+T6-00050,49,Breast engorgement / Mastitis,0,0,words run together,omu mi nwu nle bi okuta bi moba ti fi owokon se ni o ma ndunmi
+T6-00051,50,Puerperal sepsis / Uterine infection,0,0,one letter changed,eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oyi baje
+T6-00052,51,Episiotomy breakdown / infection,0,0,one letter changed,ibi kon la ni ara mi kon ron padb ti tu ode nmu etitu sita
+T6-00053,52,Postpartum infection (fever),0,0,one letter changed,gbogbo ara mi lon gbono gidi latw ano
+T6-00054,53,Deep vein thrombosis,0,0,one letter changed,gha mi egbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide
+T6-00055,54,Postpartum depression,0,0,one letter changed,inu mi n baje mode tun sunkun lai ni idi kon pataki ode twn semi bi wipe kin ma di omomi mu
+T6-00056,55,Urinary retention,0,0,words run together,lati aaro ti mo ti bi omomi o le to
+T6-00057,56,Postpartum psychosis,0,0,no tone marks,mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese
+T6-00058,57,Afterpains / Uterine involution,0,0,words run together,mo ni imolarairora ni isale ikun mi ti omo mi ba ti nmu omu
+T6-00059,58,Secondary postpartum hemorrhage,0,0,words run together,mo n padanu eje pupo miran nigba tieje ti tele bati n dawo duro
+T6-00060,59,Postpartum anemia,0,0,words run together,se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko siori ibusun mi
+T6-00061,0,Headache,0,1,no tone marks,ori mi n dun mi
+T6-00062,1,Burning sensation,0,1,words run together,ara min jo
+T6-00063,2,Hunger/Nausea/gastrointestinal distress,0,1,no tone marks,inu mi n ru
+T6-00064,3,Head ache,0,1,no tone marks,ori n fo mi
+T6-00065,4,Numbness/tingling sensation,0,1,words run together,kpajakpaja
+T6-00066,5,Acute pain,0,1,no tone marks,o dun mi
+T6-00067,6,Fever/Hyperthermia,0,1,no tone marks,ori mi ti gbono
+T6-00068,7,Fever/Hyperthermia,0,1,words run together,ara migbona
+T6-00069,8,Generalized body Aches,0,1,one letter changed,aka ro mi
+T6-00070,9,Angina pectoris / Chest Pain,0,1,words run together,ara mi dunmi
+T6-00071,10,Acute/Severe Chest Pain,0,1,words run together,aya me dunmigon gidi
+T6-00072,11,Dizziness / Vertigo,0,1,one letter changed,oyli ko mi
+T6-00073,12,Dyspnea / Shortness of breath,0,1,no tone marks,e mimi mi ko kan le
+T6-00074,13,Arthralgia / Joint Pain,0,1,no tone marks,es se mi ro mi
+T6-00075,14,Asthenia / Generalized muscle weakness,0,1,one letter changed,yre mi mi ko le de
+T6-00076,15,Peripheral Paresthesia (Numbness in extremities),0,1,no tone marks,kpajakpaja rum mi le se
+T6-00077,16,Pharyngitis / Sore throat irritation,0,1,words run together,ono ofun minuy me
+T6-00078,17,Diaphoresis and Pyrexia (Sweating and Feverishness),0,1,no tone marks,oruru mu mi o da bi mun i ba
+T6-00079,18,Tinnitus / Ringing ears,0,1,one letter changed,etl mi kpar o woo
+T6-00080,19,Tussis-induced chest pain (Pain upon coughing),0,1,words run together,ono funmi dunmi timbaru ko
+T6-00081,20,Burning sensation,0,1,one letter changed,alamillo aldmillo
+T6-00082,21,Burning sensation,0,1,one letter changed,a la mijo a la mijl
+T6-00083,22,Burning sensation,0,1,words run together,alamijoalamijo
+T6-00084,23,Burning sensation,0,1,one letter changed,alwmijo
+T6-00085,24,Arterial hemorrhage,0,1,one letter changed,oai ijamba oko se ni eje njo soroso ni ese re
+T6-00086,25,Acute abdomen / Peritonitis,0,1,one letter changed,se ni inu mi n le on lo mi ti mo n lonu molp
+T6-00087,26,Generalized seizure / Status epilepticus,0,1,one letter changed,era re dede le eyin enu re pade ti ito n jade ni enu re bi wipe o ni arun warapa
+T6-00088,27,Severe asthma attack / Pulmonary embolism,0,1,one letter changed,mi o le mi odabi wipe eniyan auro simi ni aya ni ti mo fi n semi
+T6-00089,28,Acute stroke,0,1,words run together,arabirin na subu sile ko le gbe owo tabi ese rese ni enu re wo si apa kan bi aarun ropa rose
+T6-00090,29,Acute appendicitis,0,1,words run together,se niikun mi n dumi ni isale apa otun
+T6-00091,30,Acute poisoning,0,1,one letter changed,se ni o sesi da majele oogun oloro je ti off di wipe se ni o po eje ode n sukun
+T6-00092,31,Acute urinary retention,0,1,words run together,mi o le to lati ano se ni isale ikun miwu soke gidi
+T6-00093,32,Severe burns,0,1,one letter changed,epo gbigbona da simi ni awa se ni ara mi bo yeleyele o de wu
+T6-00094,33,Septic / Hypovolemic shock,0,1,one letter changed,se ni otutu n pami ara mi n gbon okan mi de n mi giki bi enipe mo fe daku
+T6-00095,34,Envenomation / Snakebite,0,1,no tone marks,se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu
+T6-00096,35,Concussion / Traumatic brain injury,0,1,one letter changed,se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ura re mo
+T6-00097,36,Abdominal pain / Stomach ache,0,1,no tone marks,inu n romi
+T6-00098,37,Anemia / Hypertension,0,1,words run together,oyi ti n komi mo de tun ri eje tonto latiowuro
+T6-00099,38,Edema / Preeclampsia sign,0,1,one letter changed,ese mi ati owo mi ti n wu bi buredi ese mi de wo batg mi
+T6-00100,39,Hyperemesis gravidarum,0,1,one letter changed,mo ti n bi kete oun mo je lataaro koda omi o duro ningnmi
+T6-00101,40,Candidiasis / Vaginal infection,0,1,one letter changed,oun funfun kon feerefe kee jade latg oju ara mi o de nyun mi
+T6-00102,41,Urinary tract infection (UTI),0,1,one letter changed,moni imtlara bi wipe nkon njomi ti mo ba ti fe to
+T6-00103,42,Braxton Hicks / Early contractions,0,1,one letter changed,iku mi le digbi bi okutk
+T6-00104,43,Fetal distress (reduced/absent fetal movement),0,1,one letter changed,okun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara
+T6-00105,44,Severe hypertension,0,1,one letter changed,mo ni ori fifo gidigidi bi moba aun gan e lo
+T6-00106,45,Early labor signs,0,1,words run together,isaleeyin mi ma ndumi koda oma n wa ode tun ma n lo
+T6-00107,46,Obstetric cholestasis,0,1,words run together,gbogbo ara mi ma nyun mipaapaa atelewo mi
+T6-00108,47,Severe anemia,0,1,no tone marks,se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin
+T6-00109,48,Spotting / Threatened abortion,0,1,words run together,mo ma nri eje tonto ni awo telemi ti mo ba ti nu oju ara
+T6-00110,49,Breast engorgement / Mastitis,0,1,one letter changed,otu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi
+T6-00111,50,Puerperal sepsis / Uterine infection,0,1,no tone marks,eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje
+T6-00112,51,Episiotomy breakdown / infection,0,1,no tone marks,ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita
+T6-00113,52,Postpartum infection (fever),0,1,no tone marks,gbogbo ara mi lon gbono gidi lati ano
+T6-00114,53,Deep vein thrombosis,0,1,one letter changed,iha mi egbe osi e wu e gbdno ode tun dunmi nigba ki igba ti mo ba ti dide
+T6-00115,54,Postpartum depression,0,1,one letter changed,tnu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu
+T6-00116,55,Urinary retention,0,1,no tone marks,lati aaro ti mo ti bi omo mi o le to
+T6-00117,56,Postpartum psychosis,0,1,words run together,mo nri oun abami mode tun gbo oun buburu bi wipe kin se ara mi lese
+T6-00118,57,Afterpains / Uterine involution,0,1,one letter changed,mo ni amolara irora ni isale ikun mi ti omo mi ba ti nmu omu
+T6-00119,58,Secondary postpartum hemorrhage,0,1,words run together,mo n padanu eje pupo miran nigbati eje ti tele bati n dawo duro
+T6-00120,59,Postpartum anemia,0,1,words run together,se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti jokosi ori ibusun mi
+T6-00121,0,Headache,0,2,one letter changed,yri mi n dun mi
+T6-00122,1,Burning sensation,0,2,no tone marks,ara mi n jo
+T6-00123,2,Hunger/Nausea/gastrointestinal distress,0,2,one letter changed,wnu mi n ru
+T6-00124,3,Head ache,0,2,one letter changed,ofi n fo mi
+T6-00125,4,Numbness/tingling sensation,0,2,no tone marks,kpaja kpaja
+T6-00126,5,Acute pain,0,2,one letter changed,o dwn mi
+T6-00127,6,Fever/Hyperthermia,0,2,no tone marks,ori mi ti gbono
+T6-00128,7,Fever/Hyperthermia,0,2,no tone marks,ara mi gbona
+T6-00129,8,Generalized body Aches,0,2,one letter changed,arn ro mi
+T6-00130,9,Angina pectoris / Chest Pain,0,2,words run together,arami dun mi
+T6-00131,10,Acute/Severe Chest Pain,0,2,no tone marks,aya me dunmi gon gidi
+T6-00132,11,Dizziness / Vertigo,0,2,words run together,oyjiko mi
+T6-00133,12,Dyspnea / Shortness of breath,0,2,one letter changed,e mili mi ko kan le
+T6-00134,13,Arthralgia / Joint Pain,0,2,words run together,es se miro mi
+T6-00135,14,Asthenia / Generalized muscle weakness,0,2,words run together,ore mi mi kole de
+T6-00136,15,Peripheral Paresthesia (Numbness in extremities),0,2,one letter changed,rpajakpaja rum mi le se
+T6-00137,16,Pharyngitis / Sore throat irritation,0,2,no tone marks,ono ofun mi nuy me
+T6-00138,17,Diaphoresis and Pyrexia (Sweating and Feverishness),0,2,no tone marks,oruru mu mi o da bi mun i ba
+T6-00139,18,Tinnitus / Ringing ears,0,2,words run together,eti mikpar o woo
+T6-00140,19,Tussis-induced chest pain (Pain upon coughing),0,2,no tone marks,ono funmi dunmi tim baru ko
+T6-00141,20,Burning sensation,0,2,words run together,alamilloalamillo
+T6-00142,21,Burning sensation,0,2,one letter changed,a la mino a la mijo
+T6-00143,22,Burning sensation,0,2,one letter changed,afamijo alamijo
+T6-00144,23,Burning sensation,0,2,no tone marks,alamijo
+T6-00145,24,Arterial hemorrhage,0,2,words run together,oni ijamba oko se ni eje njo soroso ni esere
+T6-00146,25,Acute abdomen / Peritonitis,0,2,no tone marks,se ni inu mi n le on lo mi ti mo n lonu mole
+T6-00147,26,Generalized seizure / Status epilepticus,0,2,words run together,ara re dede le eyin enu re pade ti ito n jade ni enu re bi wipe oni arun warapa
+T6-00148,27,Severe asthma attack / Pulmonary embolism,0,2,words run together,mi o le mi odabi wipe eniyan durosimi ni aya ni ti mo fi n semi
+T6-00149,28,Acute stroke,0,2,one letter changed,arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun roga rose
+T6-00150,29,Acute appendicitis,0,2,no tone marks,se ni ikun mi n dumi ni isale apa otun
+T6-00151,30,Acute poisoning,0,2,no tone marks,se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun
+T6-00152,31,Acute urinary retention,0,2,words run together,mi o le to lati anose ni isale ikun mi wu soke gidi
+T6-00153,32,Severe burns,0,2,one letter changed,epo gbigbona da simi ni ama se ni ara mi bo yeleyele o de wu
+T6-00154,33,Septic / Hypovolemic shock,0,2,words run together,se ni otutu n pami ara mi n gbon okan mide n mi gidi bi enipe mo fe daku
+T6-00155,34,Envenomation / Snakebite,0,2,one letter changed,se ni ejo gemije ni orokun ninu oko gbogbo esu mi lo wu ode n dudu
+T6-00156,35,Concussion / Traumatic brain injury,0,2,words run together,se ni o gba ori mole gidi ti o fi n bi lera lera ti kofi mo ara re mo
+T6-00157,36,Abdominal pain / Stomach ache,0,2,no tone marks,inu n romi
+T6-00158,37,Anemia / Hypertension,0,2,one letter changed,oyi ti n komi mo de bun ri eje tonto lati owuro
+T6-00159,38,Edema / Preeclampsia sign,0,2,no tone marks,ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi
+T6-00160,39,Hyperemesis gravidarum,0,2,no tone marks,mo ti n bi kete oun mo je lataaro koda omi o duro ninunmi
+T6-00161,40,Candidiasis / Vaginal infection,0,2,no tone marks,oun funfun kon feerefe kee jade lati oju ara mi o de nyun mi
+T6-00162,41,Urinary tract infection (UTI),0,2,no tone marks,moni imolara bi wipe nkon njomi ti mo ba ti fe to
+T6-00163,42,Braxton Hicks / Early contractions,0,2,no tone marks,iku mi le digbi bi okuta
+T6-00164,43,Fetal distress (reduced/absent fetal movement),0,2,no tone marks,oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara
+T6-00165,44,Severe hypertension,0,2,one letter changed,mo ni ori kifo gidigidi bi moba sun gan e lo
+T6-00166,45,Early labor signs,0,2,one letter changed,isale eyin mi ma ndumi koda oma n wa ode tue ma n lo
+T6-00167,46,Obstetric cholestasis,0,2,no tone marks,gbogbo ara mi ma nyun mi paapaa atelewo mi
+T6-00168,47,Severe anemia,0,2,one letter changed,se ni ma n remi bi eniwipe mi o ni imi okln mi dun lemolemo bi mo ba ti nrin
+T6-00169,48,Spotting / Threatened abortion,0,2,no tone marks,mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara
+T6-00170,49,Breast engorgement / Mastitis,0,2,one letter changed,omu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma nbunmi
+T6-00171,50,Puerperal sepsis / Uterine infection,0,2,words run together,eje ti o ma njade ni ara mise ni oma n run bi eyin ti oti baje
+T6-00172,51,Episiotomy breakdown / infection,0,2,words run together,ibi kon la ni ara mi kon ron padati tu ode nmu etitu sita
+T6-00173,52,Postpartum infection (fever),0,2,one letter changed,gbogbo ara mi lkn gbono gidi lati ano
+T6-00174,53,Deep vein thrombosis,0,2,words run together,iha miegbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide
+T6-00175,54,Postpartum depression,0,2,one letter changed,inu mi n baje mode tun sunkun lai ni idi kon patadi ode tun semi bi wipe kin ma di omomi mu
+T6-00176,55,Urinary retention,0,2,one letter changed,latd aaro ti mo ti bi omo mi o le to
+T6-00177,56,Postpartum psychosis,0,2,one letter changed,mo nri oun amami mo de tun gbo oun buburu bi wipe kin se ara mi lese
+T6-00178,57,Afterpains / Uterine involution,0,2,one letter changed,mo ni imolara irora ni isfle ikun mi ti omo mi ba ti nmu omu
+T6-00179,58,Secondary postpartum hemorrhage,0,2,words run together,mo n padanu ejepupo miran nigba ti eje ti tele bati n dawo duro
+T6-00180,59,Postpartum anemia,0,2,one letter changed,se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori iuusun mi
+T6-00181,0,Headache,0,3,no tone marks,ori mi n dun mi
+T6-00182,1,Burning sensation,0,3,no tone marks,ara mi n jo
+T6-00183,2,Hunger/Nausea/gastrointestinal distress,0,3,words run together,inumi n ru
+T6-00184,3,Head ache,0,3,words run together,ori nfo mi
+T6-00185,4,Numbness/tingling sensation,0,3,one letter changed,kpajp kpaja
+T6-00186,5,Acute pain,0,3,words run together,odun mi
+T6-00187,6,Fever/Hyperthermia,0,3,no tone marks,ori mi ti gbono
+T6-00188,7,Fever/Hyperthermia,0,3,no tone marks,ara mi gbona
+T6-00189,8,Generalized body Aches,0,3,one letter changed,aoa ro mi
+T6-00190,9,Angina pectoris / Chest Pain,0,3,words run together,arami dun mi
+T6-00191,10,Acute/Severe Chest Pain,0,3,no tone marks,aya me dunmi gon gidi
+T6-00192,11,Dizziness / Vertigo,0,3,one letter changed,oyki ko mi
+T6-00193,12,Dyspnea / Shortness of breath,0,3,one letter changed,e mimi mi ko kwn le
+T6-00194,13,Arthralgia / Joint Pain,0,3,no tone marks,es se mi ro mi
+T6-00195,14,Asthenia / Generalized muscle weakness,0,3,words run together,oremi mi ko le de
+T6-00196,15,Peripheral Paresthesia (Numbness in extremities),0,3,words run together,kpajakpaja rummi le se
+T6-00197,16,Pharyngitis / Sore throat irritation,0,3,no tone marks,ono ofun mi nuy me
+T6-00198,17,Diaphoresis and Pyrexia (Sweating and Feverishness),0,3,no tone marks,oruru mu mi o da bi mun i ba
+T6-00199,18,Tinnitus / Ringing ears,0,3,no tone marks,eti mi kpar o woo
+T6-00200,19,Tussis-induced chest pain (Pain upon coughing),0,3,one letter changed,ono funmi dunti tim baru ko
+T6-00201,20,Burning sensation,0,3,no tone marks,alamillo alamillo
+T6-00202,21,Burning sensation,0,3,one letter changed,a la mijo a la mujo
+T6-00203,22,Burning sensation,0,3,no tone marks,alamijo alamijo
+T6-00204,23,Burning sensation,0,3,one letter changed,slamijo
+T6-00205,24,Arterial hemorrhage,0,3,one letter changed,oni ijamba oko se ni eje njo noroso ni ese re
+T6-00206,25,Acute abdomen / Peritonitis,0,3,one letter changed,se ni ilu mi n le on lo mi ti mo n lonu mole
+T6-00207,26,Generalized seizure / Status epilepticus,0,3,words run together,ara re dede le eyin enu re pade ti ito n jade ni enure bi wipe o ni arun warapa
+T6-00208,27,Severe asthma attack / Pulmonary embolism,0,3,words run together,mi o le mi odabi wipe eniyan duro simi ni ayani ti mo fi n semi
+T6-00209,28,Acute stroke,0,3,no tone marks,arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose
+T6-00210,29,Acute appendicitis,0,3,words run together,se ni ikun mi n dumi ni isaleapa otun
+T6-00211,30,Acute poisoning,0,3,one letter changed,se ni o seki da majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun
+T6-00212,31,Acute urinary retention,0,3,no tone marks,mi o le to lati ano se ni isale ikun mi wu soke gidi
+T6-00213,32,Severe burns,0,3,words run together,epo gbigbona da simi ni arase ni ara mi bo yeleyele o de wu
+T6-00214,33,Septic / Hypovolemic shock,0,3,no tone marks,se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku
+T6-00215,34,Envenomation / Snakebite,0,3,words run together,se ni ejo gemije ni orokun ninu oko gbogbo ese mi lowu ode n dudu
+T6-00216,35,Concussion / Traumatic brain injury,0,3,one letter changed,se ni o gba ori mole gifi ti o fi n bi lera lera ti ko fi mo ara re mo
+T6-00217,36,Abdominal pain / Stomach ache,0,3,no tone marks,inu n romi
+T6-00218,37,Anemia / Hypertension,0,3,words run together,oyi ti n komi mode tun ri eje tonto lati owuro
+T6-00219,38,Edema / Preeclampsia sign,0,3,one letter changed,ese mi ati oyo mi ti n wu bi buredi ese mi de wo bata mi
+T6-00220,39,Hyperemesis gravidarum,0,3,one letter changed,mo ti n bi kete oup mo je lataaro koda omi o duro ninunmi
+T6-00221,40,Candidiasis / Vaginal infection,0,3,words run together,oun funfun kon feerefe kee jade latioju ara mi o de nyun mi
+T6-00222,41,Urinary tract infection (UTI),0,3,words run together,moni imolara bi wipe nkon njomiti mo ba ti fe to
+T6-00223,42,Braxton Hicks / Early contractions,0,3,no tone marks,iku mi le digbi bi okuta
+T6-00224,43,Fetal distress (reduced/absent fetal movement),0,3,no tone marks,oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara
+T6-00225,44,Severe hypertension,0,3,one letter changed,mo ni ori fifo gidigidi bi ooba sun gan e lo
+T6-00226,45,Early labor signs,0,3,one letter changed,isaue eyin mi ma ndumi koda oma n wa ode tun ma n lo
+T6-00227,46,Obstetric cholestasis,0,3,no tone marks,gbogbo ara mi ma nyun mi paapaa atelewo mi
+T6-00228,47,Severe anemia,0,3,words run together,se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo bati nrin
+T6-00229,48,Spotting / Threatened abortion,0,3,one letter changed,mo ma nri ejn tonto ni awo tele mi ti mo ba ti nu oju ara
+T6-00230,49,Breast engorgement / Mastitis,0,3,one letter changed,omu mi nwu nle bi okuta bi moba ti fi awo kon se ni o ma ndunmi
+T6-00231,50,Puerperal sepsis / Uterine infection,0,3,one letter changed,eje ti o ma njade ni ara mi se ni ome n run bi eyin ti oti baje
+T6-00232,51,Episiotomy breakdown / infection,0,3,no tone marks,ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita
+T6-00233,52,Postpartum infection (fever),0,3,words run together,gbogbo ara mi longbono gidi lati ano
+T6-00234,53,Deep vein thrombosis,0,3,words run together,iha mi egbe osi e wue gbono ode tun dunmi nigba ki igba ti mo ba ti dide
+T6-00235,54,Postpartum depression,0,3,one letter changed,inu mi n baje mode tun sunkun lai ni bdi kon pataki ode tun semi bi wipe kin ma di omomi mu
+T6-00236,55,Urinary retention,0,3,no tone marks,lati aaro ti mo ti bi omo mi o le to
+T6-00237,56,Postpartum psychosis,0,3,words run together,mo nri oun abami mo de tun gbo ounbuburu bi wipe kin se ara mi lese
+T6-00238,57,Afterpains / Uterine involution,0,3,no tone marks,mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu omu
+T6-00239,58,Secondary postpartum hemorrhage,0,3,words run together,mon padanu eje pupo miran nigba ti eje ti tele bati n dawo duro
+T6-00240,59,Postpartum anemia,0,3,one letter changed,se ni oma n semi bi uipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi
+T6-00241,0,Headache,0,4,one letter changed,org mi n dun mi
+T6-00242,1,Burning sensation,0,4,no tone marks,ara mi n jo
+T6-00243,2,Hunger/Nausea/gastrointestinal distress,0,4,words run together,inu mi nru
+T6-00244,3,Head ache,0,4,one letter changed,oei n fo mi
+T6-00245,4,Numbness/tingling sensation,0,4,words run together,kpajakpaja
+T6-00246,5,Acute pain,0,4,no tone marks,o dun mi
+T6-00247,6,Fever/Hyperthermia,0,4,no tone marks,ori mi ti gbono
+T6-00248,7,Fever/Hyperthermia,0,4,words run together,ara migbona
+T6-00249,8,Generalized body Aches,0,4,words run together,araro mi
+T6-00250,9,Angina pectoris / Chest Pain,0,4,no tone marks,ara mi dun mi
+T6-00251,10,Acute/Severe Chest Pain,0,4,no tone marks,aya me dunmi gon gidi
+T6-00252,11,Dizziness / Vertigo,0,4,words run together,oyjiko mi
+T6-00253,12,Dyspnea / Shortness of breath,0,4,one letter changed,e mime mi ko kan le
+T6-00254,13,Arthralgia / Joint Pain,0,4,words run together,esse mi ro mi
+T6-00255,14,Asthenia / Generalized muscle weakness,0,4,words run together,ore mi mi ko lede
+T6-00256,15,Peripheral Paresthesia (Numbness in extremities),0,4,no tone marks,kpajakpaja rum mi le se
+T6-00257,16,Pharyngitis / Sore throat irritation,0,4,no tone marks,ono ofun mi nuy me
+T6-00258,17,Diaphoresis and Pyrexia (Sweating and Feverishness),0,4,one letter changed,oruru mu mi o da bi mul i ba
+T6-00259,18,Tinnitus / Ringing ears,0,4,no tone marks,eti mi kpar o woo
+T6-00260,19,Tussis-induced chest pain (Pain upon coughing),0,4,words run together,ono funmi dunmitim baru ko
+T6-00261,20,Burning sensation,0,4,one letter changed,alamillo alrmillo
+T6-00262,21,Burning sensation,0,4,one letter changed,a la mijo a la miju
+T6-00263,22,Burning sensation,0,4,one letter changed,alamiro alamijo
+T6-00264,23,Burning sensation,0,4,one letter changed,alamijy
+T6-00265,24,Arterial hemorrhage,0,4,no tone marks,oni ijamba oko se ni eje njo soroso ni ese re
+T6-00266,25,Acute abdomen / Peritonitis,0,4,one letter changed,se ni inu mi n le on lo mi ti mo n lonu mose
+T6-00267,26,Generalized seizure / Status epilepticus,0,4,words run together,ara re dede le eyin enu re pade ti ito n jadeni enu re bi wipe o ni arun warapa
+T6-00268,27,Severe asthma attack / Pulmonary embolism,0,4,no tone marks,mi o le mi odabi wipe eniyan duro simi ni aya ni ti mo fi n semi
+T6-00269,28,Acute stroke,0,4,no tone marks,arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose
+T6-00270,29,Acute appendicitis,0,4,words run together,se ni ikun mi ndumi ni isale apa otun
+T6-00271,30,Acute poisoning,0,4,no tone marks,se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun
+T6-00272,31,Acute urinary retention,0,4,one letter changed,mi o le to lati aro se ni isale ikun mi wu soke gidi
+T6-00273,32,Severe burns,0,4,one letter changed,epo gbggbona da simi ni ara se ni ara mi bo yeleyele o de wu
+T6-00274,33,Septic / Hypovolemic shock,0,4,one letter changed,se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe raku
+T6-00275,34,Envenomation / Snakebite,0,4,no tone marks,se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu
+T6-00276,35,Concussion / Traumatic brain injury,0,4,words run together,se ni o gba orimole gidi ti o fi n bi lera lera ti ko fi mo ara re mo
+T6-00277,36,Abdominal pain / Stomach ache,0,4,no tone marks,inu n romi
+T6-00278,37,Anemia / Hypertension,0,4,words run together,oyi ti n komimo de tun ri eje tonto lati owuro
+T6-00279,38,Edema / Preeclampsia sign,0,4,no tone marks,ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi
+T6-00280,39,Hyperemesis gravidarum,0,4,words run together,moti n bi kete oun mo je lataaro koda omi o duro ninunmi
+T6-00281,40,Candidiasis / Vaginal infection,0,4,words run together,oun funfunkon feerefe kee jade lati oju ara mi o de nyun mi
+T6-00282,41,Urinary tract infection (UTI),0,4,words run together,moni imolara biwipe nkon njomi ti mo ba ti fe to
+T6-00283,42,Braxton Hicks / Early contractions,0,4,no tone marks,iku mi le digbi bi okuta
+T6-00284,43,Fetal distress (reduced/absent fetal movement),0,4,one letter changed,oyun mi ti tobi daada sugbon ni dni mi ko ni imora lara wipe omo no mi ninu ikun mi rara
+T6-00285,44,Severe hypertension,0,4,one letter changed,mo ni ori fifo oidigidi bi moba sun gan e lo
+T6-00286,45,Early labor signs,0,4,words run together,isale eyin mi ma ndumi koda oma n wa odetun ma n lo
+T6-00287,46,Obstetric cholestasis,0,4,one letter changed,gbfgbo ara mi ma nyun mi paapaa atelewo mi
+T6-00288,47,Severe anemia,0,4,words run together,se ni ma n remi bi eniwipe mi o niimi okon mi dun lemolemo bi mo ba ti nrin
+T6-00289,48,Spotting / Threatened abortion,0,4,no tone marks,mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara
+T6-00290,49,Breast engorgement / Mastitis,0,4,one letter changed,omu mi nwl nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi
+T6-00291,50,Puerperal sepsis / Uterine infection,0,4,one letter changed,ene ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje
+T6-00292,51,Episiotomy breakdown / infection,0,4,no tone marks,ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita
+T6-00293,52,Postpartum infection (fever),0,4,one letter changed,bbogbo ara mi lon gbono gidi lati ano
+T6-00294,53,Deep vein thrombosis,0,4,one letter changed,iha mi egbe osi e wu e gbono ode tun dunmi nieba ki igba ti mo ba ti dide
+T6-00295,54,Postpartum depression,0,4,one letter changed,inu mi n baje mode tun sunkun lai ni imi kon pataki ode tun semi bi wipe kin ma di omomi mu
+T6-00296,55,Urinary retention,0,4,words run together,lati aaro ti mo tibi omo mi o le to
+T6-00297,56,Postpartum psychosis,0,4,no tone marks,mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese
+T6-00298,57,Afterpains / Uterine involution,0,4,one letter changed,mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmk omu
+T6-00299,58,Secondary postpartum hemorrhage,0,4,words run together,mo n padanu eje pupo miran nigba ti eje ti tele bati ndawo duro
+T6-00300,59,Postpartum anemia,0,4,words run together,se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusunmi
+T6-00301,0,Headache,2,0,words run together,imolara mo orimi n dun mi
+T6-00302,1,Burning sensation,2,0,one letter changed,ark mi n jo bi mo
+T6-00303,2,Hunger/Nausea/gastrointestinal distress,2,0,words run together,semi inumi n ru se
+T6-00304,3,Head ache,2,0,no tone marks,ori n fo mi omo romi
+T6-00305,4,Numbness/tingling sensation,2,0,words run together,lese o kpajakpaja
+T6-00306,5,Acute pain,2,0,no tone marks,o dun mi se nmu
+T6-00307,6,Fever/Hyperthermia,2,0,one letter changed,ki tu ori mi ti ggono
+T6-00308,7,Fever/Hyperthermia,2,0,words run together,re kon arami gbona
+T6-00309,8,Generalized body Aches,2,0,one letter changed,e arg ro mi okuta
+T6-00310,9,Angina pectoris / Chest Pain,2,0,words run together,otun ara mi dunmi daada
+T6-00311,10,Acute/Severe Chest Pain,2,0,words run together,ara lera aya me dunmigon gidi
+T6-00312,11,Dizziness / Vertigo,2,0,no tone marks,baru oyji ko mi no
+T6-00313,12,Dyspnea / Shortness of breath,2,0,no tone marks,e mimi mi ko kan le mo ron
+T6-00314,13,Arthralgia / Joint Pain,2,0,no tone marks,es se mi ro mi me njomi
+T6-00315,14,Asthenia / Generalized muscle weakness,2,0,one letter changed,orokun orf mi mi ko le de alamillo
+T6-00316,15,Peripheral Paresthesia (Numbness in extremities),2,0,words run together,ode inu kpajakpaja rum mile se
+T6-00317,16,Pharyngitis / Sore throat irritation,2,0,no tone marks,yeleyele tobi ono ofun mi nuy me
+T6-00318,17,Diaphoresis and Pyrexia (Sweating and Feverishness),2,0,one letter changed,n oruru mu mi o da bi iun i ba njo
+T6-00319,18,Tinnitus / Ringing ears,2,0,no tone marks,apa ba eti mi kpar o woo
+T6-00320,19,Tussis-induced chest pain (Pain upon coughing),2,0,no tone marks,ono funmi dunmi tim baru ko awo mo
+T6-00321,20,Burning sensation,2,0,no tone marks,ba ode alamillo alamillo
+T6-00322,21,Burning sensation,2,0,words run together,mu a la mijo a lamijo otun
+T6-00323,22,Burning sensation,2,0,no tone marks,alamijo alamijo ese mi
+T6-00324,23,Burning sensation,2,0,no tone marks,ni alamijo tonto
+T6-00325,24,Arterial hemorrhage,2,0,words run together,mi dide oni ijamba oko se ni eje njosoroso ni ese re
+T6-00326,25,Acute abdomen / Peritonitis,2,0,no tone marks,se ni inu mi n le on lo mi ti mo n lonu mole ori kon
+T6-00327,26,Generalized seizure / Status epilepticus,2,0,no tone marks,ara re dede le eyin enu re pade ti ito n jade ni enu re bi wipe o ni arun warapa wu daku
+T6-00328,27,Severe asthma attack / Pulmonary embolism,2,0,no tone marks,bi mi o le mi odabi wipe eniyan duro simi ni aya ni ti mo fi n semi nwu
+T6-00329,28,Acute stroke,2,0,no tone marks,je soke arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose
+T6-00330,29,Acute appendicitis,2,0,words run together,funmi se ni ikun min dumi ni isale apa otun da
+T6-00331,30,Acute poisoning,2,0,words run together,gbogbo se ni o sesi da majele oogun oloroje ti ofi di wipe se ni o po eje ode n sukun le
+T6-00332,31,Acute urinary retention,2,0,one letter changed,bi mi o le to lati ano se ni isale ikun mi wu sokk gidi ofi
+T6-00333,32,Severe burns,2,0,no tone marks,gbona a epo gbigbona da simi ni ara se ni ara mi bo yeleyele o de wu
+T6-00334,33,Septic / Hypovolemic shock,2,0,no tone marks,se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku alamijo isale
+T6-00335,34,Envenomation / Snakebite,2,0,words run together,bi ikun se ni ejo gemije ni orokun ninuoko gbogbo ese mi lo wu ode n dudu
+T6-00336,35,Concussion / Traumatic brain injury,2,0,one letter changed,ano mi se ni o oba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo
+T6-00337,36,Abdominal pain / Stomach ache,2,0,no tone marks,omo inu n romi oni
+T6-00338,37,Anemia / Hypertension,2,0,no tone marks,oyi ti n komi mo de tun ri eje tonto lati owuro lon okuta
+T6-00339,38,Edema / Preeclampsia sign,2,0,no tone marks,ni ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi yeleyele
+T6-00340,39,Hyperemesis gravidarum,2,0,one letter changed,gan mo ti n bi kete oen mo je lataaro koda omi o duro ninunmi ori
+T6-00341,40,Candidiasis / Vaginal infection,2,0,no tone marks,ati oun funfun kon feerefe kee jade lati oju ara mi o de nyun mi se
+T6-00342,41,Urinary tract infection (UTI),2,0,one letter changed,ikun mi moni imolara bi wlpe nkon njomi ti mo ba ti fe to
+T6-00343,42,Braxton Hicks / Early contractions,2,0,words run together,iku mi ledigbi bi okuta tabi lati
+T6-00344,43,Fetal distress (reduced/absent fetal movement),2,0,words run together,dun oyun mi ti tobi daadasugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara n
+T6-00345,44,Severe hypertension,2,0,no tone marks,mo ni ori fifo gidigidi bi moba sun gan e lo osi enu
+T6-00346,45,Early labor signs,2,0,one letter changed,isale eyin mi ma ndumi koda oma n wa ode tui ma n lo majele ninu
+T6-00347,46,Obstetric cholestasis,2,0,one letter changed,eniyan n gbogbt ara mi ma nyun mi paapaa atelewo mi
+T6-00348,47,Severe anemia,2,0,no tone marks,se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin ninu re
+T6-00349,48,Spotting / Threatened abortion,2,0,one letter changed,woo mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju aea oun
+T6-00350,49,Breast engorgement / Mastitis,2,0,words run together,ori ese omu mi nwu nle bi okuta bi moba ti fi owo kon seni o ma ndunmi
+T6-00351,50,Puerperal sepsis / Uterine infection,2,0,words run together,dudu eje ti o ma njade ni arami se ni oma n run bi eyin ti oti baje kpaja
+T6-00352,51,Episiotomy breakdown / infection,2,0,one letter changed,kpar ibi kon la ni ara mi kon ron pada ti tu ode nmu etipu sita bi
+T6-00353,52,Postpartum infection (fever),2,0,words run together,gbogbo ara mi lon gbono gidi latiano ni se
+T6-00354,53,Deep vein thrombosis,2,0,one letter changed,ni bi iha mi egbe osi e wu e gbono ode tun dugmi nigba ki igba ti mo ba ti dide
+T6-00355,54,Postpartum depression,2,0,words run together,la se inu mi n baje mode tun sunkun lai ni idi konpataki ode tun semi bi wipe kin ma di omomi mu
+T6-00356,55,Urinary retention,2,0,no tone marks,lati aaro ti mo ti bi omo mi o le to lai kpar
+T6-00357,56,Postpartum psychosis,2,0,no tone marks,mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese ko re
+T6-00358,57,Afterpains / Uterine involution,2,0,one letter changed,mo ni imolara orora ni isale ikun mi ti omo mi ba ti nmu omu ode bi
+T6-00359,58,Secondary postpartum hemorrhage,2,0,no tone marks,romi fi mo n padanu eje pupo miran nigba ti eje ti tele bati n dawo duro
+T6-00360,59,Postpartum anemia,2,0,one letter changed,isale o se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ort ibusun mi
+T6-00361,0,Headache,2,1,one letter changed,ori mi n yun mi ode le
+T6-00362,1,Burning sensation,2,1,no tone marks,mo ara mi n jo ese
+T6-00363,2,Hunger/Nausea/gastrointestinal distress,2,1,no tone marks,inu mi n ru ma gbogbo
+T6-00364,3,Head ache,2,1,one letter changed,ni ory n fo mi nmu
+T6-00365,4,Numbness/tingling sensation,2,1,no tone marks,de ese kpaja kpaja
+T6-00366,5,Acute pain,2,1,no tone marks,ti ni o dun mi
+T6-00367,6,Fever/Hyperthermia,2,1,words run together,remi ropa orimi ti gbono
+T6-00368,7,Fever/Hyperthermia,2,1,no tone marks,dun ara mi gbona lai
+T6-00369,8,Generalized body Aches,2,1,one letter changed,sukun bi rra ro mi
+T6-00370,9,Angina pectoris / Chest Pain,2,1,no tone marks,eniyan ti ara mi dun mi
+T6-00371,10,Acute/Severe Chest Pain,2,1,no tone marks,aya me dunmi gon gidi mi di
+T6-00372,11,Dizziness / Vertigo,2,1,one letter changed,lyji ko mi soroso aarun
+T6-00373,12,Dyspnea / Shortness of breath,2,1,words run together,da ti e mimi mi kokan le
+T6-00374,13,Arthralgia / Joint Pain,2,1,words run together,tun ba es se mi romi
+T6-00375,14,Asthenia / Generalized muscle weakness,2,1,one letter changed,okuta wre mi mi ko le de o
+T6-00376,15,Peripheral Paresthesia (Numbness in extremities),2,1,words run together,kpajakpaja rummi le se mijo moba
+T6-00377,16,Pharyngitis / Sore throat irritation,2,1,one letter changed,mo mo ono ofug mi nuy me
+T6-00378,17,Diaphoresis and Pyrexia (Sweating and Feverishness),2,1,no tone marks,enipe oruru mu mi o da bi mun i ba joko
+T6-00379,18,Tinnitus / Ringing ears,2,1,no tone marks,eti mi kpar o woo si egbe
+T6-00380,19,Tussis-induced chest pain (Pain upon coughing),2,1,words run together,mi ono funmi dunmitim baru ko okon
+T6-00381,20,Burning sensation,2,1,no tone marks,alamillo alamillo da wipe
+T6-00382,21,Burning sensation,2,1,words run together,ijamba a la mijo ala mijo aarun
+T6-00383,22,Burning sensation,2,1,words run together,alamijoalamijo gidi ni
+T6-00384,23,Burning sensation,2,1,one letter changed,wo mi ayamijo
+T6-00385,24,Arterial hemorrhage,2,1,words run together,funfun oni ijamba oko seni eje njo soroso ni ese re gidi
+T6-00386,25,Acute abdomen / Peritonitis,2,1,one letter changed,se ni inu mi n le on lo mi ti mo n lonu moli ikun je
+T6-00387,26,Generalized seizure / Status epilepticus,2,1,words run together,ko ba ara re dedele eyin enu re pade ti ito n jade ni enu re bi wipe o ni arun warapa
+T6-00388,27,Severe asthma attack / Pulmonary embolism,2,1,words run together,mi o le mi odabi wipe eniyan durosimi ni aya ni ti mo fi n semi aarun lera
+T6-00389,28,Acute stroke,2,1,words run together,pami wu arabirin na subu sileko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose
+T6-00390,29,Acute appendicitis,2,1,no tone marks,se ni ikun mi n dumi ni isale apa otun alamijo mo
+T6-00391,30,Acute poisoning,2,1,words run together,isale mo se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po eje ode nsukun
+T6-00392,31,Acute urinary retention,2,1,one letter changed,mi o le to lati ano se ni isale ikun mi wu soke gidd ore owuro
+T6-00393,32,Severe burns,2,1,one letter changed,epo gbigbona da simi ni ara se ni ara mi bo ynleyele o de wu oyi la
+T6-00394,33,Septic / Hypovolemic shock,2,1,words run together,ti subu se ni otutun pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku
+T6-00395,34,Envenomation / Snakebite,2,1,one letter changed,se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n duyu o oyun
+T6-00396,35,Concussion / Traumatic brain injury,2,1,words run together,se ni o gba ori mole giditi o fi n bi lera lera ti ko fi mo ara re mo le nkon
+T6-00397,36,Abdominal pain / Stomach ache,2,1,words run together,inu nromi mole omi
+T6-00398,37,Anemia / Hypertension,2,1,words run together,tele mi oyi ti n komi mode tun ri eje tonto lati owuro
+T6-00399,38,Edema / Preeclampsia sign,2,1,no tone marks,se ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi alamijo
+T6-00400,39,Hyperemesis gravidarum,2,1,words run together,re mo ti n bi keteoun mo je lataaro koda omi o duro ninunmi igba
+T6-00401,40,Candidiasis / Vaginal infection,2,1,one letter changed,mun ti bun funfun kon feerefe kee jade lati oju ara mi o de nyun mi
+T6-00402,41,Urinary tract infection (UTI),2,1,no tone marks,moni imolara bi wipe nkon njomi ti mo ba ti fe to n mi
+T6-00403,42,Braxton Hicks / Early contractions,2,1,words run together,tun ti iku mile digbi bi okuta
+T6-00404,43,Fetal distress (reduced/absent fetal movement),2,1,no tone marks,ara oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara n
+T6-00405,44,Severe hypertension,2,1,words run together,se oyi moni ori fifo gidigidi bi moba sun gan e lo
+T6-00406,45,Early labor signs,2,1,words run together,gidi o isale eyinmi ma ndumi koda oma n wa ode tun ma n lo
+T6-00407,46,Obstetric cholestasis,2,1,words run together,oun eyin gbogbo ara mi manyun mi paapaa atelewo mi
+T6-00408,47,Severe anemia,2,1,one letter changed,kon di se ni ma n remi bi eniwipe mi o ni imi okog mi dun lemolemo bi mo ba ti nrin
+T6-00409,48,Spotting / Threatened abortion,2,1,one letter changed,n mo ma wri eje tonto ni awo tele mi ti mo ba ti nu oju ara ndunmi
+T6-00410,49,Breast engorgement / Mastitis,2,1,words run together,lati omu mi nwu nle bi okuta bi moba ti fiowo kon se ni o ma ndunmi tun
+T6-00411,50,Puerperal sepsis / Uterine infection,2,1,no tone marks,eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje iha kee
+T6-00412,51,Episiotomy breakdown / infection,2,1,words run together,on romi ibi kon la ni ara mi kon ron pada ti tuode nmu etitu sita
+T6-00413,52,Postpartum infection (fever),2,1,no tone marks,gbogbo ara mi lon gbono gidi lati ano mo ibi
+T6-00414,53,Deep vein thrombosis,2,1,no tone marks,ese iha mi egbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide jade
+T6-00415,54,Postpartum depression,2,1,words run together,se inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma diomomi mu wu
+T6-00416,55,Urinary retention,2,1,words run together,la lati aaro ti mo ti bi omomi o le to njomi
+T6-00417,56,Postpartum psychosis,2,1,one letter changed,sukun dunmi mo nri oun abami mo de tun gbo oun buburu bi wipl kin se ara mi lese
+T6-00418,57,Afterpains / Uterine involution,2,1,one letter changed,duro inu mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu rmu
+T6-00419,58,Secondary postpartum hemorrhage,2,1,no tone marks,eniyan mo n padanu eje pupo miran nigba ti eje ti tele bati n dawo duro ara
+T6-00420,59,Postpartum anemia,2,1,no tone marks,se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi mun me
+T6-00421,0,Headache,2,2,words run together,mo orimi n dun mi ba
+T6-00422,1,Burning sensation,2,2,one letter changed,ode gidi rra mi n jo
+T6-00423,2,Hunger/Nausea/gastrointestinal distress,2,2,no tone marks,ara mo inu mi n ru
+T6-00424,3,Head ache,2,2,words run together,ori nfo mi ma mijo
+T6-00425,4,Numbness/tingling sensation,2,2,one letter changed,kyaja kpaja ni e
+T6-00426,5,Acute pain,2,2,words run together,o dunmi e me
+T6-00427,6,Fever/Hyperthermia,2,2,one letter changed,iha isale oei mi ti gbono
+T6-00428,7,Fever/Hyperthermia,2,2,one letter changed,arabirin igba ara mi gdona
+T6-00429,8,Generalized body Aches,2,2,one letter changed,simi oogun gra ro mi
+T6-00430,9,Angina pectoris / Chest Pain,2,2,one letter changed,nyun ara mi fun mi de
+T6-00431,10,Acute/Severe Chest Pain,2,2,words run together,fuye ti aya medunmi gon gidi
+T6-00432,11,Dizziness / Vertigo,2,2,no tone marks,oko oyji ko mi arun
+T6-00433,12,Dyspnea / Shortness of breath,2,2,no tone marks,je i e mimi mi ko kan le
+T6-00434,13,Arthralgia / Joint Pain,2,2,words run together,es se mi romi enu n
+T6-00435,14,Asthenia / Generalized muscle weakness,2,2,no tone marks,fifo wipe ore mi mi ko le de
+T6-00436,15,Peripheral Paresthesia (Numbness in extremities),2,2,words run together,owuro kpajakpaja rum mile se ara
+T6-00437,16,Pharyngitis / Sore throat irritation,2,2,words run together,ono ofun mi nuyme mole jade
+T6-00438,17,Diaphoresis and Pyrexia (Sweating and Feverishness),2,2,words run together,oruru mumi o da bi mun i ba subu ti
+T6-00439,18,Tinnitus / Ringing ears,2,2,one letter changed,eti mi ksar o woo n ori
+T6-00440,19,Tussis-induced chest pain (Pain upon coughing),2,2,no tone marks,eje lataaro ono funmi dunmi tim baru ko
+T6-00441,20,Burning sensation,2,2,one letter changed,gan e alamillo alaiillo
+T6-00442,21,Burning sensation,2,2,one letter changed,ni ori a la mijr a la mijo
+T6-00443,22,Burning sensation,2,2,words run together,simi alamijoalamijo n
+T6-00444,23,Burning sensation,2,2,one letter changed,wipe ori amamijo
+T6-00445,24,Arterial hemorrhage,2,2,no tone marks,oni ijamba oko se ni eje njo soroso ni ese re mi alamijo
+T6-00446,25,Acute abdomen / Peritonitis,2,2,words run together,gbona si se ni inu mi nle on lo mi ti mo n lonu mole
+T6-00447,26,Generalized seizure / Status epilepticus,2,2,one letter changed,oma ara re dede le eyin enu re pade ti ito n jade ni enu re bi wipk o ni arun warapa ba
+T6-00448,27,Severe asthma attack / Pulmonary embolism,2,2,one letter changed,mi o le mi odari wipe eniyan duro simi ni aya ni ti mo fi n semi dun owo
+T6-00449,28,Acute stroke,2,2,no tone marks,arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose oma no
+T6-00450,29,Acute appendicitis,2,2,words run together,oko se ni ikun mi n dumini isale apa otun ti
+T6-00451,30,Acute poisoning,2,2,no tone marks,se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun ninu mo
+T6-00452,31,Acute urinary retention,2,2,one letter changed,mi o le to kati ano se ni isale ikun mi wu soke gidi bi wipe
+T6-00453,32,Severe burns,2,2,words run together,inu tun epo gbigbona da simi ni ara se niara mi bo yeleyele o de wu
+T6-00454,33,Septic / Hypovolemic shock,2,2,no tone marks,se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku tabi a
+T6-00455,34,Envenomation / Snakebite,2,2,words run together,tele oun se ni ejo gemije ni orokun ninu oko gbogbo ese mi lowu ode n dudu
+T6-00456,35,Concussion / Traumatic brain injury,2,2,one letter changed,semi se ni o gba obi mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo orokun
+T6-00457,36,Abdominal pain / Stomach ache,2,2,no tone marks,wu inu n romi ko
+T6-00458,37,Anemia / Hypertension,2,2,words run together,ko oyi ti n komi mo detun ri eje tonto lati owuro oyji
+T6-00459,38,Edema / Preeclampsia sign,2,2,words run together,se ese mi ati owomi ti n wu bi buredi ese mi de wo bata mi lara
+T6-00460,39,Hyperemesis gravidarum,2,2,words run together,mi mo ti n bi kete oun mo jelataaro koda omi o duro ninunmi fi
+T6-00461,40,Candidiasis / Vaginal infection,2,2,one letter changed,bi oun funfun kon feerefe kee jade laui oju ara mi o de nyun mi ba
+T6-00462,41,Urinary tract infection (UTI),2,2,no tone marks,gon moni imolara bi wipe nkon njomi ti mo ba ti fe to ori
+T6-00463,42,Braxton Hicks / Early contractions,2,2,no tone marks,mo iku mi le digbi bi okuta ara
+T6-00464,43,Fetal distress (reduced/absent fetal movement),2,2,one letter changed,oyun mi ti tobf daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara o bi
+T6-00465,44,Severe hypertension,2,2,words run together,etitu mo niori fifo gidigidi bi moba sun gan e lo nuy
+T6-00466,45,Early labor signs,2,2,words run together,na isale eyin mi ma ndumi koda oma n wa ode tun man lo oogun
+T6-00467,46,Obstetric cholestasis,2,2,one letter changed,da owo gbogbo ara mi ma nyun mi pnapaa atelewo mi
+T6-00468,47,Severe anemia,2,2,no tone marks,tun funfun se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin
+T6-00469,48,Spotting / Threatened abortion,2,2,no tone marks,aya mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara o
+T6-00470,49,Breast engorgement / Mastitis,2,2,one letter changed,omu mi rwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi kin si
+T6-00471,50,Puerperal sepsis / Uterine infection,2,2,words run together,eje ti o ma njade ni ara mi se nioma n run bi eyin ti oti baje aya apa
+T6-00472,51,Episiotomy breakdown / infection,2,2,one letter changed,se ibi kon la ni dra mi kon ron pada ti tu ode nmu etitu sita ese
+T6-00473,52,Postpartum infection (fever),2,2,no tone marks,dumi gbogbo ara mi lon gbono gidi lati ano oyun
+T6-00474,53,Deep vein thrombosis,2,2,one letter changed,iha mi egbe osi e wu e gbono oae tun dunmi nigba ki igba ti mo ba ti dide pada ikun
+T6-00475,54,Postpartum depression,2,2,one letter changed,oni inu mi n baje mode tun sunnun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu gidi
+T6-00476,55,Urinary retention,2,2,one letter changed,ode lati awro ti mo ti bi omo mi o le to ni
+T6-00477,56,Postpartum psychosis,2,2,no tone marks,a ibusun mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese
+T6-00478,57,Afterpains / Uterine involution,2,2,words run together,mo ni imolara irora ni isale ikun mi ti omo mi ba tinmu omu odabi je
+T6-00479,58,Secondary postpartum hemorrhage,2,2,one letter changed,ore mo n padanp eje pupo miran nigba ti eje ti tele bati n dawo duro mi
+T6-00480,59,Postpartum anemia,2,2,words run together,se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo bati joko si ori ibusun mi inu ko
+T6-00481,0,Headache,2,3,no tone marks,ori mi n dun mi mole bi
+T6-00482,1,Burning sensation,2,3,one letter changed,eje aaa mi n jo tonto
+T6-00483,2,Hunger/Nausea/gastrointestinal distress,2,3,no tone marks,si mo inu mi n ru
+T6-00484,3,Head ache,2,3,no tone marks,ori n fo mi okon ti
+T6-00485,4,Numbness/tingling sensation,2,3,one letter changed,kpajs kpaja jade se
+T6-00486,5,Acute pain,2,3,words run together,egbe oyun o dunmi
+T6-00487,6,Fever/Hyperthermia,2,3,no tone marks,ese bi ori mi ti gbono
+T6-00488,7,Fever/Hyperthermia,2,3,no tone marks,wipe gemije ara mi gbona
+T6-00489,8,Generalized body Aches,2,3,words run together,ara romi koda ti
+T6-00490,9,Angina pectoris / Chest Pain,2,3,one letter changed,eti omo aaa mi dun mi
+T6-00491,10,Acute/Severe Chest Pain,2,3,one letter changed,aya me dungi gon gidi kpajakpaja ti
+T6-00492,11,Dizziness / Vertigo,2,3,one letter changed,n oyjk ko mi mo
+T6-00493,12,Dyspnea / Shortness of breath,2,3,no tone marks,mu moba e mimi mi ko kan le
+T6-00494,13,Arthralgia / Joint Pain,2,3,no tone marks,ti es se mi ro mi mo
+T6-00495,14,Asthenia / Generalized muscle weakness,2,3,words run together,wu ore mi miko le de ba
+T6-00496,15,Peripheral Paresthesia (Numbness in extremities),2,3,words run together,kpajakpaja rum mile se ti oti
+T6-00497,16,Pharyngitis / Sore throat irritation,2,3,no tone marks,dun gidigidi ono ofun mi nuy me
+T6-00498,17,Diaphoresis and Pyrexia (Sweating and Feverishness),2,3,no tone marks,ko oruru mu mi o da bi mun i ba kon
+T6-00499,18,Tinnitus / Ringing ears,2,3,words run together,ni etimi kpar o woo baje
+T6-00500,19,Tussis-induced chest pain (Pain upon coughing),2,3,one letter changed,ooo funmi dunmi tim baru ko wipe ropa
+T6-00501,20,Burning sensation,2,3,no tone marks,alamillo alamillo dede ikun
+T6-00502,21,Burning sensation,2,3,one letter changed,gbigbona ori a la mijo a la miso
+T6-00503,22,Burning sensation,2,3,one letter changed,alamijo albmijo etitu le
+T6-00504,23,Burning sensation,2,3,no tone marks,la oma alamijo
+T6-00505,24,Arterial hemorrhage,2,3,no tone marks,lon oni ijamba oko se ni eje njo soroso ni ese re omo
+T6-00506,25,Acute abdomen / Peritonitis,2,3,no tone marks,se ni inu mi n le on lo mi ti mo n lonu mole nuy ejo
+T6-00507,26,Generalized seizure / Status epilepticus,2,3,words run together,se gbo ara re dede le eyin enu re padeti ito n jade ni enu re bi wipe o ni arun warapa
+T6-00508,27,Severe asthma attack / Pulmonary embolism,2,3,words run together,ko mi o le mi odabi wipe eniyan duro simi niaya ni ti mo fi n semi se
+T6-00509,28,Acute stroke,2,3,no tone marks,mi arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose ti
+T6-00510,29,Acute appendicitis,2,3,one letter changed,se ni ikun mi n dumi ni isaie apa otun alamijo mu
+T6-00511,30,Acute poisoning,2,3,words run together,idi mi se ni o sesida majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun
+T6-00512,31,Acute urinary retention,2,3,words run together,n pupo mi o le to lati ano se ni isaleikun mi wu soke gidi
+T6-00513,32,Severe burns,2,3,words run together,okuta daada epo gbigbona da simi ni ara se ni ara mi boyeleyele o de wu
+T6-00514,33,Septic / Hypovolemic shock,2,3,no tone marks,ko fi se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku
+T6-00515,34,Envenomation / Snakebite,2,3,words run together,alamijo se ni ejogemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu a
+T6-00516,35,Concussion / Traumatic brain injury,2,3,no tone marks,se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo lonu komi
+T6-00517,36,Abdominal pain / Stomach ache,2,3,one letter changed,la iiu n romi isale
+T6-00518,37,Anemia / Hypertension,2,3,one letter changed,re kan oyi ti n komi mo de tun ri eje togto lati owuro
+T6-00519,38,Edema / Preeclampsia sign,2,3,words run together,aya ni esemi ati owo mi ti n wu bi buredi ese mi de wo bata mi
+T6-00520,39,Hyperemesis gravidarum,2,3,no tone marks,mo ti n bi kete oun mo je lataaro koda omi o duro ninunmi simi ro
+T6-00521,40,Candidiasis / Vaginal infection,2,3,words run together,ono oun funfun kon feerefe kee jade lati oju ara mi o denyun mi tonto
+T6-00522,41,Urinary tract infection (UTI),2,3,one letter changed,moni imolara bi wipe nkon nfomi ti mo ba ti fe to ese mode
+T6-00523,42,Braxton Hicks / Early contractions,2,3,no tone marks,ninu iku mi le digbi bi okuta lese
+T6-00524,43,Fetal distress (reduced/absent fetal movement),2,3,no tone marks,oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara o ano
+T6-00525,44,Severe hypertension,2,3,no tone marks,mo ni ori fifo gidigidi bi moba sun gan e lo oju n
+T6-00526,45,Early labor signs,2,3,words run together,isale eyin mi ma ndumi koda oma n wa ode tunma n lo gbogbo oni
+T6-00527,46,Obstetric cholestasis,2,3,words run together,gbogbo ara mi ma nyunmi paapaa atelewo mi ti se
+T6-00528,47,Severe anemia,2,3,no tone marks,ro ara se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin
+T6-00529,48,Spotting / Threatened abortion,2,3,words run together,oni mo ma nri eje tonto ni awo tele mi ti mo bati nu oju ara n
+T6-00530,49,Breast engorgement / Mastitis,2,3,words run together,romi omu mi nwu nle bi okuta bi moba ti fi owo kon se ni oma ndunmi gidi
+T6-00531,50,Puerperal sepsis / Uterine infection,2,3,one letter changed,le oyi wje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje
+T6-00532,51,Episiotomy breakdown / infection,2,3,no tone marks,gidi enipe ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita
+T6-00533,52,Postpartum infection (fever),2,3,one letter changed,ndumi sbogbo ara mi lon gbono gidi lati ano o
+T6-00534,53,Deep vein thrombosis,2,3,no tone marks,iha mi egbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide alamillo gon
+T6-00535,54,Postpartum depression,2,3,no tone marks,inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu enu omi
+T6-00536,55,Urinary retention,2,3,words run together,fifo duro lati aaro ti mo ti bi omo mi ole to
+T6-00537,56,Postpartum psychosis,2,3,one letter changed,mo nri oun abami mo de tun gbo oun bueuru bi wipe kin se ara mi lese nuy gemije
+T6-00538,57,Afterpains / Uterine involution,2,3,one letter changed,aya je mo ni imolara irora ni isale ikun mi ti omo mi ba ti nnu omu
+T6-00539,58,Secondary postpartum hemorrhage,2,3,words run together,nyun ni mon padanu eje pupo miran nigba ti eje ti tele bati n dawo duro
+T6-00540,59,Postpartum anemia,2,3,one letter changed,se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti jrko si ori ibusun mi apa duro
+T6-00541,0,Headache,2,4,one letter changed,ori mi n dwn mi abami le
+T6-00542,1,Burning sensation,2,4,one letter changed,ma yra mi n jo wu
+T6-00543,2,Hunger/Nausea/gastrointestinal distress,2,4,words run together,bi inumi n ru dun
+T6-00544,3,Head ache,2,4,no tone marks,ni ori n fo mi omo
+T6-00545,4,Numbness/tingling sensation,2,4,one letter changed,koaja kpaja lera eje
+T6-00546,5,Acute pain,2,4,no tone marks,o dun mi mu ni
+T6-00547,6,Fever/Hyperthermia,2,4,no tone marks,lonu ori mi ti gbono enipe
+T6-00548,7,Fever/Hyperthermia,2,4,words run together,arami gbona simi n
+T6-00549,8,Generalized body Aches,2,4,one letter changed,se aga ro mi n
+T6-00550,9,Angina pectoris / Chest Pain,2,4,words run together,funmi ara mi dunmi ba
+T6-00551,10,Acute/Severe Chest Pain,2,4,words run together,pami komi aya medunmi gon gidi
+T6-00552,11,Dizziness / Vertigo,2,4,no tone marks,oyji ko mi ba o
+T6-00553,12,Dyspnea / Shortness of breath,2,4,no tone marks,kee e mimi mi ko kan le n
+T6-00554,13,Arthralgia / Joint Pain,2,4,words run together,es se mi romi mo ni
+T6-00555,14,Asthenia / Generalized muscle weakness,2,4,one letter changed,moni one mi mi ko le de igba
+T6-00556,15,Peripheral Paresthesia (Numbness in extremities),2,4,words run together,n kpajakpajarum mi le se otun
+T6-00557,16,Pharyngitis / Sore throat irritation,2,4,one letter changed,ono ofun mi nby me ni ara
+T6-00558,17,Diaphoresis and Pyrexia (Sweating and Feverishness),2,4,one letter changed,eje orurs mu mi o da bi mun i ba ti
+T6-00559,18,Tinnitus / Ringing ears,2,4,one letter changed,mo tonto eti mi kpar o wok
+T6-00560,19,Tussis-induced chest pain (Pain upon coughing),2,4,words run together,bi ono funmidunmi tim baru ko le
+T6-00561,20,Burning sensation,2,4,no tone marks,njade alamillo alamillo ibi
+T6-00562,21,Burning sensation,2,4,no tone marks,o dun a la mijo a la mijo
+T6-00563,22,Burning sensation,2,4,one letter changed,otun po alamijo alumijo
+T6-00564,23,Burning sensation,2,4,one letter changed,n dede alamwjo
+T6-00565,24,Arterial hemorrhage,2,4,one letter changed,ba oni ijamba oko se ni eje nao soroso ni ese re oju
+T6-00566,25,Acute abdomen / Peritonitis,2,4,one letter changed,se ni inu mi n le on lo mi ti mo n lonu mrle je dede
+T6-00567,26,Generalized seizure / Status epilepticus,2,4,one letter changed,sesi ode ara re dede le eyin enu re pade ti ito n jade ni enu re bi wupe o ni arun warapa
+T6-00568,27,Severe asthma attack / Pulmonary embolism,2,4,words run together,mi o le mi odabiwipe eniyan duro simi ni aya ni ti mo fi n semi ikun lai
+T6-00569,28,Acute stroke,2,4,no tone marks,nigba mi arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose
+T6-00570,29,Acute appendicitis,2,4,no tone marks,se ni ikun mi n dumi ni isale apa otun lera daku
+T6-00571,30,Acute poisoning,2,4,no tone marks,sugbon daada se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun
+T6-00572,31,Acute urinary retention,2,4,words run together,mi ole to lati ano se ni isale ikun mi wu soke gidi abami ejo
+T6-00573,32,Severe burns,2,4,one letter changed,n fo epo gbigbona da simi ni ara se ni yra mi bo yeleyele o de wu
+T6-00574,33,Septic / Hypovolemic shock,2,4,words run together,re se ni otutu n pami ara mi n gbon okan mi den mi gidi bi enipe mo fe daku woo
+T6-00575,34,Envenomation / Snakebite,2,4,no tone marks,se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu isale kan
+T6-00576,35,Concussion / Traumatic brain injury,2,4,one letter changed,wa pami se ni o gba ori mole gidi ti o fi n bi kera lera ti ko fi mo ara re mo
+T6-00577,36,Abdominal pain / Stomach ache,2,4,words run together,di inun romi ori
+T6-00578,37,Anemia / Hypertension,2,4,words run together,ode oyi ti n komi mo de tun ri ejetonto lati owuro njade
+T6-00579,38,Edema / Preeclampsia sign,2,4,words run together,ni oko ese mi ati owo mi ti n wubi buredi ese mi de wo bata mi
+T6-00580,39,Hyperemesis gravidarum,2,4,one letter changed,majele mo ti n bi kete oun mo je lataaro kwda omi o duro ninunmi ese
+T6-00581,40,Candidiasis / Vaginal infection,2,4,words run together,dunmi oun funfun kon feerefekee jade lati oju ara mi o de nyun mi oloro
+T6-00582,41,Urinary tract infection (UTI),2,4,one letter changed,alamijo se mooi imolara bi wipe nkon njomi ti mo ba ti fe to
+T6-00583,42,Braxton Hicks / Early contractions,2,4,words run together,n iku mile digbi bi okuta oju
+T6-00584,43,Fetal distress (reduced/absent fetal movement),2,4,one letter changed,se oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu iknn mi rara ara
+T6-00585,44,Severe hypertension,2,4,words run together,de mo ni ori fifo gidigidi bi moba sun gane lo se
+T6-00586,45,Early labor signs,2,4,one letter changed,ara omomi isale eyin mi ma ndumi koda yma n wa ode tun ma n lo
+T6-00587,46,Obstetric cholestasis,2,4,no tone marks,mo mimi gbogbo ara mi ma nyun mi paapaa atelewo mi
+T6-00588,47,Severe anemia,2,4,words run together,gon se ni ma n remi bi eniwipe mio ni imi okon mi dun lemolemo bi mo ba ti nrin ode
+T6-00589,48,Spotting / Threatened abortion,2,4,words run together,ori ijamba mo ma nri eje tonto ni awo telemi ti mo ba ti nu oju ara
+T6-00590,49,Breast engorgement / Mastitis,2,4,no tone marks,n lera omu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi
+T6-00591,50,Puerperal sepsis / Uterine infection,2,4,one letter changed,kpar oyi eje ti o ma njade ni ara mi se ni oma n run bi eyib ti oti baje
+T6-00592,51,Episiotomy breakdown / infection,2,4,no tone marks,nigba oni ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita
+T6-00593,52,Postpartum infection (fever),2,4,words run together,ti gbogbo ara mi lon gbono gidi latiano subu
+T6-00594,53,Deep vein thrombosis,2,4,words run together,iha mi egbe osi e wu e gbono odetun dunmi nigba ki igba ti mo ba ti dide ori se
+T6-00595,54,Postpartum depression,2,4,no tone marks,nu inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu iku
+T6-00596,55,Urinary retention,2,4,no tone marks,lati aaro ti mo ti bi omo mi o le to n ma
+T6-00597,56,Postpartum psychosis,2,4,no tone marks,mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese iha n
+T6-00598,57,Afterpains / Uterine involution,2,4,one letter changed,kon mo ni imolara irora ni ismle ikun mi ti omo mi ba ti nmu omu le
+T6-00599,58,Secondary postpartum hemorrhage,2,4,no tone marks,se mo n padanu eje pupo miran nigba ti eje ti tele bati n dawo duro sukun
+T6-00600,59,Postpartum anemia,2,4,words run together,de se ni oma n semi bi wipe oyi oju n komi ti ori mi ma nfuye ti mo ba ti joko si ori ibusun mi le
+T6-00601,0,Headache,4,0,one letter changed,wipe oni ori mi n dus mi oogun ti
+T6-00602,1,Burning sensation,4,0,no tone marks,de bi ara mi n jo kan ni
+T6-00603,2,Hunger/Nausea/gastrointestinal distress,4,0,one letter changed,o ni o int mi n ru duro
+T6-00604,3,Head ache,4,0,one letter changed,oun se orr n fo mi mode wa
+T6-00605,4,Numbness/tingling sensation,4,0,one letter changed,lese ni mi mi kpbja kpaja
+T6-00606,5,Acute pain,4,0,words run together,ti ti ti ni o dunmi
+T6-00607,6,Fever/Hyperthermia,4,0,no tone marks,bi ori mi ti gbono fi ni okuta
+T6-00608,7,Fever/Hyperthermia,4,0,one letter changed,run omomi ars mi gbona ti inu
+T6-00609,8,Generalized body Aches,4,0,no tone marks,tun lon ofun dun ara ro mi
+T6-00610,9,Angina pectoris / Chest Pain,4,0,words run together,ara midun mi n joko eje alamijo
+T6-00611,10,Acute/Severe Chest Pain,4,0,words run together,aya me dunmigon gidi daku bi se ti
+T6-00612,11,Dizziness / Vertigo,4,0,no tone marks,dun fi imolara me oyji ko mi
+T6-00613,12,Dyspnea / Shortness of breath,4,0,one letter changed,ti ma i wa e mbmi mi ko kan le
+T6-00614,13,Arthralgia / Joint Pain,4,0,no tone marks,ara es se mi ro mi ma oyun majele
+T6-00615,14,Asthenia / Generalized muscle weakness,4,0,one letter changed,orf mi mi ko le de n komi koda dunmi
+T6-00616,15,Peripheral Paresthesia (Numbness in extremities),4,0,words run together,tim lo owo n kpajakpaja rum mi lese
+T6-00617,16,Pharyngitis / Sore throat irritation,4,0,one letter changed,ron ti ono ofun mi nud me njo ese
+T6-00618,17,Diaphoresis and Pyrexia (Sweating and Feverishness),4,0,one letter changed,oun ma lera mruru mu mi o da bi mun i ba isale
+T6-00619,18,Tinnitus / Ringing ears,4,0,one letter changed,miran eti mi spar o woo oun bi ni
+T6-00620,19,Tussis-induced chest pain (Pain upon coughing),4,0,words run together,ni fi tobi ono funmi dunmi timbaru ko nuy
+T6-00621,20,Burning sensation,4,0,one letter changed,enu alamillo rlamillo mo padanu o
+T6-00622,21,Burning sensation,4,0,words run together,a lamijo a la mijo mi ni pade ara
+T6-00623,22,Burning sensation,4,0,words run together,alamijoalamijo mo tonto ni mo
+T6-00624,23,Burning sensation,4,0,no tone marks,oyji mo alamijo nri okan
+T6-00625,24,Arterial hemorrhage,4,0,no tone marks,ikun oni ijamba oko se ni eje njo soroso ni ese re lataaro e lo
+T6-00626,25,Acute abdomen / Peritonitis,4,0,no tone marks,sita se ni inu mi n le on lo mi ti mo n lonu mole dunmi tabi ndunmi
+T6-00627,26,Generalized seizure / Status epilepticus,4,0,one letter changed,lo gidi ara re dede le eyin enu re pade ti ito n jade ni enu re bi wipa o ni arun warapa nigba mi
+T6-00628,27,Severe asthma attack / Pulmonary embolism,4,0,no tone marks,gbo gbogbo mi o le mi odabi wipe eniyan duro simi ni aya ni ti mo fi n semi enu re
+T6-00629,28,Acute stroke,4,0,one letter changed,kon ofi moba arabirin na subu sile ko le gbe owo tabi ese re se ni enk re wo si apa kan bi aarun ropa rose mi
+T6-00630,29,Acute appendicitis,4,0,one letter changed,daada ori nmu se ni ikun mi n numi ni isale apa otun dawo
+T6-00631,30,Acute poisoning,4,0,words run together,se ni o sesida majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun ara nrin gemije alamillo
+T6-00632,31,Acute urinary retention,4,0,no tone marks,mi o le to lati ano se ni isale ikun mi wu soke gidi bi mo ara ara
+T6-00633,32,Severe burns,4,0,words run together,wipe omomi epo gbigbona dasimi ni ara se ni ara mi bo yeleyele o de wu n idi
+T6-00634,33,Septic / Hypovolemic shock,4,0,no tone marks,ti se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku apa re ti
+T6-00635,34,Envenomation / Snakebite,4,0,words run together,eje simi da se ni ejo gemijeni orokun ninu oko gbogbo ese mi lo wu ode n dudu ori
+T6-00636,35,Concussion / Traumatic brain injury,4,0,no tone marks,omi eje wu nwu se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo
+T6-00637,36,Abdominal pain / Stomach ache,4,0,words run together,mi inu nromi e komi gbogbo
+T6-00638,37,Anemia / Hypertension,4,0,words run together,oyi ti n komi mo de tun rieje tonto lati owuro mi bi wa ibusun
+T6-00639,38,Edema / Preeclampsia sign,4,0,words run together,mo ese mi ati owo mi ti nwu bi buredi ese mi de wo bata mi lera mo nle
+T6-00640,39,Hyperemesis gravidarum,4,0,words run together,ibi ode ma moti n bi kete oun mo je lataaro koda omi o duro ninunmi apa
+T6-00641,40,Candidiasis / Vaginal infection,4,0,one letter changed,oun funfun kon feewefe kee jade lati oju ara mi o de nyun mi ma tu se mo
+T6-00642,41,Urinary tract infection (UTI),4,0,one letter changed,po lati alamillo moni imopara bi wipe nkon njomi ti mo ba ti fe to ni
+T6-00643,42,Braxton Hicks / Early contractions,4,0,no tone marks,ibi fi iku mi le digbi bi okuta se mo
+T6-00644,43,Fetal distress (reduced/absent fetal movement),4,0,one letter changed,ori oyin mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara n subu kon
+T6-00645,44,Severe hypertension,4,0,one letter changed,gbo ko mo ni fri fifo gidigidi bi moba sun gan e lo aya inu
+T6-00646,45,Early labor signs,4,0,no tone marks,ti ti isale eyin mi ma ndumi koda oma n wa ode tun ma n lo ni ba
+T6-00647,46,Obstetric cholestasis,4,0,no tone marks,oloro no gbogbo ara mi ma nyun mi paapaa atelewo mi ni ko
+T6-00648,47,Severe anemia,4,0,words run together,wu wipe baru se ni ma n remi bieniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin lati
+T6-00649,48,Spotting / Threatened abortion,4,0,no tone marks,fi semi duro mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara bati
+T6-00650,49,Breast engorgement / Mastitis,4,0,no tone marks,dawo ibi simi fe omu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi
+T6-00651,50,Puerperal sepsis / Uterine infection,4,0,one letter changed,eje ti o ma njade ni ara mi se ni oua n run bi eyin ti oti baje dun dun omo ofi
+T6-00652,51,Episiotomy breakdown / infection,4,0,words run together,mo tobi o lati ibi kon la ni ara mi kon ron pada ti tu odenmu etitu sita
+T6-00653,52,Postpartum infection (fever),4,0,words run together,ni se ba kete gbogbo arami lon gbono gidi lati ano
+T6-00654,53,Deep vein thrombosis,4,0,one letter changed,iha mi egbe osi e wu e gbono ode tun dynmi nigba ki igba ti mo ba ti dide otutu fi pupo gbe
+T6-00655,54,Postpartum depression,4,0,no tone marks,le inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu na gidigidi mijo
+T6-00656,55,Urinary retention,4,0,words run together,re lati aaro ti mo ti bi omo mi ole to mu sukun sesi
+T6-00657,56,Postpartum psychosis,4,0,one letter changed,n gidigidi ti mo nrs oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese on
+T6-00658,57,Afterpains / Uterine involution,4,0,one letter changed,oun ese tele mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu oyu lati
+T6-00659,58,Secondary postpartum hemorrhage,4,0,words run together,lai mo npadanu eje pupo miran nigba ti eje ti tele bati n dawo duro lataaro ba kon
+T6-00660,59,Postpartum anemia,4,0,words run together,oloro baje ndumi oyji se ni oma n semi bi wipeoyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi
+T6-00661,0,Headache,4,1,no tone marks,o ode da o ori mi n dun mi
+T6-00662,1,Burning sensation,4,1,one letter changed,gra mi n jo enu fuye tun ti
+T6-00663,2,Hunger/Nausea/gastrointestinal distress,4,1,no tone marks,inu mi n ru tun pataki se wipe
+T6-00664,3,Head ache,4,1,one letter changed,ara se gidigidi dunmi orn n fo mi
+T6-00665,4,Numbness/tingling sensation,4,1,one letter changed,mo wipe kgaja kpaja mi fi
+T6-00666,5,Acute pain,4,1,words run together,alamijo o dunmi daada ara ni
+T6-00667,6,Fever/Hyperthermia,4,1,words run together,ko iha komi okuta orimi ti gbono
+T6-00668,7,Fever/Hyperthermia,4,1,words run together,mo kan arami gbona ode eyin
+T6-00669,8,Generalized body Aches,4,1,no tone marks,oun arun re de ara ro mi
+T6-00670,9,Angina pectoris / Chest Pain,4,1,no tone marks,ara mi dun mi simi ma tun duro
+T6-00671,10,Acute/Severe Chest Pain,4,1,one letter changed,ni n aaro bi aea me dunmi gon gidi
+T6-00672,11,Dizziness / Vertigo,4,1,words run together,nri ni oyjiko mi gbono yeleyele
+T6-00673,12,Dyspnea / Shortness of breath,4,1,one letter changed,mo e mimi mi ko kfn le oyji ara ode
+T6-00674,13,Arthralgia / Joint Pain,4,1,no tone marks,nu kon es se mi ro mi oun digbi
+T6-00675,14,Asthenia / Generalized muscle weakness,4,1,no tone marks,se n ore mi mi ko le de bi ni
+T6-00676,15,Peripheral Paresthesia (Numbness in extremities),4,1,no tone marks,n o ti kpajakpaja rum mi le se pataki
+T6-00677,16,Pharyngitis / Sore throat irritation,4,1,no tone marks,mun wu oma n ono ofun mi nuy me
+T6-00678,17,Diaphoresis and Pyrexia (Sweating and Feverishness),4,1,no tone marks,a ma sita n oruru mu mi o da bi mun i ba
+T6-00679,18,Tinnitus / Ringing ears,4,1,words run together,pade pataki bi lo eti mi kpar owoo
+T6-00680,19,Tussis-induced chest pain (Pain upon coughing),4,1,no tone marks,ni ti gbona bi ono funmi dunmi tim baru ko
+T6-00681,20,Burning sensation,4,1,no tone marks,to ti alamillo alamillo rum a
+T6-00682,21,Burning sensation,4,1,words run together,ejo a lamijo a la mijo bo ti simi
+T6-00683,22,Burning sensation,4,1,one letter changed,nmu oun ti alamijo alakijo mo
+T6-00684,23,Burning sensation,4,1,no tone marks,mi ti mo alamijo njo
+T6-00685,24,Arterial hemorrhage,4,1,one letter changed,nwu mi semi oni ijamba oko se ni eje njo soroso ni esu re ko
+T6-00686,25,Acute abdomen / Peritonitis,4,1,no tone marks,se ni inu mi n le on lo mi ti mo n lonu mole okon moba kin dun
+T6-00687,26,Generalized seizure / Status epilepticus,4,1,words run together,mi majele ri ara re dede le eyin enu re pade ti ito n jade ni enu re biwipe o ni arun warapa mi
+T6-00688,27,Severe asthma attack / Pulmonary embolism,4,1,one letter changed,gba ma mi o le mi odabi wipe eniyan duro simi ni ana ni ti mo fi n semi re sukun
+T6-00689,28,Acute stroke,4,1,words run together,ba arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo siapa kan bi aarun ropa rose o to n
+T6-00690,29,Acute appendicitis,4,1,one letter changed,se ni ikun mi n dumi ni isalk apa otun o re oko omi
+T6-00691,30,Acute poisoning,4,1,one letter changed,se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po efe ode n sukun mo ri ma gbo
+T6-00692,31,Acute urinary retention,4,1,one letter changed,mi o le to lati ano se ni isale ikun mi wu soke gioi mo de pada de
+T6-00693,32,Severe burns,4,1,one letter changed,apa wo ori alamillo epo gbigbona da simi ni ara se ni ama mi bo yeleyele o de wu
+T6-00694,33,Septic / Hypovolemic shock,4,1,no tone marks,le se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku kan jade ba
+T6-00695,34,Envenomation / Snakebite,4,1,no tone marks,lataaro eyin sun se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu oun
+T6-00696,35,Concussion / Traumatic brain injury,4,1,one letter changed,njo se ni o gba ori mole eidi ti o fi n bi lera lera ti ko fi mo ara re mo mi koda mi
+T6-00697,36,Abdominal pain / Stomach ache,4,1,one letter changed,soke inu n remi nrin ko ko
+T6-00698,37,Anemia / Hypertension,4,1,one letter changed,etitu oyi ti n kpmi mo de tun ri eje tonto lati owuro omo oko isale
+T6-00699,38,Edema / Preeclampsia sign,4,1,no tone marks,ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi orokun ono o gon
+T6-00700,39,Hyperemesis gravidarum,4,1,one letter changed,ma ron ropa mo ti n bi kete oun mo je latfaro koda omi o duro ninunmi ibusun
+T6-00701,40,Candidiasis / Vaginal infection,4,1,no tone marks,wipe kete oun funfun kon feerefe kee jade lati oju ara mi o de nyun mi ni ni
+T6-00702,41,Urinary tract infection (UTI),4,1,one letter changed,rara imora buburu le moni imolara bi wipe fkon njomi ti mo ba ti fe to
+T6-00703,42,Braxton Hicks / Early contractions,4,1,no tone marks,ko n iku mi le digbi bi okuta ara eje
+T6-00704,43,Fetal distress (reduced/absent fetal movement),4,1,words run together,se o oyun mi titobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara re da
+T6-00705,44,Severe hypertension,4,1,no tone marks,owo tobi mo ni ori fifo gidigidi bi moba sun gan e lo eyin baru
+T6-00706,45,Early labor signs,4,1,no tone marks,o isale eyin mi ma ndumi koda oma n wa ode tun ma n lo na se baje
+T6-00707,46,Obstetric cholestasis,4,1,one letter changed,geogbo ara mi ma nyun mi paapaa atelewo mi imora ese wipe nrin
+T6-00708,47,Severe anemia,4,1,no tone marks,de le se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin ropa ko
+T6-00709,48,Spotting / Threatened abortion,4,1,words run together,ono dun se mo ma nri eje tonto ni awo tele mi ti mo ba ti nu ojuara se
+T6-00710,49,Breast engorgement / Mastitis,4,1,no tone marks,n iku omu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi si ori
+T6-00711,50,Puerperal sepsis / Uterine infection,4,1,no tone marks,a arabirin eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje wu gidi
+T6-00712,51,Episiotomy breakdown / infection,4,1,one letter changed,gbogbo eje nigba ibi kon la ni ara mi kop ron pada ti tu ode nmu etitu sita tabi
+T6-00713,52,Postpartum infection (fever),4,1,one letter changed,aya osi si nigba gbogbo ara mi lon gbeno gidi lati ano
+T6-00714,53,Deep vein thrombosis,4,1,no tone marks,iha mi egbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide owuro enu funfun kon
+T6-00715,54,Postpartum depression,4,1,words run together,le se inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin madi omomi mu mo mo
+T6-00716,55,Urinary retention,4,1,one letter changed,dudu semi n owo lami aaro ti mo ti bi omo mi o le to
+T6-00717,56,Postpartum psychosis,4,1,one letter changed,kee tele mo nrp oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese nwu fuye
+T6-00718,57,Afterpains / Uterine involution,4,1,words run together,mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmuomu ese n oogun n
+T6-00719,58,Secondary postpartum hemorrhage,4,1,no tone marks,ano mole mo n padanu eje pupo miran nigba ti eje ti tele bati n dawo duro wu kon
+T6-00720,59,Postpartum anemia,4,1,no tone marks,owo eje se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi eniyan dunmi
+T6-00721,0,Headache,4,2,one letter changed,dri mi n dun mi bi gidi fe ara
+T6-00722,1,Burning sensation,4,2,words run together,ro wo nu ara mi njo ese
+T6-00723,2,Hunger/Nausea/gastrointestinal distress,4,2,one letter changed,gan onu mi n ru ti mo sunkun
+T6-00724,3,Head ache,4,2,one letter changed,kin iku oli n fo mi gan lonu
+T6-00725,4,Numbness/tingling sensation,4,2,one letter changed,n kpaja kpajs ara n mo
+T6-00726,5,Acute pain,4,2,no tone marks,owo gbogbo mun n o dun mi
+T6-00727,6,Fever/Hyperthermia,4,2,no tone marks,mu na ori mi ti gbono ni lati
+T6-00728,7,Fever/Hyperthermia,4,2,no tone marks,ko tonto ni ni ara mi gbona
+T6-00729,8,Generalized body Aches,4,2,one letter changed,oti arf ro mi majele ti tun
+T6-00730,9,Angina pectoris / Chest Pain,4,2,words run together,la oruru fi ara mi dunmi ti
+T6-00731,10,Acute/Severe Chest Pain,4,2,words run together,ayame dunmi gon gidi tun o o mi
+T6-00732,11,Dizziness / Vertigo,4,2,no tone marks,de omi gbono ti oyji ko mi
+T6-00733,12,Dyspnea / Shortness of breath,4,2,words run together,ode e mimi mi kokan le imolara se imora
+T6-00734,13,Arthralgia / Joint Pain,4,2,words run together,bi ko ni ni esse mi ro mi
+T6-00735,14,Asthenia / Generalized muscle weakness,4,2,no tone marks,mo ni n bi ore mi mi ko le de
+T6-00736,15,Peripheral Paresthesia (Numbness in extremities),4,2,one letter changed,nuy n dudu ba kpajakpaja bum mi le se
+T6-00737,16,Pharyngitis / Sore throat irritation,4,2,no tone marks,sugbon ni ikun dide ono ofun mi nuy me
+T6-00738,17,Diaphoresis and Pyrexia (Sweating and Feverishness),4,2,words run together,awo oruru mu mi oda bi mun i ba oti ni oma
+T6-00739,18,Tinnitus / Ringing ears,4,2,words run together,ti eti mi kparo woo ikun joko ninu
+T6-00740,19,Tussis-induced chest pain (Pain upon coughing),4,2,one letter changed,dudu bi orokun lera opo funmi dunmi tim baru ko
+T6-00741,20,Burning sensation,4,2,no tone marks,omu alamillo alamillo ti enu ori
+T6-00742,21,Burning sensation,4,2,words run together,mi gon a la mijoa la mijo jade ni
+T6-00743,22,Burning sensation,4,2,one letter changed,mi ba elamijo alamijo wipe ninu
+T6-00744,23,Burning sensation,4,2,no tone marks,bi mi alamijo eje mi
+T6-00745,24,Arterial hemorrhage,4,2,words run together,oni ijamba okose ni eje njo soroso ni ese re wo sun ara mi
+T6-00746,25,Acute abdomen / Peritonitis,4,2,no tone marks,ikun o se ni inu mi n le on lo mi ti mo n lonu mole o alamillo
+T6-00747,26,Generalized seizure / Status epilepticus,4,2,one letter changed,osi semi ninu ara re dede le eyin enu re pade ti ito n uade ni enu re bi wipe o ni arun warapa sukun
+T6-00748,27,Severe asthma attack / Pulmonary embolism,4,2,no tone marks,ko mi o le mi odabi wipe eniyan duro simi ni aya ni ti mo fi n semi kon ma to
+T6-00749,28,Acute stroke,4,2,no tone marks,mi ori ofun tonto arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose
+T6-00750,29,Acute appendicitis,4,2,no tone marks,ba se ni ikun mi n dumi ni isale apa otun o bi gidi
+T6-00751,30,Acute poisoning,4,2,words run together,ara nmu se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po ejeode n sukun moba gbogbo
+T6-00752,31,Acute urinary retention,4,2,one letter changed,e mi o le to laii ano se ni isale ikun mi wu soke gidi tu mo aya
+T6-00753,32,Severe burns,4,2,words run together,ti ti oko eje epo gbigbona da simi ni ara seni ara mi bo yeleyele o de wu
+T6-00754,33,Septic / Hypovolemic shock,4,2,no tone marks,okuta se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku ti ti ba
+T6-00755,34,Envenomation / Snakebite,4,2,words run together,on ti ti mo se ni ejo gemije ni orokun ninu oko gbogboese mi lo wu ode n dudu
+T6-00756,35,Concussion / Traumatic brain injury,4,2,one letter changed,wu ode enipe se ni o gba ori mole gidi ti o fi n bi lera lerg ti ko fi mo ara re mo ijamba
+T6-00757,36,Abdominal pain / Stomach ache,4,2,one letter changed,ina n romi gbigbona mi wipe mo
+T6-00758,37,Anemia / Hypertension,4,2,one letter changed,se oma oyi ti n kofi mo de tun ri eje tonto lati owuro mole ara
+T6-00759,38,Edema / Preeclampsia sign,4,2,no tone marks,ikun moba omo ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi moba
+T6-00760,39,Hyperemesis gravidarum,4,2,one letter changed,ode nri di re mo ti n bi kete oun mo je lataaro koda omi o duro dinunmi
+T6-00761,40,Candidiasis / Vaginal infection,4,2,words run together,oun funfun kon feerefe kee jade lati oju ara mi ode nyun mi owuro sita ni ba
+T6-00762,41,Urinary tract infection (UTI),4,2,no tone marks,moni imolara bi wipe nkon njomi ti mo ba ti fe to mijo eje dede lataaro
+T6-00763,42,Braxton Hicks / Early contractions,4,2,words run together,ori iku mi ledigbi bi okuta ti dun baje
+T6-00764,43,Fetal distress (reduced/absent fetal movement),4,2,no tone marks,awo oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara arun kete ese
+T6-00765,44,Severe hypertension,4,2,one letter changed,sukun n mo ni ori fifo gidigidm bi moba sun gan e lo ti mu
+T6-00766,45,Early labor signs,4,2,no tone marks,ni ikun le mo isale eyin mi ma ndumi koda oma n wa ode tun ma n lo
+T6-00767,46,Obstetric cholestasis,4,2,one letter changed,gbogbo ana mi ma nyun mi paapaa atelewo mi ese lo dun apa
+T6-00768,47,Severe anemia,4,2,words run together,gidi tu alamillo se ni ma nremi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin ati
+T6-00769,48,Spotting / Threatened abortion,4,2,one letter changed,ejo lati okon mo ma nri eje tonto ni awo tele mi ti mo ba ti nu dju ara se
+T6-00770,49,Breast engorgement / Mastitis,4,2,no tone marks,tun omu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi gbo nyun ara
+T6-00771,50,Puerperal sepsis / Uterine infection,4,2,no tone marks,inu eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje warapa funfun ninunmi
+T6-00772,51,Episiotomy breakdown / infection,4,2,no tone marks,se omo re gbogbo ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita
+T6-00773,52,Postpartum infection (fever),4,2,words run together,ni bati se gbogbo ara mi longbono gidi lati ano ni
+T6-00774,53,Deep vein thrombosis,4,2,no tone marks,iha mi egbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide n arabirin bi idi
+T6-00775,54,Postpartum depression,4,2,no tone marks,enu inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu oni lemolemo igba
+T6-00776,55,Urinary retention,4,2,one letter changed,lo semi nmu ni lati afro ti mo ti bi omo mi o le to
+T6-00777,56,Postpartum psychosis,4,2,no tone marks,aaro tele le mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese sun
+T6-00778,57,Afterpains / Uterine involution,4,2,no tone marks,koda bi mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu omu ori kin
+T6-00779,58,Secondary postpartum hemorrhage,4,2,one letter changed,mi mo n pasanu eje pupo miran nigba ti eje ti tele bati n dawo duro re ma o
+T6-00780,59,Postpartum anemia,4,2,words run together,jo alamillo omu gidigidi se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusunmi
+T6-00781,0,Headache,4,3,one letter changed,enu ode ara mo tri mi n dun mi
+T6-00782,1,Burning sensation,4,3,words run together,ara mi njo ni le oogun moba
+T6-00783,2,Hunger/Nausea/gastrointestinal distress,4,3,words run together,ndunmi se okan inu mi nru o
+T6-00784,3,Head ache,4,3,one letter changed,gidi oma soke se nri n fo mi
+T6-00785,4,Numbness/tingling sensation,4,3,one letter changed,fe kpwja kpaja se mi e
+T6-00786,5,Acute pain,4,3,one letter changed,o lun mi oko na oju ori
+T6-00787,6,Fever/Hyperthermia,4,3,words run together,orimi ti gbono nu da ni ibi
+T6-00788,7,Fever/Hyperthermia,4,3,one letter changed,ni da bi aro mi gbona nu
+T6-00789,8,Generalized body Aches,4,3,no tone marks,buburu ko kee ara ro mi omi
+T6-00790,9,Angina pectoris / Chest Pain,4,3,one letter changed,kon oju le to ara mi dur mi
+T6-00791,10,Acute/Severe Chest Pain,4,3,no tone marks,aya me dunmi gon gidi mo n gan ko
+T6-00792,11,Dizziness / Vertigo,4,3,no tone marks,sun bi e oyji ko mi le
+T6-00793,12,Dyspnea / Shortness of breath,4,3,no tone marks,o atelewo lo wipe e mimi mi ko kan le
+T6-00794,13,Arthralgia / Joint Pain,4,3,words run together,le es se miro mi nigba tun ara
+T6-00795,14,Asthenia / Generalized muscle weakness,4,3,one letter changed,nle aya kon are mi mi ko le de daku
+T6-00796,15,Peripheral Paresthesia (Numbness in extremities),4,3,words run together,kpajakpajarum mi le se ti dunmi tonto nu
+T6-00797,16,Pharyngitis / Sore throat irritation,4,3,words run together,nmu bi bi bi ono ofun mi nuyme
+T6-00798,17,Diaphoresis and Pyrexia (Sweating and Feverishness),4,3,no tone marks,oju soroso oruru mu mi o da bi mun i ba ti buburu
+T6-00799,18,Tinnitus / Ringing ears,4,3,one letter changed,lon simi ara se eti mi kpan o woo
+T6-00800,19,Tussis-induced chest pain (Pain upon coughing),4,3,words run together,onofunmi dunmi tim baru ko eje rara le to
+T6-00801,20,Burning sensation,4,3,no tone marks,se dudu imolara pataki alamillo alamillo
+T6-00802,21,Burning sensation,4,3,one letter changed,re ro a la yijo a la mijo n wipe
+T6-00803,22,Burning sensation,4,3,no tone marks,mo ara alamijo alamijo bi aarun
+T6-00804,23,Burning sensation,4,3,one letter changed,njo alamija se funmi osi
+T6-00805,24,Arterial hemorrhage,4,3,one letter changed,e tun owo oni ijamba owo se ni eje njo soroso ni ese re fo
+T6-00806,25,Acute abdomen / Peritonitis,4,3,no tone marks,gbe run owo eje se ni inu mi n le on lo mi ti mo n lonu mole
+T6-00807,26,Generalized seizure / Status epilepticus,4,3,no tone marks,oko ara re dede le eyin enu re pade ti ito n jade ni enu re bi wipe o ni arun warapa pupo me ese
+T6-00808,27,Severe asthma attack / Pulmonary embolism,4,3,one letter changed,arun tun apa mi o le mi odabi wipe eniyan duro simi ni aya ni ti mo fi n smmi alamijo
+T6-00809,28,Acute stroke,4,3,words run together,oju alamillo miran wipe arabirin na subu sile ko le gbe owo tabi ese re se nienu re wo si apa kan bi aarun ropa rose
+T6-00810,29,Acute appendicitis,4,3,no tone marks,bi fi se ni ikun mi n dumi ni isale apa otun dun idi
+T6-00811,30,Acute poisoning,4,3,words run together,oko e jade se ni osesi da majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun mi
+T6-00812,31,Acute urinary retention,4,3,one letter changed,ti mi o le to lati ano se ni isale ikan mi wu soke gidi bi ti iha
+T6-00813,32,Severe burns,4,3,one letter changed,okuta bata epo gbikbona da simi ni ara se ni ara mi bo yeleyele o de wu mo la
+T6-00814,33,Septic / Hypovolemic shock,4,3,one letter changed,eyin mode sile owo se ni otutu n pami ara mi n gbkn okan mi de n mi gidi bi enipe mo fe daku
+T6-00815,34,Envenomation / Snakebite,4,3,one letter changed,oma se ni ejo gemije ni orokun ninu okb gbogbo ese mi lo wu ode n dudu o dun kan
+T6-00816,35,Concussion / Traumatic brain injury,4,3,words run together,on dide pade se ni o gba ori mole gidi ti o fi nbi lera lera ti ko fi mo ara re mo to
+T6-00817,36,Abdominal pain / Stomach ache,4,3,no tone marks,inu n romi ode ara oyji se
+T6-00818,37,Anemia / Hypertension,4,3,no tone marks,kin gbona eniyan oyi ti n komi mo de tun ri eje tonto lati owuro bata
+T6-00819,38,Edema / Preeclampsia sign,4,3,no tone marks,se ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi omo imora inu
+T6-00820,39,Hyperemesis gravidarum,4,3,no tone marks,da se mo ti n bi kete oun mo je lataaro koda omi o duro ninunmi semi tele
+T6-00821,40,Candidiasis / Vaginal infection,4,3,no tone marks,dun kan oun funfun kon feerefe kee jade lati oju ara mi o de nyun mi mo ono
+T6-00822,41,Urinary tract infection (UTI),4,3,one letter changed,mu mi le moni imolara bi wdpe nkon njomi ti mo ba ti fe to ko
+T6-00823,42,Braxton Hicks / Early contractions,4,3,no tone marks,n lese re ode iku mi le digbi bi okuta
+T6-00824,43,Fetal distress (reduced/absent fetal movement),4,3,words run together,yeleyele pupo oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikunmi rara de ara
+T6-00825,44,Severe hypertension,4,3,words run together,ti mo ni orififo gidigidi bi moba sun gan e lo si njomi n
+T6-00826,45,Early labor signs,4,3,one letter changed,eje wo se isale egin mi ma ndumi koda oma n wa ode tun ma n lo oloro
+T6-00827,46,Obstetric cholestasis,4,3,one letter changed,ti gbogbo ara mi ma nyun mi paapaa ateleko mi ron eyin lera
+T6-00828,47,Severe anemia,4,3,no tone marks,inu de eje se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin me
+T6-00829,48,Spotting / Threatened abortion,4,3,one letter changed,mo ma nri eje tonto ni awo gele mi ti mo ba ti nu oju ara lera semi lara baje
+T6-00830,49,Breast engorgement / Mastitis,4,3,one letter changed,omu mi nwu ule bi okuta bi moba ti fi owo kon se ni o ma ndunmi enipe dunmi gbona no
+T6-00831,50,Puerperal sepsis / Uterine infection,4,3,no tone marks,mo soke epo ninunmi eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje
+T6-00832,51,Episiotomy breakdown / infection,4,3,one letter changed,dawo ru ibi won la ni ara mi kon ron pada ti tu ode nmu etitu sita nwu bi
+T6-00833,52,Postpartum infection (fever),4,3,one letter changed,gfogbo ara mi lon gbono gidi lati ano wu enu oyun ba
+T6-00834,53,Deep vein thrombosis,4,3,words run together,lo iha mi egbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo bati dide n o rose
+T6-00835,54,Postpartum depression,4,3,one letter changed,inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun wemi bi wipe kin ma di omomi mu sesi de lati gidi
+T6-00836,55,Urinary retention,4,3,one letter changed,tun wu laki aaro ti mo ti bi omo mi o le to dumi arabirin
+T6-00837,56,Postpartum psychosis,4,3,one letter changed,mo nri oun abami mo de tun gbo oun buburu bi wipe kib se ara mi lese si okuta gbon lera
+T6-00838,57,Afterpains / Uterine involution,4,3,no tone marks,oma ori okuta inu mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu omu
+T6-00839,58,Secondary postpartum hemorrhage,4,3,words run together,eyin lera ori mo n padanu eje pupo miran nigba ti eje ti tele bati ndawo duro egbe
+T6-00840,59,Postpartum anemia,4,3,one letter changed,ndumi aya jo se ni oma n semi bi wipe oyi oju n komi ti oro mi ma n fuye ti mo ba ti joko si ori ibusun mi kon
+T6-00841,0,Headache,4,4,one letter changed,ori mi n kun mi lati tele omo okan
+T6-00842,1,Burning sensation,4,4,one letter changed,ode eyin kpaja apa mi n jo gan
+T6-00843,2,Hunger/Nausea/gastrointestinal distress,4,4,one letter changed,inn mi n ru ba ara ro fuye
+T6-00844,3,Head ache,4,4,words run together,tobi ori nfo mi ti se ikun
+T6-00845,4,Numbness/tingling sensation,4,4,words run together,kpajakpaja bati n mi mi
+T6-00846,5,Acute pain,4,4,no tone marks,o dun mi lonu ko mo ofi
+T6-00847,6,Fever/Hyperthermia,4,4,one letter changed,tun o lati ori mi ti ybono wipe
+T6-00848,7,Fever/Hyperthermia,4,4,words run together,koda ara migbona oloro da ode
+T6-00849,8,Generalized body Aches,4,4,one letter changed,ikun n kon gra ro mi ni
+T6-00850,9,Angina pectoris / Chest Pain,4,4,words run together,de kin ara mi dunmi imolara duro
+T6-00851,10,Acute/Severe Chest Pain,4,4,words run together,ayame dunmi gon gidi ono ni ndumi lemolemo
+T6-00852,11,Dizziness / Vertigo,4,4,words run together,ni soroso ni semi oyji komi
+T6-00853,12,Dyspnea / Shortness of breath,4,4,one letter changed,e mimi mi ko kaa le ano omu semi o
+T6-00854,13,Arthralgia / Joint Pain,4,4,words run together,n orokun bi dunmi es se mi romi
+T6-00855,14,Asthenia / Generalized muscle weakness,4,4,words run together,eyin n ni ore mi mi ko lede enipe
+T6-00856,15,Peripheral Paresthesia (Numbness in extremities),4,4,no tone marks,ara n dunmi kpajakpaja rum mi le se oma
+T6-00857,16,Pharyngitis / Sore throat irritation,4,4,words run together,onoofun mi nuy me mu mo baje bi
+T6-00858,17,Diaphoresis and Pyrexia (Sweating and Feverishness),4,4,no tone marks,mo ninu re oruru mu mi o da bi mun i ba ni
+T6-00859,18,Tinnitus / Ringing ears,4,4,words run together,mo tim etimi kpar o woo n koda
+T6-00860,19,Tussis-induced chest pain (Pain upon coughing),4,4,no tone marks,ono funmi dunmi tim baru ko gan gidi ti oni
+T6-00861,20,Burning sensation,4,4,no tone marks,mo mo alamillo alamillo ti sesi
+T6-00862,21,Burning sensation,4,4,one letter changed,ode mi a la mijo a la mijg eniyan ese
+T6-00863,22,Burning sensation,4,4,words run together,dede mole gbogbo alamijoalamijo simi
+T6-00864,23,Burning sensation,4,4,one letter changed,mi ni re amamijo jade
+T6-00865,24,Arterial hemorrhage,4,4,words run together,funmi oun po ikun oni ijamba oko se ni eje njo soroso ni esere
+T6-00866,25,Acute abdomen / Peritonitis,4,4,words run together,se ni inu min le on lo mi ti mo n lonu mole kpar aaro ori ara
+T6-00867,26,Generalized seizure / Status epilepticus,4,4,one letter changed,ara re dede le eyin enu re pade ti ito n jade ni eno re bi wipe o ni arun warapa baje duro inu nrin
+T6-00868,27,Severe asthma attack / Pulmonary embolism,4,4,words run together,paapaa nigba imolara gan mi o le mi odabi wipe eniyan duro simi ni aya niti mo fi n semi
+T6-00869,28,Acute stroke,4,4,one letter changed,n ma kpaja arabiryn na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose ara
+T6-00870,29,Acute appendicitis,4,4,no tone marks,duro bi se ni ikun mi n dumi ni isale apa otun ninu eyin
+T6-00871,30,Acute poisoning,4,4,words run together,dide bata ese se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po eje ode nsukun lati
+T6-00872,31,Acute urinary retention,4,4,no tone marks,mi o le to lati ano se ni isale ikun mi wu soke gidi fe e koda simi
+T6-00873,32,Severe burns,4,4,one letter changed,ti epo gkigbona da simi ni ara se ni ara mi bo yeleyele o de wu isale n tun
+T6-00874,33,Septic / Hypovolemic shock,4,4,words run together,sun gon le o se ni otutu n pami ara mi n gbon okan mi den mi gidi bi enipe mo fe daku
+T6-00875,34,Envenomation / Snakebite,4,4,no tone marks,se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu fe wipe ma pami
+T6-00876,35,Concussion / Traumatic brain injury,4,4,no tone marks,se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo oko mi dun gbona
+T6-00877,36,Abdominal pain / Stomach ache,4,4,words run together,fe ni se inu nromi mo
+T6-00878,37,Anemia / Hypertension,4,4,one letter changed,oyi ti n komi mo de tkn ri eje tonto lati owuro oruru bi na ma
+T6-00879,38,Edema / Preeclampsia sign,4,4,one letter changed,ropa gbo ma ese mi ati owo mi ti n wu bi buredi esp mi de wo bata mi gbogbo
+T6-00880,39,Hyperemesis gravidarum,4,4,words run together,inu mo ti n bi kete oun mo jelataaro koda omi o duro ninunmi gbigbona ni pupo
+T6-00881,40,Candidiasis / Vaginal infection,4,4,one letter changed,re duro oun funfun kon feerefe kme jade lati oju ara mi o de nyun mi daku mo
+T6-00882,41,Urinary tract infection (UTI),4,4,words run together,moni imolara bi wipe nkon njomi timo ba ti fe to oun etitu o se
+T6-00883,42,Braxton Hicks / Early contractions,4,4,no tone marks,oju fifo iku mi le digbi bi okuta gba wu
+T6-00884,43,Fetal distress (reduced/absent fetal movement),4,4,words run together,re n oyun mi ti tobi daadasugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara nle se
+T6-00885,44,Severe hypertension,4,4,one letter changed,o mole mo ni ogi fifo gidigidi bi moba sun gan e lo de oma
+T6-00886,45,Early labor signs,4,4,no tone marks,isale eyin mi ma ndumi koda oma n wa ode tun ma n lo mo pami je irora
+T6-00887,46,Obstetric cholestasis,4,4,words run together,oun gbogbo ara mi ma nyun mipaapaa atelewo mi komi le n
+T6-00888,47,Severe anemia,4,4,one letter changed,nmu kon se ni ma n remi bi eniwipe mi o ni imi okon mi dun ledolemo bi mo ba ti nrin le mole
+T6-00889,48,Spotting / Threatened abortion,4,4,no tone marks,mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara ono buredi gan o
+T6-00890,49,Breast engorgement / Mastitis,4,4,one letter changed,omu mi nwu nle bi oluta bi moba ti fi owo kon se ni o ma ndunmi n imolara fe ara
+T6-00891,50,Puerperal sepsis / Uterine infection,4,4,no tone marks,eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje es le da ba
+T6-00892,51,Episiotomy breakdown / infection,4,4,no tone marks,n pupo ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita fe sukun
+T6-00893,52,Postpartum infection (fever),4,4,one letter changed,gbogbo ara mi gon gbono gidi lati ano komi ninunmi daku fe
+T6-00894,53,Deep vein thrombosis,4,4,one letter changed,njomi warapa odabi iha mi egbe osi e wu e gbono ode tun dbnmi nigba ki igba ti mo ba ti dide ara
+T6-00895,54,Postpartum depression,4,4,one letter changed,sugbon inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun wemi bi wipe kin ma di omomi mu odabi se dide
+T6-00896,55,Urinary retention,4,4,one letter changed,de arun lati aaro ti mo ti bi lmo mi o le to ode tobi
+T6-00897,56,Postpartum psychosis,4,4,no tone marks,sukun mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese o omo ni
+T6-00898,57,Afterpains / Uterine involution,4,4,no tone marks,se n ru n mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu omu
+T6-00899,58,Secondary postpartum hemorrhage,4,4,no tone marks,ni dun ma ni mo n padanu eje pupo miran nigba ti eje ti tele bati n dawo duro
+T6-00900,59,Postpartum anemia,4,4,one letter changed,se ni oma n semi bi wipe oyi oju n komi ti owi mi ma n fuye ti mo ba ti joko si ori ibusun mi owo ara oun bo
+T6-00901,0,Headache,6,0,one letter changed,alamijo me warapa oni mi n dun mi nu simi fuye
+T6-00902,1,Burning sensation,6,0,words run together,mu e mo inu ara mi njo da wipe
+T6-00903,2,Hunger/Nausea/gastrointestinal distress,6,0,no tone marks,omo ara inu mi n ru ba nmu baru le
+T6-00904,3,Head ache,6,0,words run together,baje se kin owuro to ko ori n fomi
+T6-00905,4,Numbness/tingling sensation,6,0,no tone marks,ni okan ode nyun mimi ko kpaja kpaja
+T6-00906,5,Acute pain,6,0,no tone marks,imora ba bata de moba paapaa o dun mi
+T6-00907,6,Fever/Hyperthermia,6,0,no tone marks,ode oun ori mi ti gbono funfun nigba n n
+T6-00908,7,Fever/Hyperthermia,6,0,no tone marks,me n ron dunmi ni mo ara mi gbona
+T6-00909,8,Generalized body Aches,6,0,words run together,a se digbi ara romi ese gbona wipe
+T6-00910,9,Angina pectoris / Chest Pain,6,0,one letter changed,le eje gba le o ara mi nun mi irora
+T6-00911,10,Acute/Severe Chest Pain,6,0,one letter changed,ejo ni nri aya me dunmi gon gidw eje n o
+T6-00912,11,Dizziness / Vertigo,6,0,words run together,eyin etitu kon dede oyjiko mi aaro bi
+T6-00913,12,Dyspnea / Shortness of breath,6,0,words run together,feerefe wipe e mimi mi ko kanle ndunmi ti oun mo
+T6-00914,13,Arthralgia / Joint Pain,6,0,no tone marks,n ti es se mi ro mi ti n fo wipe
+T6-00915,14,Asthenia / Generalized muscle weakness,6,0,one letter changed,ati ni eyin wu inu ijamba owe mi mi ko le de
+T6-00916,15,Peripheral Paresthesia (Numbness in extremities),6,0,one letter changed,ninu n tim kon e okuta kpajakbaja rum mi le se
+T6-00917,16,Pharyngitis / Sore throat irritation,6,0,one letter changed,n warapa rno ofun mi nuy me n kon nkon ndumi
+T6-00918,17,Diaphoresis and Pyrexia (Sweating and Feverishness),6,0,no tone marks,oruru mu mi o da bi mun i ba lara ti mo tun ara pada
+T6-00919,18,Tinnitus / Ringing ears,6,0,words run together,le eti mi kpar owoo ni ode ori bi isale
+T6-00920,19,Tussis-induced chest pain (Pain upon coughing),6,0,one letter changed,bi es ti ono funmi dunmi tum baru ko moni ti eje
+T6-00921,20,Burning sensation,6,0,one letter changed,ma to ma mi de buburu alamillo alapillo
+T6-00922,21,Burning sensation,6,0,words run together,mo nigba mi ni ala mijo a la mijo daku mo
+T6-00923,22,Burning sensation,6,0,no tone marks,alamijo alamijo ni wipe no fuye ni e
+T6-00924,23,Burning sensation,6,0,one letter changed,fi mi le nwu ni ori alamojo
+T6-00925,24,Arterial hemorrhage,6,0,one letter changed,mi sugbon n mo n oni ijamba oko se ni epe njo soroso ni ese re n
+T6-00926,25,Acute abdomen / Peritonitis,6,0,words run together,omo se ni inu mi nle on lo mi ti mo n lonu mole nmu imolara owo ori ro
+T6-00927,26,Generalized seizure / Status epilepticus,6,0,words run together,se mi ori de ara re dede le eyin enu repade ti ito n jade ni enu re bi wipe o ni arun warapa di mi
+T6-00928,27,Severe asthma attack / Pulmonary embolism,6,0,one letter changed,remi lo mi o le mi odabi wipe eniyar duro simi ni aya ni ti mo fi n semi oloro se ara dumi
+T6-00929,28,Acute stroke,6,0,words run together,arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun roparose mo gbogbo ba sunkun gba dun
+T6-00930,29,Acute appendicitis,6,0,no tone marks,romi se ni ikun mi n dumi ni isale apa otun bi o ti njade padanu
+T6-00931,30,Acute poisoning,6,0,words run together,imora se ni o sesi da majeleoogun oloro je ti ofi di wipe se ni o po eje ode n sukun nkon paapaa kpaja mi mi
+T6-00932,31,Acute urinary retention,6,0,words run together,funfun n mo eje ara mi ole to lati ano se ni isale ikun mi wu soke gidi ori
+T6-00933,32,Severe burns,6,0,words run together,lai n oko komi gan ma epo gbigbona da simi ni ara seni ara mi bo yeleyele o de wu
+T6-00934,33,Septic / Hypovolemic shock,6,0,no tone marks,lera rum ti ti oma se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku dunmi
+T6-00935,34,Envenomation / Snakebite,6,0,no tone marks,o nyun mo ara ara mo se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu
+T6-00936,35,Concussion / Traumatic brain injury,6,0,no tone marks,mi se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo mi nrin subu dunmi la
+T6-00937,36,Abdominal pain / Stomach ache,6,0,one letter changed,inu n womi bi kon bi omu nmu wu
+T6-00938,37,Anemia / Hypertension,6,0,one letter changed,oyi ti n komi mo de ttn ri eje tonto lati owuro le omi mi ijamba nrin pami
+T6-00939,38,Edema / Preeclampsia sign,6,0,words run together,i dunmi ko ni gemije ni ese mi ati owo mi ti n wubi buredi ese mi de wo bata mi
+T6-00940,39,Hyperemesis gravidarum,6,0,one letter changed,tonto ode wo mo ti n bi kkte oun mo je lataaro koda omi o duro ninunmi kon ru ni
+T6-00941,40,Candidiasis / Vaginal infection,6,0,words run together,ejo oun funfun kon feerefe kee jade lati oju ara mi o de nyunmi njomi tun bi gidi gbogbo
+T6-00942,41,Urinary tract infection (UTI),6,0,words run together,otun moni imolarabi wipe nkon njomi ti mo ba ti fe to kpar mi mi oloro ara
+T6-00943,42,Braxton Hicks / Early contractions,6,0,no tone marks,nrin ati iku mi le digbi bi okuta njomi alamijo se kpaja
+T6-00944,43,Fetal distress (reduced/absent fetal movement),6,0,words run together,n bi oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omono mi ninu ikun mi rara le idi oun bi
+T6-00945,44,Severe hypertension,6,0,no tone marks,ti dumi tobi eniyan mo ni ori fifo gidigidi bi moba sun gan e lo kon re
+T6-00946,45,Early labor signs,6,0,words run together,bi nri ni dide isale eyin mi ma ndumi koda oma nwa ode tun ma n lo oun orokun
+T6-00947,46,Obstetric cholestasis,6,0,one letter changed,re nrin de n no gaogbo ara mi ma nyun mi paapaa atelewo mi wipe
+T6-00948,47,Severe anemia,6,0,words run together,nmu se ni ma n remi bi eniwipe mi oni imi okon mi dun lemolemo bi mo ba ti nrin de fifo lati ese wipe
+T6-00949,48,Spotting / Threatened abortion,6,0,no tone marks,mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara dun n kpar inu sesi woo
+T6-00950,49,Breast engorgement / Mastitis,6,0,one letter changed,ono aya yeleyele ito n gbono omu mi nwd nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi
+T6-00951,50,Puerperal sepsis / Uterine infection,6,0,no tone marks,nmu eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje ba na le dun fe
+T6-00952,51,Episiotomy breakdown / infection,6,0,no tone marks,mo feerefe alamillo se joko ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita imolara
+T6-00953,52,Postpartum infection (fever),6,0,one letter changed,kee se kin rara gbogbo ara mi lon gbono gids lati ano okuta okon
+T6-00954,53,Deep vein thrombosis,6,0,no tone marks,re iha mi egbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide enu ninu tele paapaa imi
+T6-00955,54,Postpartum depression,6,0,no tone marks,ikun inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu nigba ofi re o eyin
+T6-00956,55,Urinary retention,6,0,words run together,lati aaro ti mo tibi omo mi o le to oyi ni lon ode se ni
+T6-00957,56,Postpartum psychosis,6,0,words run together,re n dunmi mo nri oun abami mo de tungbo oun buburu bi wipe kin se ara mi lese tonto ni to
+T6-00958,57,Afterpains / Uterine involution,6,0,words run together,ma gidi ode mo niimolara irora ni isale ikun mi ti omo mi ba ti nmu omu warapa oloro de
+T6-00959,58,Secondary postpartum hemorrhage,6,0,words run together,de ara mo n padanu eje pupo miran nigba ti ejeti tele bati n dawo duro mi idi lati tu
+T6-00960,59,Postpartum anemia,6,0,no tone marks,tun se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi rum tabi ati apa inu
+T6-00961,0,Headache,6,1,one letter changed,pupo mo tri mi n dun mi ni kpaja tonto ru
+T6-00962,1,Burning sensation,6,1,one letter changed,aya gbona o aia mi n jo mole ti ati
+T6-00963,2,Hunger/Nausea/gastrointestinal distress,6,1,one letter changed,tun oju bnu mi n ru ti le ti se
+T6-00964,3,Head ache,6,1,one letter changed,oni n fo mi eje run rum gan ma wipe
+T6-00965,4,Numbness/tingling sensation,6,1,no tone marks,bi idi kee kpaja kpaja ma tonto oti
+T6-00966,5,Acute pain,6,1,one letter changed,o dug mi de se ni baru feerefe gbono
+T6-00967,6,Fever/Hyperthermia,6,1,no tone marks,o ori mi ti gbono se nigba owuro ni nigba
+T6-00968,7,Fever/Hyperthermia,6,1,no tone marks,le lati kan se ki ara mi gbona n
+T6-00969,8,Generalized body Aches,6,1,no tone marks,ara ro mi nri e mijo le oju bi
+T6-00970,9,Angina pectoris / Chest Pain,6,1,one letter changed,aya mi dun mi ba fi oyi ijamba se de
+T6-00971,10,Acute/Severe Chest Pain,6,1,no tone marks,o re mo ni eniwipe aya me dunmi gon gidi mi
+T6-00972,11,Dizziness / Vertigo,6,1,no tone marks,ode ori eje n oun oti oyji ko mi
+T6-00973,12,Dyspnea / Shortness of breath,6,1,no tone marks,ara ikun omu ti gbono e mimi mi ko kan le n
+T6-00974,13,Arthralgia / Joint Pain,6,1,words run together,ni es se mi romi gidigidi lati ba alamijo sun
+T6-00975,14,Asthenia / Generalized muscle weakness,6,1,no tone marks,bi sukun tabi ara ore mi mi ko le de ti feerefe
+T6-00976,15,Peripheral Paresthesia (Numbness in extremities),6,1,no tone marks,kpajakpaja rum mi le se kee dunmi ma ro nkon ti
+T6-00977,16,Pharyngitis / Sore throat irritation,6,1,no tone marks,idi mo to dun ara koda ono ofun mi nuy me
+T6-00978,17,Diaphoresis and Pyrexia (Sweating and Feverishness),6,1,one letter changed,si ko lonu fi orlru mu mi o da bi mun i ba ki ni
+T6-00979,18,Tinnitus / Ringing ears,6,1,no tone marks,eti mi kpar o woo sile mo kon de ti se
+T6-00980,19,Tussis-induced chest pain (Pain upon coughing),6,1,one letter changed,arun n nwu ono funmi dunmi tim barm ko o n ti
+T6-00981,20,Burning sensation,6,1,no tone marks,ori ese alamillo alamillo woo ori ko feerefe
+T6-00982,21,Burning sensation,6,1,one letter changed,le mi njo n mi ni a la mijo a la rijo
+T6-00983,22,Burning sensation,6,1,words run together,mo alamijoalamijo bi eje ara mi mo
+T6-00984,23,Burning sensation,6,1,one letter changed,ma o alamigo ode ti gbe sukun
+T6-00985,24,Arterial hemorrhage,6,1,one letter changed,o mi fuye e oni ijamba uko se ni eje njo soroso ni ese re bi gidigidi
+T6-00986,25,Acute abdomen / Peritonitis,6,1,words run together,ara tun tu gbe se ni inu mi n le on lo mi ti mo nlonu mole ma okuta
+T6-00987,26,Generalized seizure / Status epilepticus,6,1,one letter changed,nmu nkon moba fifo ara re dede le eyin enu re padp ti ito n jade ni enu re bi wipe o ni arun warapa oruru nmu
+T6-00988,27,Severe asthma attack / Pulmonary embolism,6,1,words run together,pataki ara ko eje la mi o le mi odabiwipe eniyan duro simi ni aya ni ti mo fi n semi oyji
+T6-00989,28,Acute stroke,6,1,no tone marks,to arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose tele moni warapa to ti
+T6-00990,29,Acute appendicitis,6,1,no tone marks,gon se ni ikun mi n dumi ni isale apa otun o to lai je ode
+T6-00991,30,Acute poisoning,6,1,words run together,re alamijo fifo fi njomi se ni o sesi da majele oogun oloro je ti ofi di wipese ni o po eje ode n sukun pami
+T6-00992,31,Acute urinary retention,6,1,no tone marks,mi o le to lati ano se ni isale ikun mi wu soke gidi ode re na fe n buburu
+T6-00993,32,Severe burns,6,1,words run together,gidigidi di ba gbona n lon epo gbigbona da simi ni ara se ni ara mi bo yeleyele ode wu
+T6-00994,33,Septic / Hypovolemic shock,6,1,words run together,tim se ni otutu n pami ara mi n gbon okan mide n mi gidi bi enipe mo fe daku isale okuta i oogun ti
+T6-00995,34,Envenomation / Snakebite,6,1,one letter changed,ba rara mole ti ba se ni ejo gemije ni orokun ninu owo gbogbo ese mi lo wu ode n dudu ori
+T6-00996,35,Concussion / Traumatic brain injury,6,1,no tone marks,se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo oyi mimi eje ati owuro gbo
+T6-00997,36,Abdominal pain / Stomach ache,6,1,no tone marks,eti bi inu n romi ma komi mo eje
+T6-00998,37,Anemia / Hypertension,6,1,no tone marks,gba oyi ti n komi mo de tun ri eje tonto lati owuro mi mi wipe ano bi
+T6-00999,38,Edema / Preeclampsia sign,6,1,one letter changed,dun eti gbigbona ese mi tti owo mi ti n wu bi buredi ese mi de wo bata mi funfun inu se
+T6-01000,39,Hyperemesis gravidarum,6,1,no tone marks,eti ode nigba oloro mo ti n bi kete oun mo je lataaro koda omi o duro ninunmi eje ara
+T6-01001,40,Candidiasis / Vaginal infection,6,1,one letter changed,isale nwu ti oti oun funfun kon feerefe kee jade lati oju arl mi o de nyun mi se alamillo
+T6-01002,41,Urinary tract infection (UTI),6,1,one letter changed,moni imolara bi wipe ndon njomi ti mo ba ti fe to da rara kete isale ara ma
+T6-01003,42,Braxton Hicks / Early contractions,6,1,words run together,dun ikumi le digbi bi okuta ti nu enu gon tun
+T6-01004,43,Fetal distress (reduced/absent fetal movement),6,1,words run together,oyun mi ti tobi daada sugbonni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara nmu lera tabi se de o
+T6-01005,44,Severe hypertension,6,1,no tone marks,kon ibusun simi osi mo ni ori fifo gidigidi bi moba sun gan e lo mi ko
+T6-01006,45,Early labor signs,6,1,words run together,ono gidigidi dawo ono ofi a isale eyin mi ma ndumi koda oma n wa odetun ma n lo
+T6-01007,46,Obstetric cholestasis,6,1,no tone marks,imi dunmi ni igba imora e gbogbo ara mi ma nyun mi paapaa atelewo mi
+T6-01008,47,Severe anemia,6,1,one letter changed,lo enu isale se ni ma n gemi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin apa eje otutu
+T6-01009,48,Spotting / Threatened abortion,6,1,one letter changed,mo ma nri eje tonto ni awo tele mi ti mo ba ti nu dju ara duro o n se komi ninu
+T6-01010,49,Breast engorgement / Mastitis,6,1,no tone marks,pupo oti omu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi la ara osi n
+T6-01011,50,Puerperal sepsis / Uterine infection,6,1,words run together,me inu ba daada no eje ti o ma njade ni arami se ni oma n run bi eyin ti oti baje fuye
+T6-01012,51,Episiotomy breakdown / infection,6,1,one letter changed,wipe ropa se me baru ibi kon la ni ara mi kon rmn pada ti tu ode nmu etitu sita sugbon
+T6-01013,52,Postpartum infection (fever),6,1,words run together,o oti gbogboara mi lon gbono gidi lati ano duro je joko lo
+T6-01014,53,Deep vein thrombosis,6,1,words run together,lati sugbon sugbon ni semi iha mi egbe osi e wu egbono ode tun dunmi nigba ki igba ti mo ba ti dide bi
+T6-01015,54,Postpartum depression,6,1,no tone marks,inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu eje le ti isale ese ikun
+T6-01016,55,Urinary retention,6,1,one letter changed,dun nri rose fe kon lati aaru ti mo ti bi omo mi o le to ori
+T6-01017,56,Postpartum psychosis,6,1,no tone marks,dudu lati o mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese le wu isale
+T6-01018,57,Afterpains / Uterine involution,6,1,no tone marks,imora fo mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu omu oma sun wipe fi
+T6-01019,58,Secondary postpartum hemorrhage,6,1,words run together,mo n padanu eje pupo miran nigba ti eje ti tele batin dawo duro moba wipe ara mi bata ma
+T6-01020,59,Postpartum anemia,6,1,words run together,ikun ore dun sita se ni oma nsemi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi gbon no
+T6-01021,0,Headache,6,2,one letter changed,bata ori mi n den mi o bo ron gidi ti
+T6-01022,1,Burning sensation,6,2,no tone marks,sesi ara mi n jo o ti ma gbe ti
+T6-01023,2,Hunger/Nausea/gastrointestinal distress,6,2,one letter changed,wa simi lati oma padanu tnu mi n ru komi
+T6-01024,3,Head ache,6,2,words run together,enu ti imi oma ni orin fo mi ni
+T6-01025,4,Numbness/tingling sensation,6,2,no tone marks,bo re eje kon kpaja kpaja gidi padanu
+T6-01026,5,Acute pain,6,2,one letter changed,o dui mi de ninu run komi tun si
+T6-01027,6,Fever/Hyperthermia,6,2,one letter changed,simi se mu n ni eje ori mi ti gyono
+T6-01028,7,Fever/Hyperthermia,6,2,words run together,le arami gbona ma mo lati mo se
+T6-01029,8,Generalized body Aches,6,2,no tone marks,bi alamijo to bi ara ro mi igba ni
+T6-01030,9,Angina pectoris / Chest Pain,6,2,no tone marks,re se si es ara mi dun mi wo pade
+T6-01031,10,Acute/Severe Chest Pain,6,2,one letter changed,sunkun nigba aya me dunmo gon gidi tele n ara ori
+T6-01032,11,Dizziness / Vertigo,6,2,no tone marks,ni gidigidi bi oyji ko mi lo e ono
+T6-01033,12,Dyspnea / Shortness of breath,6,2,one letter changed,da bi e mimi mi ko yan le si buburu baje ara
+T6-01034,13,Arthralgia / Joint Pain,6,2,no tone marks,le fe imora es se mi ro mi ikun mo ni
+T6-01035,14,Asthenia / Generalized muscle weakness,6,2,words run together,ore mi mi ko lede nu rum enu mo tun ro
+T6-01036,15,Peripheral Paresthesia (Numbness in extremities),6,2,no tone marks,gan gidi bi lo ni lese kpajakpaja rum mi le se
+T6-01037,16,Pharyngitis / Sore throat irritation,6,2,words run together,n onoofun mi nuy me ko o le ni oni
+T6-01038,17,Diaphoresis and Pyrexia (Sweating and Feverishness),6,2,words run together,nri sugbon wa mo oruru mumi o da bi mun i ba ti ori
+T6-01039,18,Tinnitus / Ringing ears,6,2,words run together,ti di feerefe ara mo eti mikpar o woo di
+T6-01040,19,Tussis-induced chest pain (Pain upon coughing),6,2,words run together,mi ono funmi dunmi timbaru ko le sukun ni igba n
+T6-01041,20,Burning sensation,6,2,no tone marks,bi mo gidi isale mi alamillo alamillo mo
+T6-01042,21,Burning sensation,6,2,one letter changed,ma po mi a la mimo a la mijo gbono mo baje
+T6-01043,22,Burning sensation,6,2,no tone marks,aya romi le o lara alamijo alamijo ni
+T6-01044,23,Burning sensation,6,2,one letter changed,si romi mlamijo kin ori romi ti
+T6-01045,24,Arterial hemorrhage,6,2,one letter changed,oni ijamba oko se ni eje njo soroso ni ewe re oyi bi remi n gbon e
+T6-01046,25,Acute abdomen / Peritonitis,6,2,no tone marks,semi re gemije de ko se ni inu mi n le on lo mi ti mo n lonu mole ki
+T6-01047,26,Generalized seizure / Status epilepticus,6,2,words run together,dudu moba rose odabi ara re dede le eyin enu re padeti ito n jade ni enu re bi wipe o ni arun warapa e se
+T6-01048,27,Severe asthma attack / Pulmonary embolism,6,2,words run together,lo gidi mi o le mi odabi wipe eniyan durosimi ni aya ni ti mo fi n semi ba tun ara ese
+T6-01049,28,Acute stroke,6,2,no tone marks,a ori mi arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose o n lataaro
+T6-01050,29,Acute appendicitis,6,2,one letter changed,ndunmi bi se ni ikun mi n dumi ni isale apa oton ara daada ori ode
+T6-01051,30,Acute poisoning,6,2,one letter changed,ara mo oyi mijo ikun se ni o sesi da mujele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun le
+T6-01052,31,Acute urinary retention,6,2,one letter changed,ese mi o le to lati ano se ni isale ikun mi wu soke bidi ti ara gidigidi ti ko
+T6-01053,32,Severe burns,6,2,words run together,nri gbono semi n isale sukun epogbigbona da simi ni ara se ni ara mi bo yeleyele o de wu
+T6-01054,33,Septic / Hypovolemic shock,6,2,one letter changed,se ni otutu n pati ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku wipe ejo ma o i mu
+T6-01055,34,Envenomation / Snakebite,6,2,no tone marks,jade se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu ma eyin idi dunmi oruru
+T6-01056,35,Concussion / Traumatic brain injury,6,2,words run together,de lon alamijo baru wu se nio gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo remi
+T6-01057,36,Abdominal pain / Stomach ache,6,2,words run together,bi fe mi inu nromi mu okuta re
+T6-01058,37,Anemia / Hypertension,6,2,one letter changed,oogun mi lon joko inu mi oti ti n komi mo de tun ri eje tonto lati owuro
+T6-01059,38,Edema / Preeclampsia sign,6,2,one letter changed,ma simi tabi eue mi ati owo mi ti n wu bi buredi ese mi de wo bata mi eti tun buburu
+T6-01060,39,Hyperemesis gravidarum,6,2,one letter changed,oju nu mo ti n bi uete oun mo je lataaro koda omi o duro ninunmi feerefe oni ba omu
+T6-01061,40,Candidiasis / Vaginal infection,6,2,words run together,pami enipe n n oko oun funfunkon feerefe kee jade lati oju ara mi o de nyun mi orokun
+T6-01062,41,Urinary tract infection (UTI),6,2,one letter changed,le nrin lara sukun wu ikun modi imolara bi wipe nkon njomi ti mo ba ti fe to
+T6-01063,42,Braxton Hicks / Early contractions,6,2,no tone marks,owo o ni ti ara nu iku mi le digbi bi okuta
+T6-01064,43,Fetal distress (reduced/absent fetal movement),6,2,one letter changed,e bi wu ninunmi padanu eyin oyun mi ti tobi daada sugbon ni oni mi ko ni imora gara wipe omo no mi ninu ikun mi rara
+T6-01065,44,Severe hypertension,6,2,words run together,re mo ni ori fifo gidigidi bi mobasun gan e lo aarun oyji jade n lonu
+T6-01066,45,Early labor signs,6,2,words run together,moni wipe ti oju isale eyin mi ma ndumi kodaoma n wa ode tun ma n lo mijo ara
+T6-01067,46,Obstetric cholestasis,6,2,one letter changed,bati gbogbo ara mi ma nyun mi paapya atelewo mi ni oni ni lati eyin
+T6-01068,47,Severe anemia,6,2,no tone marks,de kpar kon da se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin kpaja subu
+T6-01069,48,Spotting / Threatened abortion,6,2,one letter changed,mo ma nri eje tonto ni awn tele mi ti mo ba ti nu oju ara inu wu aarun remi mijo wipe
+T6-01070,49,Breast engorgement / Mastitis,6,2,one letter changed,eyin de mun jade dunmi omu mi nwu nle bi okrta bi moba ti fi owo kon se ni o ma ndunmi n
+T6-01071,50,Puerperal sepsis / Uterine infection,6,2,words run together,re mo lon le ese eje ti o ma njade ni ara mi se ni oma n run bieyin ti oti baje nri
+T6-01072,51,Episiotomy breakdown / infection,6,2,words run together,sukun eje simi omo wo daada ibi kon lani ara mi kon ron pada ti tu ode nmu etitu sita
+T6-01073,52,Postpartum infection (fever),6,2,words run together,ti e mo kon gbogbo ara mi lon gbonogidi lati ano ru gidigidi
+T6-01074,53,Deep vein thrombosis,6,2,one letter changed,ma ni ni lati gidigidi arun iha mi egbe osi e wu e gbono ode tun dunmi nigba ki igma ti mo ba ti dide
+T6-01075,54,Postpartum depression,6,2,words run together,buredi mo ko ese inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin madi omomi mu ko wu
+T6-01076,55,Urinary retention,6,2,no tone marks,n lati aaro ti mo ti bi omo mi o le to oko mole oju ni duro
+T6-01077,56,Postpartum psychosis,6,2,no tone marks,ni eyin re mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese la o gbon
+T6-01078,57,Afterpains / Uterine involution,6,2,one letter changed,bo kon mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu lmu fi remi wu lataaro
+T6-01079,58,Secondary postpartum hemorrhage,6,2,words run together,romi mon padanu eje pupo miran nigba ti eje ti tele bati n dawo duro o moni isale mi fuye
+T6-01080,59,Postpartum anemia,6,2,one letter changed,lai se ni oma n semi bi wipe oyi oju n komi ti oui mi ma n fuye ti mo ba ti joko si ori ibusun mi ninu eje abami duro jade
+T6-01081,0,Headache,6,3,words run together,ori mi n dunmi to re kee ikun ni bi
+T6-01082,1,Burning sensation,6,3,one letter changed,era mi n jo ikun gbogbo da sugbon ni na
+T6-01083,2,Hunger/Nausea/gastrointestinal distress,6,3,one letter changed,ro tun fi ba tun dun inp mi n ru
+T6-01084,3,Head ache,6,3,no tone marks,sugbon se oun ori n fo mi bi oni pada
+T6-01085,4,Numbness/tingling sensation,6,3,one letter changed,ara fe de kgaja kpaja fi se kon
+T6-01086,5,Acute pain,6,3,no tone marks,ndumi ma o dun mi ode okon kon jade
+T6-01087,6,Fever/Hyperthermia,6,3,no tone marks,okan lati digbi pami gidi pataki ori mi ti gbono
+T6-01088,7,Fever/Hyperthermia,6,3,words run together,omo ti ron lemolemo ara migbona padanu kon
+T6-01089,8,Generalized body Aches,6,3,no tone marks,ara ro mi kin se ni no ma kan
+T6-01090,9,Angina pectoris / Chest Pain,6,3,words run together,ni arami dun mi duro ti dudu de lera
+T6-01091,10,Acute/Severe Chest Pain,6,3,words run together,oun isale aya medunmi gon gidi simi ni ko dide
+T6-01092,11,Dizziness / Vertigo,6,3,one letter changed,bi lati eyji ko mi omo kete oyi nwu
+T6-01093,12,Dyspnea / Shortness of breath,6,3,no tone marks,remi ti tu warapa odabi eje e mimi mi ko kan le
+T6-01094,13,Arthralgia / Joint Pain,6,3,words run together,eyin n es se mi romi on woo idi gbogbo
+T6-01095,14,Asthenia / Generalized muscle weakness,6,3,words run together,oko ori tele je sunkun la ore mimi ko le de
+T6-01096,15,Peripheral Paresthesia (Numbness in extremities),6,3,one letter changed,kpajakpaja rgm mi le se omu de ti duro sun arabirin
+T6-01097,16,Pharyngitis / Sore throat irritation,6,3,one letter changed,ro le oyji de etitu opo ofun mi nuy me ese
+T6-01098,17,Diaphoresis and Pyrexia (Sweating and Feverishness),6,3,no tone marks,soroso se fifo ti oruru mu mi o da bi mun i ba mo se
+T6-01099,18,Tinnitus / Ringing ears,6,3,no tone marks,digbi eti mi kpar o woo wu ni ode mo ni
+T6-01100,19,Tussis-induced chest pain (Pain upon coughing),6,3,words run together,mi sukun ni ma mi nyun ono funmi dunmitim baru ko
+T6-01101,20,Burning sensation,6,3,one letter changed,mo n gbono o alamillo alawillo soroso mi
+T6-01102,21,Burning sensation,6,3,words run together,dun wa ode ala mijo a la mijo mi mi mi
+T6-01103,22,Burning sensation,6,3,one letter changed,dede n tun alamijo alampjo ara ni dunmi
+T6-01104,23,Burning sensation,6,3,no tone marks,alamijo mo ti moni romi ara me
+T6-01105,24,Arterial hemorrhage,6,3,no tone marks,mi wu n mo oni ijamba oko se ni eje njo soroso ni ese re egbe n
+T6-01106,25,Acute abdomen / Peritonitis,6,3,words run together,se ni inu mi n leon lo mi ti mo n lonu mole lemolemo la ninunmi sunkun wipe tun
+T6-01107,26,Generalized seizure / Status epilepticus,6,3,one letter changed,aarun ori nmu ko ara re dede le eyin enu re pade ti ato n jade ni enu re bi wipe o ni arun warapa mi mi
+T6-01108,27,Severe asthma attack / Pulmonary embolism,6,3,no tone marks,mi o le mi odabi wipe eniyan duro simi ni aya ni ti mo fi n semi de arun gbon nu irora da
+T6-01109,28,Acute stroke,6,3,words run together,wipe arabirin na subu sile kole gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose o wa ara gbono ode
+T6-01110,29,Acute appendicitis,6,3,words run together,la to gbogbo se ni ikun mi ndumi ni isale apa otun mo ori fuye
+T6-01111,30,Acute poisoning,6,3,one letter changed,kpaja mi mi se ni o sesi da majeae oogun oloro je ti ofi di wipe se ni o po eje ode n sukun re bi ese
+T6-01112,31,Acute urinary retention,6,3,no tone marks,ndunmi dun tonto ko nuy mi o le to lati ano se ni isale ikun mi wu soke gidi rum
+T6-01113,32,Severe burns,6,3,words run together,n le epo gbigbona da simi ni ara seni ara mi bo yeleyele o de wu eje kon le n
+T6-01114,33,Septic / Hypovolemic shock,6,3,no tone marks,warapa oun ma alamillo lo se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku ti
+T6-01115,34,Envenomation / Snakebite,6,3,no tone marks,oruru lese se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu daada mo wipe omomi
+T6-01116,35,Concussion / Traumatic brain injury,6,3,one letter changed,no mi semi gbo de a se ni o gba ori mole gidi ti o fi n bi sera lera ti ko fi mo ara re mo
+T6-01117,36,Abdominal pain / Stomach ache,6,3,one letter changed,to ofun gbona o mi mnu n romi gon
+T6-01118,37,Anemia / Hypertension,6,3,words run together,dawo alamijo oyiti n komi mo de tun ri eje tonto lati owuro tele fi bi oun
+T6-01119,38,Edema / Preeclampsia sign,6,3,one letter changed,inu mijo dun dunmi es ese mi ati owy mi ti n wu bi buredi ese mi de wo bata mi mode
+T6-01120,39,Hyperemesis gravidarum,6,3,one letter changed,mo ti n bi kete oun mo je lataaro ktda omi o duro ninunmi ma mi ese eje ko ma
+T6-01121,40,Candidiasis / Vaginal infection,6,3,one letter changed,ni ejo nrin oun funfun kon feerefe kee jdde lati oju ara mi o de nyun mi dede digbi gbono
+T6-01122,41,Urinary tract infection (UTI),6,3,one letter changed,mole moni imolara bi wipe lkon njomi ti mo ba ti fe to ma si ni dudu kon
+T6-01123,42,Braxton Hicks / Early contractions,6,3,one letter changed,iku mi le digbs bi okuta mode n bata mu idi ba
+T6-01124,43,Fetal distress (reduced/absent fetal movement),6,3,one letter changed,ori de re okuta e oyun mi ti tobi daada sugnon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara subu
+T6-01125,44,Severe hypertension,6,3,no tone marks,kpaja ara eyin mo ni ori fifo gidigidi bi moba sun gan e lo ba ba padanu
+T6-01126,45,Early labor signs,6,3,words run together,baje de oun ti isale eyin mi ma ndumi koda oma n waode tun ma n lo fi padanu
+T6-01127,46,Obstetric cholestasis,6,3,no tone marks,mo dumi ni ti fe komi gbogbo ara mi ma nyun mi paapaa atelewo mi
+T6-01128,47,Severe anemia,6,3,words run together,no wipe enu moni oloro se ni ma n remibi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin inu
+T6-01129,48,Spotting / Threatened abortion,6,3,no tone marks,n mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara gbogbo fe bi mole ikun
+T6-01130,49,Breast engorgement / Mastitis,6,3,no tone marks,dawo ba omu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi odabi le oma wo
+T6-01131,50,Puerperal sepsis / Uterine infection,6,3,one letter changed,ode sugbon ninu moni dje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje gan mo
+T6-01132,51,Episiotomy breakdown / infection,6,3,no tone marks,gbogbo eje ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita dunmi n kan eje
+T6-01133,52,Postpartum infection (fever),6,3,no tone marks,gba n daada gbogbo ara mi lon gbono gidi lati ano oma e eje
+T6-01134,53,Deep vein thrombosis,6,3,one letter changed,remi se buredi iha mi egbe oni e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide tu nu semi
+T6-01135,54,Postpartum depression,6,3,words run together,inu mi n bajemode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu ori mo o epo eniwipe lera
+T6-01136,55,Urinary retention,6,3,no tone marks,wipe wipe lati aaro ti mo ti bi omo mi o le to ese kpar sile gbon
+T6-01137,56,Postpartum psychosis,6,3,no tone marks,etitu ni bati ni lataaro mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese ti
+T6-01138,57,Afterpains / Uterine involution,6,3,words run together,se lemolemo mo ni imolara irora ni isale ikun miti omo mi ba ti nmu omu e buredi iku ore
+T6-01139,58,Secondary postpartum hemorrhage,6,3,one letter changed,ode mo n padanu eje pupo mmran nigba ti eje ti tele bati n dawo duro ni moba ni oloro ma
+T6-01140,59,Postpartum anemia,6,3,words run together,eje oloro gidigidi se ni oma nsemi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi ru lai ibi
+T6-01141,0,Headache,6,4,no tone marks,ti enu gbona omu ibi ori mi n dun mi tim
+T6-01142,1,Burning sensation,6,4,one letter changed,tun to aia mi n jo e o ti njo
+T6-01143,2,Hunger/Nausea/gastrointestinal distress,6,4,words run together,run wipe omi mijo ni inu min ru lo
+T6-01144,3,Head ache,6,4,one letter changed,ni ory n fo mi se oju mo ti nigba
+T6-01145,4,Numbness/tingling sensation,6,4,no tone marks,e kpaja kpaja ori mi lati re eje
+T6-01146,5,Acute pain,6,4,no tone marks,me ejo ni ni o dun mi ninunmi dide
+T6-01147,6,Fever/Hyperthermia,6,4,words run together,ode le ara eje ni nmu orimi ti gbono
+T6-01148,7,Fever/Hyperthermia,6,4,no tone marks,n ara mi gbona oma pade le oun gidi
+T6-01149,8,Generalized body Aches,6,4,no tone marks,ode ma mo ara ro mi inu dun si
+T6-01150,9,Angina pectoris / Chest Pain,6,4,words run together,n o ni ara mi dunmi ron ti ko
+T6-01151,10,Acute/Severe Chest Pain,6,4,one letter changed,oko to aya me punmi gon gidi isale baje pataki mo
+T6-01152,11,Dizziness / Vertigo,6,4,no tone marks,ode n gbogbo imi oyji ko mi ara mo
+T6-01153,12,Dyspnea / Shortness of breath,6,4,one letter changed,eje me e simi mi ko kan le gidi se lera koda
+T6-01154,13,Arthralgia / Joint Pain,6,4,words run together,lara tu oun lati es se mi romi ara kan
+T6-01155,14,Asthenia / Generalized muscle weakness,6,4,no tone marks,semi pupo o ma oma ori ore mi mi ko le de
+T6-01156,15,Peripheral Paresthesia (Numbness in extremities),6,4,one letter changed,a tun owo apa otutu eyin kpajakpaja ruo mi le se
+T6-01157,16,Pharyngitis / Sore throat irritation,6,4,words run together,oun ti tim ono ofun mi nuyme dun ri njomi
+T6-01158,17,Diaphoresis and Pyrexia (Sweating and Feverishness),6,4,one letter changed,oruru mu mi o da bi muo i ba alamijo gbogbo iha mo ti enu
+T6-01159,18,Tinnitus / Ringing ears,6,4,no tone marks,imolara se ara eti mi kpar o woo to nmu oti
+T6-01160,19,Tussis-induced chest pain (Pain upon coughing),6,4,no tone marks,imolara eyin oni ono funmi dunmi tim baru ko eje ni se
+T6-01161,20,Burning sensation,6,4,words run together,ba gbigbona ti alamilloalamillo inu mi o
+T6-01162,21,Burning sensation,6,4,no tone marks,mi ara dide tele ibi o a la mijo a la mijo
+T6-01163,22,Burning sensation,6,4,words run together,ni mi alamijoalamijo rara jade de okuta
+T6-01164,23,Burning sensation,6,4,one letter changed,alwmijo ono mi ni daada ara le
+T6-01165,24,Arterial hemorrhage,6,4,words run together,ikun bo n wu tim oni ijamba oko se ni eje njo soroso ni esere le
+T6-01166,25,Acute abdomen / Peritonitis,6,4,no tone marks,se ni inu mi n le on lo mi ti mo n lonu mole nrin gbo o de baje kon
+T6-01167,26,Generalized seizure / Status epilepticus,6,4,one letter changed,se ara re dede le eyii enu re pade ti ito n jade ni enu re bi wipe o ni arun warapa lon baje mi mi mun
+T6-01168,27,Severe asthma attack / Pulmonary embolism,6,4,words run together,mi o le mi odabi wipe eniyan duro simini aya ni ti mo fi n semi aaro eje otutu lon ano lati
+T6-01169,28,Acute stroke,6,4,no tone marks,nkon ndunmi kpar n arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose kon oun
+T6-01170,29,Acute appendicitis,6,4,no tone marks,oma wu ibusun kan atelewo se ni ikun mi n dumi ni isale apa otun mo
+T6-01171,30,Acute poisoning,6,4,one letter changed,es se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po eje odd n sukun ese ori mi oju mi
+T6-01172,31,Acute urinary retention,6,4,words run together,mi o le to lati ano seni isale ikun mi wu soke gidi buredi alamijo owuro ode n wo
+T6-01173,32,Severe burns,6,4,no tone marks,n kon aarun irora mo run epo gbigbona da simi ni ara se ni ara mi bo yeleyele o de wu
+T6-01174,33,Septic / Hypovolemic shock,6,4,no tone marks,oko imora lera ti se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku ati gbogbo
+T6-01175,34,Envenomation / Snakebite,6,4,one letter changed,kin de oogun e ano ofun se ni mjo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu
+T6-01176,35,Concussion / Traumatic brain injury,6,4,no tone marks,ki paapaa oyi sita se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo alamillo lati
+T6-01177,36,Abdominal pain / Stomach ache,6,4,one letter changed,enu je inu n romp abami tun tun osi
+T6-01178,37,Anemia / Hypertension,6,4,words run together,dunmi oyi ti n komi mo detun ri eje tonto lati owuro gbogbo oma ni enipe moba
+T6-01179,38,Edema / Preeclampsia sign,6,4,no tone marks,gidigidi nu ko nkon mo ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi ri
+T6-01180,39,Hyperemesis gravidarum,6,4,one letter changed,nuy njo wa mo ti n bi kete oun mo je lataaro koda omf o duro ninunmi njo gbe mi
+T6-01181,40,Candidiasis / Vaginal infection,6,4,one letter changed,oun funfun kon feerefo kee jade lati oju ara mi o de nyun mi moni le la bata tun fe
+T6-01182,41,Urinary tract infection (UTI),6,4,one letter changed,moni ibolara bi wipe nkon njomi ti mo ba ti fe to omu alamijo ara gbogbo o ni
+T6-01183,42,Braxton Hicks / Early contractions,6,4,no tone marks,gidi otutu ti iku mi le digbi bi okuta enu ma oju
+T6-01184,43,Fetal distress (reduced/absent fetal movement),6,4,words run together,e ese apa dunmi alamillo fi oyun miti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara
+T6-01185,44,Severe hypertension,6,4,no tone marks,wipe ti la si dumi mo ni ori fifo gidigidi bi moba sun gan e lo romi
+T6-01186,45,Early labor signs,6,4,no tone marks,bi padanu nkon wipe osi isale eyin mi ma ndumi koda oma n wa ode tun ma n lo ro
+T6-01187,46,Obstetric cholestasis,6,4,one letter changed,tun ikun ti jade n gbogbo ara mi ma nyun mi paapaa atebewo mi ori
+T6-01188,47,Severe anemia,6,4,no tone marks,ara joko se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin fi koda oun eyin
+T6-01189,48,Spotting / Threatened abortion,6,4,words run together,wo idi alamijo fe kan mo ma nri ejetonto ni awo tele mi ti mo ba ti nu oju ara o
+T6-01190,49,Breast engorgement / Mastitis,6,4,words run together,duro de eje ati omu mi nwu nle bi okutabi moba ti fi owo kon se ni o ma ndunmi nuy lati
+T6-01191,50,Puerperal sepsis / Uterine infection,6,4,one letter changed,eje ti o ma njade ni nra mi se ni oma n run bi eyin ti oti baje kan iha fi koda pami alamillo
+T6-01192,51,Episiotomy breakdown / infection,6,4,no tone marks,bi le ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita arun sun ri owuro
+T6-01193,52,Postpartum infection (fever),6,4,words run together,n ono ti oju de jo gbogbo ara mi lon gbono gidi latiano
+T6-01194,53,Deep vein thrombosis,6,4,one letter changed,n eniwipe n lon sun bi iha mi egte osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide
+T6-01195,54,Postpartum depression,6,4,words run together,duro inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma diomomi mu iha i lo ti wu
+T6-01196,55,Urinary retention,6,4,no tone marks,omi lati aaro ti mo ti bi omo mi o le to n gemije ori je ori
+T6-01197,56,Postpartum psychosis,6,4,one letter changed,me ikun padanu ron lon mo nri oun abami mo de tun gbo oun buburu bi wipe kin se afa mi lese dun
+T6-01198,57,Afterpains / Uterine involution,6,4,words run together,ese ara njade e sita ejo mo ni imolara irora ni isale ikun mi ti omomi ba ti nmu omu
+T6-01199,58,Secondary postpartum hemorrhage,6,4,words run together,inu isale mo n padanueje pupo miran nigba ti eje ti tele bati n dawo duro ni wipe mi dun
+T6-01200,59,Postpartum anemia,6,4,no tone marks,njade orokun ode se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi o ninunmi mu

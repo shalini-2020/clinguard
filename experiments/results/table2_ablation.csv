@@ -1,0 +1,5 @@
+configuration,t1_wrong_term,t1_n,t2_recalled,t2_n,self_check_problems
+Neither (0.1.1),32,60,176,178,0
+Informative-word filter only,18,60,175,178,0
+Coverage factor only,4,60,178,178,0
+Both (0.1.2),2,60,177,178,0

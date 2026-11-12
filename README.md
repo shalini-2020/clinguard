@@ -122,6 +122,18 @@ sha256 prefix `6a3ac864d6bdabda`), seed 0:
 - A blinded clinical evaluation with nurses, comparing a ClinGuard-based pipeline with the
   same LLM on its own, is in preparation. No clinical results are available yet.
 
+## Research and validation
+
+Evidence is listed by kind, and only once it exists.
+
+| Kind | Status |
+|---|---|
+| Technical evaluation | Five reproducible text-level tests with four baseline scorers, an ablation and a threshold sweep: [experiments/](experiments/README.md). Negative findings are in [experiments/LIMITATIONS.md](experiments/LIMITATIONS.md). |
+| Independent clinical evaluation | Not yet done. A blinded nurse evaluation is designed and awaits facility authorisation. |
+| External replication | None yet. |
+| Deployment | Integrated in [BeaGrace Health](https://github.com/shalini-2020/beagrace-health), used in simulated sessions with no real patients. No clinical deployment. |
+| Publications | None yet. |
+
 ## Limitations
 
 - **Coverage:** meaning comes from the lexicon. Phrases it does not contain go to your

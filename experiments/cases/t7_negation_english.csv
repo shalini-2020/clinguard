@@ -1,0 +1,41 @@
+case_id,concept,form,english_meaning,expected_active_danger
+T7-01,bleeding,affirmative,I am bleeding heavily since this morning.,1
+T7-02,bleeding,negated,I am not bleeding.,0
+T7-03,bleeding,historical,I had some bleeding last month but it has stopped.,0
+T7-04,bleeding,hypothetical,What should I do if I start bleeding?,0
+T7-05,breathing,affirmative,I have difficulty breathing.,1
+T7-06,breathing,negated,I have no difficulty breathing.,0
+T7-07,breathing,historical,I had difficulty breathing as a child.,0
+T7-08,breathing,hypothetical,Can this drug cause difficulty breathing?,0
+T7-09,convulsion,affirmative,My child had a convulsion this morning.,1
+T7-10,convulsion,negated,My child has never had a convulsion.,0
+T7-11,convulsion,historical,She had fits years ago but none since then.,0
+T7-12,convulsion,hypothetical,Can this fever cause a convulsion?,0
+T7-13,baby movement,affirmative,Since yesterday I cannot feel the baby moving.,1
+T7-14,baby movement,negated,The baby is kicking well; it is not true that the baby is not moving.,0
+T7-15,baby movement,historical,"Last week the baby is not moving for a day, but now it moves well.",0
+T7-16,baby movement,hypothetical,What should I do if the baby is not moving tomorrow?,0
+T7-17,chest pain,affirmative,I have chest pain.,1
+T7-18,chest pain,negated,I don't have chest pain.,0
+T7-19,chest pain,historical,I had chest pain last year.,0
+T7-20,chest pain,hypothetical,Should I come back if I get chest pain?,0
+T7-21,fainting,affirmative,She fainted at home today.,1
+T7-22,fainting,negated,She has not fainted.,0
+T7-23,fainting,historical,I fainted once in my last pregnancy.,0
+T7-24,fainting,hypothetical,What should we do if she has fainted?,0
+T7-25,vomiting blood,affirmative,I am vomiting blood.,1
+T7-26,vomiting blood,negated,I am not vomiting blood.,0
+T7-27,vomiting blood,historical,I was vomiting blood last week but it has stopped.,0
+T7-28,vomiting blood,hypothetical,Is vomiting blood dangerous?,0
+T7-29,stroke,affirmative,I think my father is having a stroke.,1
+T7-30,stroke,negated,The doctor said it was not a stroke.,0
+T7-31,stroke,historical,My father had a stroke five years ago.,0
+T7-32,stroke,hypothetical,How do I know if someone is having a stroke?,0
+T7-33,unconscious,affirmative,He is unconscious.,1
+T7-34,unconscious,negated,He is not unconscious; he is talking.,0
+T7-35,unconscious,historical,He was unconscious for a minute after a fall last year.,0
+T7-36,unconscious,hypothetical,What should we do if he becomes unconscious?,0
+T7-37,snake bite,affirmative,A snake bit my leg an hour ago.,1
+T7-38,snake bite,negated,It was not a snake; it was a thorn.,0
+T7-39,snake bite,historical,I was bitten by a snake when I was a boy.,0
+T7-40,snake bite,hypothetical,What should I do if a snake bites me?,0

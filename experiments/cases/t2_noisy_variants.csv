@@ -1,0 +1,179 @@
+case_id,entry_index,expected_term,kind,text
+T2-001,0,Headache,no tone marks,Ori mi n dun mi.
+T2-002,0,Headache,one letter changed,ori mi n dbn mi
+T2-003,0,Headache,words run together,ori mi ndun mi
+T2-004,1,Burning sensation,no tone marks,Ara mi n jo.
+T2-005,1,Burning sensation,one letter changed,ama mi n jo
+T2-006,1,Burning sensation,words run together,ara min jo
+T2-007,2,Hunger/Nausea/gastrointestinal distress,no tone marks,Inu mi n ru.
+T2-008,2,Hunger/Nausea/gastrointestinal distress,one letter changed,ini mi n ru
+T2-009,2,Hunger/Nausea/gastrointestinal distress,words run together,inu mi nru
+T2-010,3,Head ache,no tone marks,Ori n fo mi.
+T2-011,3,Head ache,one letter changed,ofi n fo mi
+T2-012,3,Head ache,words run together,orin fo mi
+T2-013,4,Numbness/tingling sensation,no tone marks,Kpaja kpaja.
+T2-014,4,Numbness/tingling sensation,one letter changed,kpaja kpajg
+T2-015,4,Numbness/tingling sensation,words run together,kpajakpaja
+T2-016,5,Acute pain,no tone marks,O dun mi.
+T2-017,5,Acute pain,one letter changed,o dud mi
+T2-018,5,Acute pain,words run together,o dunmi
+T2-019,6,Fever/Hyperthermia,no tone marks,Ori mi ti gbono.
+T2-020,6,Fever/Hyperthermia,one letter changed,ori mi ti gbone
+T2-021,6,Fever/Hyperthermia,words run together,ori miti gbono
+T2-022,7,Fever/Hyperthermia,no tone marks,Ara mi gbona.
+T2-023,7,Fever/Hyperthermia,one letter changed,ara mi gbina
+T2-024,7,Fever/Hyperthermia,words run together,ara migbona
+T2-025,8,Generalized body Aches,no tone marks,Ara ro mi.
+T2-026,8,Generalized body Aches,one letter changed,arm ro mi
+T2-027,8,Generalized body Aches,words run together,araro mi
+T2-028,9,Angina pectoris / Chest Pain,no tone marks,Ara mi dun mi.
+T2-029,9,Angina pectoris / Chest Pain,one letter changed,rra mi dun mi
+T2-030,9,Angina pectoris / Chest Pain,words run together,ara mi dunmi
+T2-031,10,Acute/Severe Chest Pain,no tone marks,Aya me dunmi gon gidi.
+T2-032,10,Acute/Severe Chest Pain,one letter changed,ayu me dunmi gon gidi
+T2-033,10,Acute/Severe Chest Pain,words run together,aya me dunmigon gidi
+T2-034,11,Dizziness / Vertigo,no tone marks,Oyji ko mi.
+T2-035,11,Dizziness / Vertigo,one letter changed,oydi ko mi
+T2-036,11,Dizziness / Vertigo,words run together,oyjiko mi
+T2-037,12,Dyspnea / Shortness of breath,no tone marks,E mimi mi ko kan le.
+T2-038,12,Dyspnea / Shortness of breath,one letter changed,e mfmi mi ko kan le
+T2-039,12,Dyspnea / Shortness of breath,words run together,e mimi mi ko kanle
+T2-040,13,Arthralgia / Joint Pain,no tone marks,Es se mi ro mi.
+T2-041,13,Arthralgia / Joint Pain,words run together,es se mi romi
+T2-042,14,Asthenia / Generalized muscle weakness,no tone marks,Ore mi mi ko le de.
+T2-043,14,Asthenia / Generalized muscle weakness,one letter changed,nre mi mi ko le de
+T2-044,14,Asthenia / Generalized muscle weakness,words run together,ore mi mi ko lede
+T2-045,15,Peripheral Paresthesia (Numbness in extremities),no tone marks,Kpajakpaja rum mi le se.
+T2-046,15,Peripheral Paresthesia (Numbness in extremities),one letter changed,kpajakpaja mum mi le se
+T2-047,15,Peripheral Paresthesia (Numbness in extremities),words run together,kpajakpaja rum mile se
+T2-048,16,Pharyngitis / Sore throat irritation,no tone marks,Ono ofun mi nuy me.
+T2-049,16,Pharyngitis / Sore throat irritation,one letter changed,ono ofun mi yuy me
+T2-050,16,Pharyngitis / Sore throat irritation,words run together,ono ofun minuy me
+T2-051,17,Diaphoresis and Pyrexia (Sweating and Feverishness),no tone marks,Oruru mu mi o da bi mun i ba.
+T2-052,17,Diaphoresis and Pyrexia (Sweating and Feverishness),one letter changed,orury mu mi o da bi mun i ba
+T2-053,17,Diaphoresis and Pyrexia (Sweating and Feverishness),words run together,oruru mu mi o dabi mun i ba
+T2-054,18,Tinnitus / Ringing ears,no tone marks,Eti mi kpar o woo.
+T2-055,18,Tinnitus / Ringing ears,one letter changed,eti mi rpar o woo
+T2-056,18,Tinnitus / Ringing ears,words run together,eti mi kparo woo
+T2-057,19,Tussis-induced chest pain (Pain upon coughing),no tone marks,Ono funmi dunmi tim baru ko.
+T2-058,19,Tussis-induced chest pain (Pain upon coughing),one letter changed,ono funmi dunmi tim bnru ko
+T2-059,19,Tussis-induced chest pain (Pain upon coughing),words run together,ono funmidunmi tim baru ko
+T2-060,20,Burning sensation,no tone marks,Alamillo alamillo.
+T2-061,20,Burning sensation,one letter changed,aldmillo alamillo
+T2-062,20,Burning sensation,words run together,alamilloalamillo
+T2-063,21,Burning sensation,no tone marks,A la mijo a la mijo.
+T2-064,21,Burning sensation,one letter changed,a la mijo a la dijo
+T2-065,21,Burning sensation,words run together,a lamijo a la mijo
+T2-066,22,Burning sensation,no tone marks,Alamijo alamijo.
+T2-067,22,Burning sensation,one letter changed,elamijo alamijo
+T2-068,22,Burning sensation,words run together,alamijoalamijo
+T2-069,23,Burning sensation,no tone marks,Alamijo.
+T2-070,23,Burning sensation,one letter changed,alamljo
+T2-071,24,Arterial hemorrhage,no tone marks,Oni ijamba oko se ni eje njo soroso ni ese re.
+T2-072,24,Arterial hemorrhage,one letter changed,oni ijamba oko se ni eje njo soroso ni sse re
+T2-073,24,Arterial hemorrhage,words run together,oni ijamba oko se ni eje njo soroso ni esere
+T2-074,25,Acute abdomen / Peritonitis,no tone marks,Se ni inu mi n le on lo mi ti mo n lonu mole.
+T2-075,25,Acute abdomen / Peritonitis,one letter changed,se ni inu mi n le on lo mi ti mo n lont mole
+T2-076,25,Acute abdomen / Peritonitis,words run together,se ni inu mi n le on lo mi ti mon lonu mole
+T2-077,26,Generalized seizure / Status epilepticus,no tone marks,Ara re dede le eyin enu re pade ti ito n jade ni enu re bi wipe o ni arun warapa.
+T2-078,26,Generalized seizure / Status epilepticus,one letter changed,ara re dede le eyin enu re pade ti ito n jade ni enu re bi wipe o ni arun warapp
+T2-079,26,Generalized seizure / Status epilepticus,words run together,ara re dedele eyin enu re pade ti ito n jade ni enu re bi wipe o ni arun warapa
+T2-080,27,Severe asthma attack / Pulmonary embolism,no tone marks,Mi o le mi odabi wipe eniyan duro simi ni aya ni ti mo fi n semi.
+T2-081,27,Severe asthma attack / Pulmonary embolism,one letter changed,mi o le mi odabi wipe eniyfn duro simi ni aya ni ti mo fi n semi
+T2-082,27,Severe asthma attack / Pulmonary embolism,words run together,mi o le mi odabi wipe eniyan duro simi ni aya ni ti mo fi nsemi
+T2-083,28,Acute stroke,no tone marks,Arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose.
+T2-084,28,Acute stroke,one letter changed,arabirin na subu sile ko le gbe owo tabi ese re se ni enu re wo si apa kao bi aarun ropa rose
+T2-085,28,Acute stroke,words run together,arabirin na subu sile ko le gbeowo tabi ese re se ni enu re wo si apa kan bi aarun ropa rose
+T2-086,29,Acute appendicitis,no tone marks,Se ni ikun mi n dumi ni isale apa otun.
+T2-087,29,Acute appendicitis,one letter changed,se ni ikun mi n mumi ni isale apa otun
+T2-088,29,Acute appendicitis,words run together,se niikun mi n dumi ni isale apa otun
+T2-089,30,Acute poisoning,no tone marks,Se ni o sesi da majele oogun oloro je ti ofi di wipe se ni o po eje ode n sukun.
+T2-090,30,Acute poisoning,one letter changed,se ni o sesi da majele oogun olgro je ti ofi di wipe se ni o po eje ode n sukun
+T2-091,30,Acute poisoning,words run together,se ni o sesi da majele oogun oloro je ti ofidi wipe se ni o po eje ode n sukun
+T2-092,31,Acute urinary retention,no tone marks,Mi o le to lati ano se ni isale ikun mi wu soke gidi.
+T2-093,31,Acute urinary retention,one letter changed,mi o le to lati ano se ni isale ekun mi wu soke gidi
+T2-094,31,Acute urinary retention,words run together,mi o le to lati ano se ni isale ikun mi wu sokegidi
+T2-095,32,Severe burns,no tone marks,Epo gbigbona da simi ni ara se ni ara mi bo yeleyele o de wu.
+T2-096,32,Severe burns,one letter changed,epo gbibbona da simi ni ara se ni ara mi bo yeleyele o de wu
+T2-097,32,Severe burns,words run together,epo gbigbona da simi ni ara se ni ara mi bo yeleyele o dewu
+T2-098,33,Septic / Hypovolemic shock,no tone marks,Se ni otutu n pami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku.
+T2-099,33,Septic / Hypovolemic shock,one letter changed,se ni otutu n eami ara mi n gbon okan mi de n mi gidi bi enipe mo fe daku
+T2-100,33,Septic / Hypovolemic shock,words run together,se ni otutu n pami ara min gbon okan mi de n mi gidi bi enipe mo fe daku
+T2-101,34,Envenomation / Snakebite,no tone marks,Se ni ejo gemije ni orokun ninu oko gbogbo ese mi lo wu ode n dudu.
+T2-102,34,Envenomation / Snakebite,one letter changed,se ni ejo gemdje ni orokun ninu oko gbogbo ese mi lo wu ode n dudu
+T2-103,34,Envenomation / Snakebite,words run together,se ni ejo gemije ni orokunninu oko gbogbo ese mi lo wu ode n dudu
+T2-104,35,Concussion / Traumatic brain injury,no tone marks,Se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara re mo.
+T2-105,35,Concussion / Traumatic brain injury,one letter changed,se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo dra re mo
+T2-106,35,Concussion / Traumatic brain injury,words run together,se ni o gba ori mole gidi ti o fi n bi lera lera ti ko fi mo ara remo
+T2-107,36,Abdominal pain / Stomach ache,no tone marks,Inu n romi.
+T2-108,36,Abdominal pain / Stomach ache,one letter changed,gnu n romi
+T2-109,36,Abdominal pain / Stomach ache,words run together,inun romi
+T2-110,37,Anemia / Hypertension,no tone marks,Oyi ti n komi mo de tun ri eje tonto lati owuro.
+T2-111,37,Anemia / Hypertension,one letter changed,oyi ti n komi mo de tun ri bje tonto lati owuro
+T2-112,37,Anemia / Hypertension,words run together,oyi ti n komi mo de tun ri eje tonto latiowuro
+T2-113,38,Edema / Preeclampsia sign,no tone marks,Ese mi ati owo mi ti n wu bi buredi ese mi de wo bata mi.
+T2-114,38,Edema / Preeclampsia sign,one letter changed,ess mi ati owo mi ti n wu bi buredi ese mi de wo bata mi
+T2-115,38,Edema / Preeclampsia sign,words run together,ese mi ati owo mi ti n wu bi burediese mi de wo bata mi
+T2-116,39,Hyperemesis gravidarum,no tone marks,Mo ti n bi kete oun mo je lataaro koda omi o duro ninunmi.
+T2-117,39,Hyperemesis gravidarum,one letter changed,mo ti n bi kede oun mo je lataaro koda omi o duro ninunmi
+T2-118,39,Hyperemesis gravidarum,words run together,mo ti n bikete oun mo je lataaro koda omi o duro ninunmi
+T2-119,40,Candidiasis / Vaginal infection,no tone marks,Oun funfun kon feerefe kee jade lati oju ara mi o de nyun mi.
+T2-120,40,Candidiasis / Vaginal infection,one letter changed,oun funfum kon feerefe kee jade lati oju ara mi o de nyun mi
+T2-121,40,Candidiasis / Vaginal infection,words run together,oun funfun kon feerefe kee jadelati oju ara mi o de nyun mi
+T2-122,41,Urinary tract infection (UTI),no tone marks,Moni imolara bi wipe nkon njomi ti mo ba ti fe to.
+T2-123,41,Urinary tract infection (UTI),one letter changed,moni imolara bi wipe nbon njomi ti mo ba ti fe to
+T2-124,41,Urinary tract infection (UTI),words run together,moni imolara bi wipe nkon njomi ti mo bati fe to
+T2-125,42,Braxton Hicks / Early contractions,no tone marks,Iku mi le digbi bi okuta.
+T2-126,42,Braxton Hicks / Early contractions,one letter changed,iku mi le figbi bi okuta
+T2-127,42,Braxton Hicks / Early contractions,words run together,iku mi le digbibi okuta
+T2-128,43,Fetal distress (reduced/absent fetal movement),no tone marks,Oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara.
+T2-129,43,Fetal distress (reduced/absent fetal movement),one letter changed,oyun mi ti tobi daada supbon ni oni mi ko ni imora lara wipe omo no mi ninu ikun mi rara
+T2-130,43,Fetal distress (reduced/absent fetal movement),words run together,oyun mi ti tobi daada sugbon ni oni mi ko ni imora lara wipe omo nomi ninu ikun mi rara
+T2-131,44,Severe hypertension,no tone marks,Mo ni ori fifo gidigidi bi moba sun gan e lo.
+T2-132,44,Severe hypertension,one letter changed,mo ni ori fifo gidigidi bi moba iun gan e lo
+T2-133,44,Severe hypertension,words run together,moni ori fifo gidigidi bi moba sun gan e lo
+T2-134,45,Early labor signs,no tone marks,Isale eyin mi ma ndumi koda oma n wa ode tun ma n lo.
+T2-135,45,Early labor signs,one letter changed,isale eyin mi ma ndumi koda oma n wa ode tug ma n lo
+T2-136,45,Early labor signs,words run together,isale eyin mima ndumi koda oma n wa ode tun ma n lo
+T2-137,46,Obstetric cholestasis,no tone marks,Gbogbo ara mi ma nyun mi paapaa atelewo mi.
+T2-138,46,Obstetric cholestasis,one letter changed,gbogbo ara mi ma nyen mi paapaa atelewo mi
+T2-139,46,Obstetric cholestasis,words run together,gbogbo ara mi ma nyun mi paapaa atelewomi
+T2-140,47,Severe anemia,no tone marks,Se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bi mo ba ti nrin.
+T2-141,47,Severe anemia,one letter changed,se ni ma n remi bi eniwipe mi o ni imi okon mi dun leaolemo bi mo ba ti nrin
+T2-142,47,Severe anemia,words run together,se ni ma n remi bi eniwipe mi o ni imi okon mi dun lemolemo bimo ba ti nrin
+T2-143,48,Spotting / Threatened abortion,no tone marks,Mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oju ara.
+T2-144,48,Spotting / Threatened abortion,one letter changed,mo ma nri eje tonto ni awo tele mi ti mo ba ti nu oyu ara
+T2-145,48,Spotting / Threatened abortion,words run together,mo ma nri eje tonto ni awo tele mi ti mo ba ti nuoju ara
+T2-146,49,Breast engorgement / Mastitis,no tone marks,Omu mi nwu nle bi okuta bi moba ti fi owo kon se ni o ma ndunmi.
+T2-147,49,Breast engorgement / Mastitis,one letter changed,omu mi nwu nle bi okuta bi mora ti fi owo kon se ni o ma ndunmi
+T2-148,49,Breast engorgement / Mastitis,words run together,omu mi nwu nle bi okuta bi moba tifi owo kon se ni o ma ndunmi
+T2-149,50,Puerperal sepsis / Uterine infection,no tone marks,Eje ti o ma njade ni ara mi se ni oma n run bi eyin ti oti baje.
+T2-150,50,Puerperal sepsis / Uterine infection,one letter changed,eje ti o ma njade ni arb mi se ni oma n run bi eyin ti oti baje
+T2-151,50,Puerperal sepsis / Uterine infection,words run together,eje ti o ma njade ni ara mi se ni oma n run bi eyinti oti baje
+T2-152,51,Episiotomy breakdown / infection,no tone marks,Ibi kon la ni ara mi kon ron pada ti tu ode nmu etitu sita.
+T2-153,51,Episiotomy breakdown / infection,one letter changed,ibi kbn la ni ara mi kon ron pada ti tu ode nmu etitu sita
+T2-154,51,Episiotomy breakdown / infection,words run together,ibi kon la ni ara mi kon ron padati tu ode nmu etitu sita
+T2-155,52,Postpartum infection (fever),no tone marks,Gbogbo ara mi lon gbono gidi lati ano.
+T2-156,52,Postpartum infection (fever),one letter changed,gbogbo ara mi kon gbono gidi lati ano
+T2-157,52,Postpartum infection (fever),words run together,gbogbo ara mi lon gbono gidi latiano
+T2-158,53,Deep vein thrombosis,no tone marks,Iha mi egbe osi e wu e gbono ode tun dunmi nigba ki igba ti mo ba ti dide.
+T2-159,53,Deep vein thrombosis,one letter changed,iha mi egbe osi e wu e gbono ode tun dunmi ninba ki igba ti mo ba ti dide
+T2-160,53,Deep vein thrombosis,words run together,iha mi egbe osi e wu e gbono ode tun dunmi nigbaki igba ti mo ba ti dide
+T2-161,54,Postpartum depression,no tone marks,Inu mi n baje mode tun sunkun lai ni idi kon pataki ode tun semi bi wipe kin ma di omomi mu.
+T2-162,54,Postpartum depression,one letter changed,inu mi n baje mode tun sunkun lai ni idi kon pataki odg tun semi bi wipe kin ma di omomi mu
+T2-163,54,Postpartum depression,words run together,inu mi n baje mode tun sunkun lai ni idikon pataki ode tun semi bi wipe kin ma di omomi mu
+T2-164,55,Urinary retention,no tone marks,Lati aaro ti mo ti bi omo mi o le to.
+T2-165,55,Urinary retention,one letter changed,lati aard ti mo ti bi omo mi o le to
+T2-166,55,Urinary retention,words run together,latiaaro ti mo ti bi omo mi o le to
+T2-167,56,Postpartum psychosis,no tone marks,Mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ara mi lese.
+T2-168,56,Postpartum psychosis,one letter changed,mo nri oun abami mo de tun gbo oun buburu bi wipe kin se ora mi lese
+T2-169,56,Postpartum psychosis,words run together,mo nri oun abami mo detun gbo oun buburu bi wipe kin se ara mi lese
+T2-170,57,Afterpains / Uterine involution,no tone marks,Mo ni imolara irora ni isale ikun mi ti omo mi ba ti nmu omu.
+T2-171,57,Afterpains / Uterine involution,one letter changed,mo ni imolara itora ni isale ikun mi ti omo mi ba ti nmu omu
+T2-172,57,Afterpains / Uterine involution,words run together,mo ni imolara irora ni isale ikunmi ti omo mi ba ti nmu omu
+T2-173,58,Secondary postpartum hemorrhage,no tone marks,Mo n padanu eje pupo miran nigba ti eje ti tele bati n dawo duro.
+T2-174,58,Secondary postpartum hemorrhage,one letter changed,mo n padanu eje pupo miran nigba ti eje ti tele bati n dawo durb
+T2-175,58,Secondary postpartum hemorrhage,words run together,mo n padanu eje pupo miran nigbati eje ti tele bati n dawo duro
+T2-176,59,Postpartum anemia,no tone marks,Se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi.
+T2-177,59,Postpartum anemia,one letter changed,se ni oma n semi bi wipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si obi ibusun mi
+T2-178,59,Postpartum anemia,words run together,se ni oma n semi biwipe oyi oju n komi ti ori mi ma n fuye ti mo ba ti joko si ori ibusun mi

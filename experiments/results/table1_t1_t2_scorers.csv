@@ -1,0 +1,6 @@
+scorer,t1_wrong_term,t1_same_term,t1_no_match,t1_n,t1_wrong_pct,t1_wilson95_low,t1_wilson95_high,t2_recalled,t2_n,t2_recall_pct
+Edit-distance ratio,3,3,54,60,5.0,1.7,13.7,178,178,100.0
+Token-set ratio,24,4,32,60,40.0,28.6,52.6,171,178,96.1
+Partial ratio,33,4,23,60,55.0,42.5,66.9,176,178,98.9
+ClinGuard 0.1.1,32,3,25,60,53.3,40.9,65.4,176,178,98.9
+ClinGuard 0.1.2,2,2,56,60,3.3,0.9,11.4,177,178,99.4
