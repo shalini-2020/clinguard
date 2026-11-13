@@ -178,16 +178,21 @@ languages, reviewed by native speakers and clinicians. See [CONTRIBUTING.md](CON
 If you use ClinGuard in research, please cite it. Each release is archived on Zenodo:
 
 - All versions (always resolves to the latest): [10.5281/zenodo.24090330](https://doi.org/10.5281/zenodo.24090330)
-- Version 0.1.2: [10.5281/zenodo.24090331](https://doi.org/10.5281/zenodo.24090331)
+- Version 0.1.2 (the version evaluated in the experiments package): [10.5281/zenodo.24090331](https://doi.org/10.5281/zenodo.24090331)
 
 > Sivasamy, S. (2026). *ClinGuard: safety-first building blocks for clinical voice AI in
-> low-resource languages and dialects* (Version 0.1.2) [Computer software]. Zenodo.
-> https://doi.org/10.5281/zenodo.24090331
+> low-resource languages and dialects* [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.24090330
 
 Citation metadata is also in [CITATION.cff](CITATION.cff) (GitHub shows a "Cite this repository" button).
 
 ## Changelog
 
+- **0.1.3 (13 Nov 2026)**: Documentation and packaging release; matching behaviour is
+  unchanged from 0.1.2 and every reported result reproduces exactly. Adds the reproducible
+  experiments package (`experiments/`), describes the host application generically, and
+  renames the experiment data files to `ekiti_yoruba_lexicon.json` and `danger_rules.json`
+  (contents unchanged).
 - **0.1.2 GitHub release and Zenodo archive (9 Nov 2026)**: Package code identical to the
   0.1.2 package on PyPI, plus documentation and tooling added afterwards: reproducible evaluation script (`scripts/evaluate_lexicon.py`), limitations,
   adaptation guide, citation file, contributing guide and automated tests. The 0.1.2 noisy-variant
