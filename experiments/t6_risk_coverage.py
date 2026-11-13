@@ -176,7 +176,7 @@ for set_name in SETS:
                              + (f", {reached} of {len(splits)} splits" if reached < len(splits) else ""))
         print(f"| {name} | " + " | ".join(cells) + " |")
     print()
-cg = "ClinGuard 0.1.2"
+cg = "ClinGuard 0.1.3"
 for set_name in SETS:
     for b in budgets:
         line = []
@@ -195,5 +195,5 @@ for set_name in SETS:
                 elif float(a[5]) == float(o[5]):
                     ties += 1
             line.append(f"{name} {wins}/{total}" + (f" (+{ties} ties)" if ties else ""))
-        print(f"- {set_name}, budget {b}%: ClinGuard 0.1.2 has higher test recall than " + "; ".join(line) + " splits.")
+        print(f"- {set_name}, budget {b}%: ClinGuard 0.1.3 has higher test recall than " + "; ".join(line) + " splits.")
 print()

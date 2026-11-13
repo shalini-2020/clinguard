@@ -79,10 +79,10 @@ say("## Table 1. Held-out wrong-term matches (T1) and noisy-variant recall (T2)\
 say("| Scorer | T1 wrong-term (of 60) | 95% interval | T2 recalled (of 178) |\n|---|---|---|---|")
 for r in rows:
     say(f"| {r[0]} | {r[1]} | {r[6]}-{r[7]}% | {r[8]} |")
-a, b = t1_detail["ClinGuard 0.1.1"], t1_detail["ClinGuard 0.1.2"]
+a, b = t1_detail["ClinGuard 0.1.1"], t1_detail["ClinGuard 0.1.3"]
 fixed = sum(x == "wrong" and y != "wrong" for x, y in zip(a, b))
 new = sum(x != "wrong" and y == "wrong" for x, y in zip(a, b))
-say(f"\nPaired, 0.1.1 vs 0.1.2 on the same 60 phrases: {fixed} errors removed, {new} introduced; "
+say(f"\nPaired, 0.1.1 vs 0.1.3 on the same 60 phrases: {fixed} errors removed, {new} introduced; "
     f"exact McNemar p = {mcnemar_exact(fixed, new):.2g}.")
 lex = load_lexicon()
 E = lex.entries
@@ -92,12 +92,12 @@ for i, (e, o) in enumerate(zip(E, b)):
         m = type(lex)(entries=E[:i] + E[i + 1:], threshold=THR).best(e.phrase)
         wrong_rows.append([e.phrase, e.clinical_term, m.entry.clinical_term, f"{m.score:.2f}"])
 write_csv(RESULTS / "t1_remaining_wrong_matches.csv", ["phrase", "its_term", "matched_term", "score"], wrong_rows)
-say("\nRemaining wrong-term matches for 0.1.2: " + "; ".join(f"{r[1]} -> {r[2]} ({r[3]})" for r in wrong_rows) + ".")
+say("\nRemaining wrong-term matches for 0.1.3: " + "; ".join(f"{r[1]} -> {r[2]} ({r[3]})" for r in wrong_rows) + ".")
 
 # seed sweep
 n_seeds = CONFIG["t2"]["seed_sweep"]
 rows = []
-for name in ("ClinGuard 0.1.1", "ClinGuard 0.1.2"):
+for name in ("ClinGuard 0.1.1", "ClinGuard 0.1.3"):
     r = t2_seed_sweep(SCORERS[name], n_seeds)
     rows.append([name, n_seeds, f"{100 * statistics.mean(r):.2f}", f"{100 * min(r):.2f}", f"{100 * max(r):.2f}"])
 write_csv(RESULTS / "t2_seed_sweep.csv", ["scorer", "seeds", "mean_recall_pct", "min_recall_pct", "max_recall_pct"], rows)
@@ -117,12 +117,12 @@ for r in rows:
 # ---------- threshold sweep ----------
 rows = []
 for thr in CONFIG["threshold_sweep"]:
-    for name in ("ClinGuard 0.1.1", "ClinGuard 0.1.2"):
+    for name in ("ClinGuard 0.1.1", "ClinGuard 0.1.3"):
         o, h = t1(SCORERS[name], thr), t2(SCORERS[name], t2_cases, thr)
         rows.append([f"{thr:.2f}", name, o.count("wrong"), len(o), sum(h), len(h)])
 write_csv(RESULTS / "table3_threshold_sweep.csv", ["threshold", "scorer", "t1_wrong_term", "t1_n", "t2_recalled", "t2_n"], rows)
 say("\n## Table 3. Threshold sweep\n")
-say("| Threshold | 0.1.1 T1 wrong | 0.1.1 T2 | 0.1.2 T1 wrong | 0.1.2 T2 |\n|---|---|---|---|---|")
+say("| Threshold | 0.1.1 T1 wrong | 0.1.1 T2 | 0.1.3 T1 wrong | 0.1.3 T2 |\n|---|---|---|---|---|")
 for i in range(0, len(rows), 2):
     say(f"| {rows[i][0]} | {rows[i][2]} | {rows[i][4]} | {rows[i + 1][2]} | {rows[i + 1][4]} |")
 
@@ -148,8 +148,8 @@ say("\n## Table 4. Embedded-phrase recall (T3): correct match, % of 1200 utteran
 say("| Scorer | " + " | ".join(f"k={k}" for k in ks) + " |\n|---|" + "---|" * len(ks))
 for name in SCORERS:
     say(f"| {name} | " + " | ".join(r[6] for r in rows if r[0] == name) + " |")
-cg = [r for r in rows if r[0] == "ClinGuard 0.1.2"]
-say("\nClinGuard 0.1.2 wrong-term rate by k: " + ", ".join(f"{r[7]}%" for r in cg) + "; abstentions: " + ", ".join(f"{r[8]}%" for r in cg) + ".")
+cg = [r for r in rows if r[0] == "ClinGuard 0.1.3"]
+say("\nClinGuard 0.1.3 wrong-term rate by k: " + ", ".join(f"{r[7]}%" for r in cg) + "; abstentions: " + ", ".join(f"{r[8]}%" for r in cg) + ".")
 
 # ---------- T4: danger rules by path ----------
 rules, danger_terms = load_rules()

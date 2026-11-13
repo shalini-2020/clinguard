@@ -15,10 +15,10 @@ clean,ClinGuard 0.1.1,1,,,
 clean,ClinGuard 0.1.1,3,,,
 clean,ClinGuard 0.1.1,5,,,
 clean,ClinGuard 0.1.1,default,0.750,99.2,64.1
-clean,ClinGuard 0.1.2,1,0.775,82.9,0.8
-clean,ClinGuard 0.1.2,3,0.725,90.5,2.7
-clean,ClinGuard 0.1.2,5,0.725,90.5,2.7
-clean,ClinGuard 0.1.2,default,0.750,87.9,1.5
+clean,ClinGuard 0.1.3,1,0.775,82.9,0.8
+clean,ClinGuard 0.1.3,3,0.725,90.5,2.7
+clean,ClinGuard 0.1.3,5,0.725,90.5,2.7
+clean,ClinGuard 0.1.3,default,0.750,87.9,1.5
 noisy,Edit-distance ratio,1,0.750,74.0,0.8
 noisy,Edit-distance ratio,3,0.700,78.9,2.4
 noisy,Edit-distance ratio,5,0.675,80.9,3.9
@@ -35,7 +35,7 @@ noisy,ClinGuard 0.1.1,1,,,
 noisy,ClinGuard 0.1.1,3,,,
 noisy,ClinGuard 0.1.1,5,,,
 noisy,ClinGuard 0.1.1,default,0.750,95.2,58.2
-noisy,ClinGuard 0.1.2,1,0.800,76.6,0.9
-noisy,ClinGuard 0.1.2,3,0.725,86.6,2.5
-noisy,ClinGuard 0.1.2,5,0.725,86.6,2.5
-noisy,ClinGuard 0.1.2,default,0.750,84.3,1.7
+noisy,ClinGuard 0.1.3,1,0.800,76.6,0.9
+noisy,ClinGuard 0.1.3,3,0.725,86.6,2.5
+noisy,ClinGuard 0.1.3,5,0.725,86.6,2.5
+noisy,ClinGuard 0.1.3,default,0.750,84.3,1.7

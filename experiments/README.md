@@ -24,9 +24,9 @@ Read [LIMITATIONS.md](LIMITATIONS.md) with the results; it includes the negative
 | T7 | Do the danger rules tell an active complaint from a negated, past or hypothetical one? | 40 hand-written English meanings (labels not yet clinically reviewed) |
 
 Scorers compared: edit-distance ratio, token-set ratio, partial ratio, ClinGuard 0.1.1 and
-ClinGuard 0.1.2, plus an ablation of the two matching safeguards and a threshold sweep.
+ClinGuard 0.1.3, plus an ablation of the two matching safeguards and a threshold sweep.
 
-## Headline results (ClinGuard 0.1.2, threshold 0.75)
+## Headline results (ClinGuard 0.1.3, threshold 0.75)
 
 Full tables: [results/summary.md](results/summary.md).
 

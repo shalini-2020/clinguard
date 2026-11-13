@@ -5,7 +5,7 @@ they found. It is part of the results, not a disclaimer.
 
 ## What these experiments are
 
-Five text-level tests of ClinGuard 0.1.2 on one 60-entry Ekiti Yoruba clinical lexicon and
+Five text-level tests of ClinGuard 0.1.3 on one 60-entry Ekiti Yoruba clinical lexicon and
 its danger rules. They are deterministic and anyone can rerun them.
 
 ## What they do not measure

@@ -62,7 +62,7 @@ class ClinGuard011(_NoFilter):
 
 
 class CoverageOnly(_NoFilter):
-    """0.1.2 score (with coverage factor), informative-word filter removed."""
+    """Current score (with coverage factor), informative-word filter removed."""
 
 
 class FilterOnly(Lexicon):
@@ -75,13 +75,13 @@ SCORERS = {                       # name -> Lexicon class
     "Token-set ratio": TokenSet,
     "Partial ratio": Partial,
     "ClinGuard 0.1.1": ClinGuard011,
-    "ClinGuard 0.1.2": Lexicon,   # the library, unmodified
+    "ClinGuard 0.1.3": Lexicon,   # the library, unmodified
 }
 ABLATION = {
     "Neither (0.1.1)": ClinGuard011,
     "Informative-word filter only": FilterOnly,
     "Coverage factor only": CoverageOnly,
-    "Both (0.1.2)": Lexicon,
+    "Both (0.1.3)": Lexicon,
 }
 
 

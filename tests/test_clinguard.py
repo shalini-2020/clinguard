@@ -125,7 +125,7 @@ def test_cli_check_and_validate(tmp_path, capsys):
     assert main(["validate", str(p)]) == 0
 
 
-# ---------- 0.1.2: coverage and informative-word checks ----------
+# ---------- coverage and informative-word checks ----------
 
 ENGLISH = [
     {"phrase": "it hurts", "meaning": "pain", "clinical_term": "Acute pain"},

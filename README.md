@@ -108,7 +108,7 @@ Results on a 60-entry Ekiti Yoruba clinical lexicon
 ([`experiments/data/ekiti_yoruba_lexicon.json`](experiments/data/ekiti_yoruba_lexicon.json),
 sha256 prefix `6a3ac864d6bdabda`), seed 0:
 
-| Measure | 0.1.1 | 0.1.2 |
+| Measure | 0.1.1 | 0.1.3 |
 |---|---|---|
 | Leave-one-out wrong-term matches (lower is better) | 32 / 60 | 2 / 60 |
 | Recall on synthetic noisy variants | 176 / 178 | 177 / 178 |
@@ -178,8 +178,7 @@ languages, reviewed by native speakers and clinicians. See [CONTRIBUTING.md](CON
 If you use ClinGuard in research, please cite it. Each release is archived on Zenodo:
 
 - All versions (always resolves to the latest): [10.5281/zenodo.24090330](https://doi.org/10.5281/zenodo.24090330)
-- Version 0.1.3: [10.5281/zenodo.24200952](https://doi.org/10.5281/zenodo.24200952)
-- Version 0.1.2 (the version evaluated in the experiments package): [10.5281/zenodo.24090331](https://doi.org/10.5281/zenodo.24090331)
+- Version 0.1.3 (the version evaluated in the experiments package): [10.5281/zenodo.24200952](https://doi.org/10.5281/zenodo.24200952)
 
 > Sivasamy, S. (2026). *ClinGuard: safety-first building blocks for clinical voice AI in
 > low-resource languages and dialects* [Computer software]. Zenodo.

@@ -18,9 +18,6 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.24200952
     description: "Version 0.1.3"
-  - type: doi
-    value: 10.5281/zenodo.24090331
-    description: "Version 0.1.2"
 keywords:
   - healthcare
   - low-resource languages
