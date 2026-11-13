@@ -64,7 +64,7 @@ class Lexicon:
     @classmethod
     def from_records(cls, records: Iterable[dict], language: str = "", threshold: float = 0.75) -> "Lexicon":
         """Build from dicts. Accepts ClinGuard keys (phrase, meaning, clinical_term) or the
-        BeaGrace-style keys (dialect_expression, literal_meaning, english_medical_term)."""
+        glossary-style keys (dialect_expression, literal_meaning, english_medical_term)."""
         entries = []
         for r in records:
             phrase = r.get("phrase") or r.get("dialect_expression") or ""

@@ -104,8 +104,8 @@ Reproduce it with:
 python scripts/evaluate_lexicon.py path/to/lexicon.json --language yo
 ```
 
-Results on the 60-entry Ekiti Yoruba lexicon of BeaGrace Health
-([glossary.json at commit cf4f80d](https://github.com/shalini-2020/beagrace-health/blob/cf4f80d/glossary.json),
+Results on a 60-entry Ekiti Yoruba clinical lexicon
+([`experiments/data/ekiti_yoruba_lexicon.json`](experiments/data/ekiti_yoruba_lexicon.json),
 sha256 prefix `6a3ac864d6bdabda`), seed 0:
 
 | Measure | 0.1.1 | 0.1.2 |
@@ -131,7 +131,7 @@ Evidence is listed by kind, and only once it exists.
 | Technical evaluation | Five reproducible text-level tests with four baseline scorers, an ablation and a threshold sweep: [experiments/](experiments/README.md). Negative findings are in [experiments/LIMITATIONS.md](experiments/LIMITATIONS.md). |
 | Independent clinical evaluation | Not yet done. A blinded nurse evaluation is designed and awaits facility authorisation. |
 | External replication | None yet. |
-| Deployment | Integrated in [BeaGrace Health](https://github.com/shalini-2020/beagrace-health), used in simulated sessions with no real patients. No clinical deployment. |
+| Deployment | Integrated in a healthcare startup's clinical voice app, used in simulated sessions with no real patients. No clinical deployment. |
 | Publications | None yet. |
 
 ## Limitations
@@ -151,13 +151,12 @@ Evidence is listed by kind, and only once it exists.
 
 ## Used in
 
-- **BeaGrace Health**: ClinGuard grew out of, and powers the safety and lexicon layer of,
-BeaGrace Health, a voice app that turns Ekiti Yoruba patient speech into structured nurse
-handoff notes. Since November 2026 it is in a **simulated-use pilot** in Nigeria (nurses
-acting out patient scenarios, no real patients), with a formal blinded evaluation in
-preparation (AI Ventures Accelerator · Technovation & UNICEF Generation Unlimited).
-BeaGrace and ClinGuard were developed by the same author, so this is a first deployment, not
-independent adoption.
+- **A healthcare startup's clinical voice app**: ClinGuard grew out of, and powers the safety
+and lexicon layer of, a voice app that turns Ekiti Yoruba patient speech into structured nurse
+handoff notes. Since November 2026 it is in a **simulated-use pilot** at a partner facility
+(nurses acting out patient scenarios, no real patients), with a formal blinded evaluation in
+preparation. The app and ClinGuard were developed by the same author, so this is a first
+deployment, not independent adoption.
 
 Using or evaluating ClinGuard in your project, including results that did not work well?
 Please [open an issue](https://github.com/shalini-2020/clinguard/issues) to tell us.

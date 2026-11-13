@@ -42,7 +42,7 @@ def test_self_check_clean(lex):
     assert lex.self_check() == []
 
 
-def test_beagrace_style_keys_supported():
+def test_glossary_style_keys_supported():
     lx = Lexicon.from_records([{"dialect_expression": "Ara mi n jo", "literal_meaning": "my body is burning",
                                 "english_medical_term": "Burning sensation"}])
     assert lx.best("ara mi n jo").entry.clinical_term == "Burning sensation"

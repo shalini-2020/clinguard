@@ -1,6 +1,6 @@
 {
-  "lexicon": "data/beagrace_ekiti_yoruba_lexicon.json",
-  "danger_rules": "data/beagrace_danger_rules.json",
+  "lexicon": "data/ekiti_yoruba_lexicon.json",
+  "danger_rules": "data/danger_rules.json",
   "language": "yo",
   "threshold": 0.75,
   "threshold_sweep": [

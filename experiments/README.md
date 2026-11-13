@@ -62,8 +62,7 @@ Full tables: [results/summary.md](results/summary.md).
 
 ## Data
 
-`data/` is a frozen copy of the lexicon and danger rules of
-[BeaGrace Health](https://github.com/shalini-2020/beagrace-health) at commit `cf4f80d`
-(11 November 2026), curated by nurses and native speakers of the BeaGrace Foundation. The
+`data/` is a frozen copy of the lexicon and danger rules of the host application as of
+11 November 2026, curated by nurses and native speakers. The
 danger rules are an initial list awaiting clinical approval. SHA-256 prefixes are printed
 at the top of `results/summary.md`.
