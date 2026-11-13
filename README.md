@@ -178,6 +178,7 @@ languages, reviewed by native speakers and clinicians. See [CONTRIBUTING.md](CON
 If you use ClinGuard in research, please cite it. Each release is archived on Zenodo:
 
 - All versions (always resolves to the latest): [10.5281/zenodo.24090330](https://doi.org/10.5281/zenodo.24090330)
+- Version 0.1.3: [10.5281/zenodo.24200952](https://doi.org/10.5281/zenodo.24200952)
 - Version 0.1.2 (the version evaluated in the experiments package): [10.5281/zenodo.24090331](https://doi.org/10.5281/zenodo.24090331)
 
 > Sivasamy, S. (2026). *ClinGuard: safety-first building blocks for clinical voice AI in
